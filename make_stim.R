@@ -26,34 +26,35 @@ d_unique <- d %>%
 prod_cat <- unique(d_unique$Product)
 prod_cat
 
-d_unique1 <- d_unique %>% 
-  mutate(X=if_else(HighValueColumn==1, High, Low), 
-         Y=if_else(HighValueColumn==1, Low,  High)) %>%
-  mutate(T_Dim_High=recode(HighValueColumn,`1`="X",`2`="Y")) %>%
+stim <- d_unique %>% 
+  mutate(x=if_else(HighValueColumn==1, High, Low), 
+         y=if_else(HighValueColumn==1, Low,  High)) %>%
+  mutate(t_high=recode(HighValueColumn,`1`="x",`2`="y")) %>%
   select(-c(Low,High)) %>%
-  distinct(T_Dim_High, Option, X, Y, Extremity) %>%
+  distinct(t_high, Option, x, y, Extremity) %>%
+  rename(option=Option, extreme=Extremity) %>%
   bind_rows(
     tibble(
-      T_Dim_High=c("X","X","X","Y","Y","Y"),
-      Option=c("T","C","D","T","C","D"),
-      X=c(60,50,60,50,60,45),
-      Y=c(50,60,45,60,50,60),
-      Extremity=0
+      t_high=c("x","x","x","y","y","y"),
+      option=c("T","C","D","T","C","D"),
+      x=c(60,50,60,50,60,45),
+      y=c(50,60,45,60,50,60),
+      extreme=0
     )
   ) %>%
-  mutate(Extremity=as.factor(Extremity))
-d_unique1
+  mutate(extreme=as.factor(extreme))
+stim
 
-
-d_unique1 %>%
-  ggplot(aes(X,Y,col=Option))+
-  geom_text(aes(label=Option),size=2.5,alpha=.85)+
+stim %>%
+  ggplot(aes(x,y,col=option))+
+  geom_text(aes(label=option),size=2,alpha=.85)+
   ggsci::scale_color_cosmic()+
-  facet_grid(T_Dim_High~Extremity,labeller=label_both)+
+  facet_grid(t_high~extreme,labeller=label_both)+
   coord_fixed(xlim=c(0,120),ylim=c(0,120))+
   ggthemes::theme_few()+
   theme(axis.text = element_blank(),
         axis.ticks = element_blank(),
         text=element_text(size=10),legend.position = "none")
-ggsave(filename=here("banerjee_2024_data/plots/banerjee_stim.jpeg"),
-       width=6,height=5,dpi=700)
+ggsave(filename=here("design/stim.jpeg"),
+       width=5,height=4,dpi=700)
+write_csv(stim, file=here("design/stim_crit.csv"))
