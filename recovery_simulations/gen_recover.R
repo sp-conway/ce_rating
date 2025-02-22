@@ -7,9 +7,12 @@ library(rstan)
 library(mvtnorm)
 library(bayesplot)
 
-
 # Stan file
 f <- here("recovery_simulations","model.stan")
+
+# sampler params
+n_core <- 4
+n_iter <- 2000
 
 # FIXED EXP PARAMS
 n_cat <- 8
@@ -18,22 +21,29 @@ n_effect <- 2
 n_trial_per_ppt <- n_cat*n_per_effect*n_effect
 
 # FIXED MODEL PARAMS 
+rho <- .5 # contribution of global correlations
+cor_global <- diag(3)
+cor_global[which(cor_global==0)] <- .5
+
 # Repulsion effect correlations
 r_tc_rep <- r_cd_rep <- .5
-r_td_rep <- .6
+r_td_rep <- .7
 cors_rep <- matrix(c(1,r_tc_rep,r_td_rep,r_tc_rep,1,r_cd_rep,r_td_rep,r_cd_rep,1),nrow=3,ncol=3,byrow=T)
-
-r_tc_att <- r_cd_att <- .6
+cors_rep_gen <- rho*cor_global + (1-rho)*cors_rep
+r_tc_att <- r_cd_att <- .7
 r_td_att <- .5
 cors_att <- matrix(c(1,r_tc_att,r_td_att,r_tc_att,1,r_cd_att,r_td_att,r_cd_att,1),nrow=3,ncol=3,byrow=T)
-s <- c(1,1,1) 
-mu <- c(1,1,.8)
+cors_att_gen <- rho*cor_global + (1-rho)*cors_att
 
 # Get variance-covariance matrix
 get_cv <- function(s,cors) cors * (s %*% t(s) )
-cv_rep <- get_cv(s, cors_rep)
-cv_att <- get_cv(s, cors_att)
+cv_rep_gen <- get_cv(s, cors_rep_gen)
+cv_att_gen <- get_cv(s, cors_att_gen)
 
+# s and mu
+# just estimating freely in the model
+s <- c(1,1,1) 
+mu <- c(1,1,.8)
 
 # Varying sample size
 n_ppt <- seq(100, 500, 100)
@@ -52,10 +62,10 @@ for(samp_size in n_ppt){
     N <- n_trial_per_ppt*samp_size
     
     # simulate repulsion trials
-    X_rep <- rmvnorm(N/2, mean = mu, sigma = cv_rep)
+    X_rep <- rmvnorm(N/2, mean = mu, sigma = cv_rep_gen)
     
     # simulate attraction trials
-    X_att <- rmvnorm(N/2, mean = mu, sigma = cv_att)
+    X_att <- rmvnorm(N/2, mean = mu, sigma = cv_att_gen)
     
     # combine simulated values
     X <- rbind(X_rep,X_att)
@@ -64,20 +74,23 @@ for(samp_size in n_ppt){
     set <- c(rep(1,N/2),rep(2,N/2))
     
     # compile stan model 
-    model <- stan_model(f)
+    model <- stan_model(f) # might not actually need to do this every time but just a failsafe
     
     # all data for stan
     stan_data <- list(X=X, set=set, J=n_effect, N=N)
     
     # fit model
-    fit <- sampling(model, data=stan_data, chains=4, iter=2000, cores=4)
+    fit <- sampling(model, data=stan_data, chains=n_core, iter=n_iter, cores=n_core)
     
     # save results (also generated data!)
     save(fit, stan_data, samp_size, file=fit_name)
     
+    fit_summary <- summary(fit, probs=c(.025, .975))
+    save(fit_summary, file=path(dir_name,"fit_summary.RData"))
+    
     # plot posterior distributions
-    color_scheme_set("red")
     post <- as.array(fit)
+    color_scheme_set("red")
     try({
       p <- mcmc_trace(post, regex_pars = "mu")
       p
@@ -210,6 +223,11 @@ for(samp_size in n_ppt){
       ggsave(path(dir_name, "rho_dens_chains.jpeg"), width=5,height=5)
       rm(p)
     })
+    try(rm(fit))
+    try(rm(stan_data))
+    try(rm(N))
+    try(rm(model))
+    try(rm(fit_summary))
+    try(gc())
   }
-  
 }
