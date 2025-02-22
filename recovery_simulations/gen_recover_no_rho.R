@@ -8,7 +8,7 @@ library(mvtnorm)
 library(bayesplot)
 
 # Stan file
-f <- here("recovery_simulations","model.stan")
+f <- here("recovery_simulations","model_no_rho.stan")
 
 # sampler params
 n_core <- 4
@@ -20,32 +20,25 @@ n_per_effect <- 2
 n_effect <- 2
 n_trial_per_ppt <- n_cat*n_per_effect*n_effect
 
-# FIXED MODEL PARAMS 
-rho <- .5 # contribution of global correlations
-cor_global <- diag(3)
-cor_global[which(cor_global==0)] <- .5
-
 # Repulsion effect correlations
 r_tc_rep <- r_cd_rep <- .5
-r_td_rep <- .7
+r_td_rep <- .6
 cors_rep <- matrix(c(1,r_tc_rep,r_td_rep,r_tc_rep,1,r_cd_rep,r_td_rep,r_cd_rep,1),nrow=3,ncol=3,byrow=T)
-cors_rep_gen <- rho*cor_global + (1-rho)*cors_rep
 
 # attraction effect correlations
-r_tc_att <- r_cd_att <- .7
+r_tc_att <- r_cd_att <- .6
 r_td_att <- .5
 cors_att <- matrix(c(1,r_tc_att,r_td_att,r_tc_att,1,r_cd_att,r_td_att,r_cd_att,1),nrow=3,ncol=3,byrow=T)
-cors_att_gen <- rho*cor_global + (1-rho)*cors_att
 
 # s and mu
 # just estimating freely in the model
-mu <- c(1,1,.8)
 s <- c(1,1,1) 
+mu <- c(1,1,.8)
 
 # Get variance-covariance matrix
 get_cv <- function(s,cors) cors * (s %*% t(s) )
-cv_rep_gen <- get_cv(s, cors_rep_gen)
-cv_att_gen <- get_cv(s, cors_att_gen)
+cv_rep <- get_cv(s, cors_rep)
+cv_att <- get_cv(s, cors_att)
 
 # Varying sample size
 n_ppt <- seq(100, 500, 100)
@@ -54,7 +47,7 @@ for(samp_size in n_ppt){
   print(samp_size)
   
   # fit directory and file name
-  dir_name <- here("recovery_simulations",glue("N_{samp_size}_sim"))
+  dir_name <- here("recovery_simulations",glue("N_{samp_size}_sim_no_rho"))
   dir_create(dir_name)
   fit_name <- path(dir_name,"fit.RData")
   
@@ -64,10 +57,10 @@ for(samp_size in n_ppt){
     N <- n_trial_per_ppt*samp_size
     
     # simulate repulsion trials
-    X_rep <- rmvnorm(N/2, mean = mu, sigma = cv_rep_gen)
+    X_rep <- rmvnorm(N/2, mean = mu, sigma = cv_rep)
     
     # simulate attraction trials
-    X_att <- rmvnorm(N/2, mean = mu, sigma = cv_att_gen)
+    X_att <- rmvnorm(N/2, mean = mu, sigma = cv_att)
     
     # combine simulated values
     X <- rbind(X_rep,X_att)
@@ -100,33 +93,17 @@ for(samp_size in n_ppt){
       rm(p)
     })
     try({
-      p <- mcmc_trace(post, regex_pars = "Omega\\[1")
+      p <- mcmc_trace(post, regex_pars = "omega\\[1")
       p
-      ggsave(path(dir_name, "Omega_rep_trace.jpeg"), width=5,height=5)
+      ggsave(path(dir_name, "omega_rep_trace.jpeg"), width=5,height=5)
       rm(p)
     })
     try({
-      p <- mcmc_trace(post, regex_pars = "Omega\\[2")
+      p <- mcmc_trace(post, regex_pars = "omega\\[2")
       p
-      ggsave(path(dir_name, "Omega_att_trace.jpeg"), width=5,height=5)
+      ggsave(path(dir_name, "omega_att_trace.jpeg"), width=5,height=5)
       rm(p)
     })
-    
-    try({
-      p <- mcmc_trace(post, regex_pars = "omega_global")
-      p
-      ggsave(path(dir_name, "omega_global_trace.jpeg"), width=5,height=5)
-      rm(p)
-    })
-    
-    try({
-      p <- mcmc_trace(post, "rho")
-      p
-      ggsave(path(dir_name, "rho_trace.jpeg"), width=5,height=5)
-      rm(p)
-    })
-    
-    
     try({
       p <- mcmc_hist(post, regex_pars = "mu")
       p
@@ -134,31 +111,18 @@ for(samp_size in n_ppt){
       rm(p)
     })
     try({
-      p <- mcmc_hist(post, regex_pars = "Omega\\[1")
+      p <- mcmc_hist(post, regex_pars = "omega\\[1")
       p
-      ggsave(path(dir_name, "Omega_rep_hist.jpeg"), width=5,height=5)
+      ggsave(path(dir_name, "omega_rep_hist.jpeg"), width=5,height=5)
       rm(p)
     })
     try({
-      p <- mcmc_hist(post, regex_pars = "Omega\\[2")
+      p <- mcmc_hist(post, regex_pars = "omega\\[2")
       p
-      ggsave(path(dir_name, "Omega_att_hist.jpeg"), width=5,height=5)
+      ggsave(path(dir_name, "omega_att_hist.jpeg"), width=5,height=5)
       rm(p)
     })
     
-    try({
-      p <- mcmc_hist(post, regex_pars = "omega_global")
-      p
-      ggsave(path(dir_name, "omega_global_hist.jpeg"), width=5,height=5)
-      rm(p)
-    })
-    
-    try({
-      p <- mcmc_hist(post, "rho")
-      p
-      ggsave(path(dir_name, "rho_hist.jpeg"), width=5,height=5)
-      rm(p)
-    })
     
     try({
       p <- mcmc_dens(post, regex_pars = "mu")
@@ -167,32 +131,17 @@ for(samp_size in n_ppt){
       rm(p)
     })
     try({
-      p <- mcmc_dens(post, regex_pars = "Omega\\[1")
+      p <- mcmc_dens(post, regex_pars = "omega\\[1")
       p
-      ggsave(path(dir_name, "Omega_rep_dens.jpeg"), width=5,height=5)
+      ggsave(path(dir_name, "omega_rep_dens.jpeg"), width=5,height=5)
       rm(p)
     })
     try({
-      p <- mcmc_dens(post, regex_pars = "Omega\\[2")
+      p <- mcmc_dens(post, regex_pars = "omega\\[2")
       p
-      ggsave(path(dir_name, "Omega_att_dens.jpeg"), width=5,height=5)
+      ggsave(path(dir_name, "omega_att_dens.jpeg"), width=5,height=5)
       rm(p)
     })
-    
-    try({
-      p <- mcmc_dens(post, regex_pars = "omega_global")
-      p
-      ggsave(path(dir_name, "omega_global_dens.jpeg"), width=5,height=5)
-      rm(p)
-    })
-    
-    try({
-      p <- mcmc_dens(post, "rho")
-      p
-      ggsave(path(dir_name, "rho_dens.jpeg"), width=5,height=5)
-      rm(p)
-    })
-    
     try({
       p <- mcmc_dens_chains(post, regex_pars = "mu")
       p
@@ -200,31 +149,19 @@ for(samp_size in n_ppt){
       rm(p)
     })
     try({
-      p <- mcmc_dens_chains(post, regex_pars = "Omega\\[1")
+      p <- mcmc_dens_chains(post, regex_pars = "omega\\[1")
       p
-      ggsave(path(dir_name, "Omega_rep_dens_chains.jpeg"), width=5,height=5)
+      ggsave(path(dir_name, "omega_rep_dens_chains.jpeg"), width=5,height=5)
       rm(p)
     })
     try({
-      p <- mcmc_dens_chains(post, regex_pars = "Omega\\[2")
+      p <- mcmc_dens_chains(post, regex_pars = "omega\\[2")
       p
-      ggsave(path(dir_name, "Omega_att_dens_chains.jpeg"), width=5,height=5)
+      ggsave(path(dir_name, "omega_att_dens_chains.jpeg"), width=5,height=5)
       rm(p)
     })
     
-    try({
-      p <- mcmc_dens_chains(post, regex_pars = "omega_global")
-      p
-      ggsave(path(dir_name, "omega_global_dens_chains.jpeg"), width=5,height=5)
-      rm(p)
-    })
     
-    try({
-      p <- mcmc_dens_chains(post, "rho")
-      p
-      ggsave(path(dir_name, "rho_dens_chains.jpeg"), width=5,height=5)
-      rm(p)
-    })
     try(rm(fit))
     try(rm(stan_data))
     try(rm(N))
