@@ -7,4 +7,4 @@
 #SBATCH --mail-type=BEGIN
 #SBATCH --mail-type=END
 module load r-rocker-ml-verse/4.4.0+apptainer
-Rscript recovery_simulations/gen_recover.R
+Rscript recovery_simulations/gen_recover_no_rho.R
