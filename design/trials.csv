@@ -1,0 +1,41 @@
+effect,t_high,category,d1_t,d1_c,d1_d,d2_t,d2_c,d2_d
+repulsion_1,1,microwave ovens,100,90,100,30,40,25
+repulsion_1,1,laptops,100,90,100,30,40,25
+repulsion_1,1,washing machines,100,90,100,30,40,25
+repulsion_1,1,televisions,100,90,100,30,40,25
+repulsion_1,2,microwave ovens,30,40,25,100,90,100
+repulsion_1,2,laptops,30,40,25,100,90,100
+repulsion_1,2,washing machines,30,40,25,100,90,100
+repulsion_1,2,televisions,30,40,25,100,90,100
+attraction_1,1,microwave ovens,60,50,60,50,60,45
+attraction_1,1,laptops,60,50,60,50,60,45
+attraction_1,1,washing machines,60,50,60,50,60,45
+attraction_1,1,televisions,60,50,60,50,60,45
+attraction_1,2,microwave ovens,50,60,45,60,50,60
+attraction_1,2,laptops,50,60,45,60,50,60
+attraction_1,2,washing machines,50,60,45,60,50,60
+attraction_1,2,televisions,50,60,45,60,50,60
+repulsion_2,1,microwave ovens,100,90,100,30,40,20
+repulsion_2,1,laptops,100,90,100,30,40,20
+repulsion_2,1,washing machines,100,90,100,30,40,20
+repulsion_2,1,televisions,100,90,100,30,40,20
+repulsion_2,2,microwave ovens,30,40,20,100,90,100
+repulsion_2,2,laptops,30,40,20,100,90,100
+repulsion_2,2,washing machines,30,40,20,100,90,100
+repulsion_2,2,televisions,30,40,20,100,90,100
+attraction_2,1,microwave ovens,60,50,60,50,60,40
+attraction_2,1,laptops,60,50,60,50,60,40
+attraction_2,1,washing machines,60,50,60,50,60,40
+attraction_2,1,televisions,60,50,60,50,60,40
+attraction_2,2,microwave ovens,50,60,40,60,50,60
+attraction_2,2,laptops,50,60,40,60,50,60
+attraction_2,2,washing machines,50,60,40,60,50,60
+attraction_2,2,televisions,50,60,40,60,50,60
+catch,NA,microwave ovens,NA,NA,NA,NA,NA,NA
+catch,NA,laptops,NA,NA,NA,NA,NA,NA
+catch,NA,washing machines,NA,NA,NA,NA,NA,NA
+catch,NA,televisions,NA,NA,NA,NA,NA,NA
+catch,NA,microwave ovens,NA,NA,NA,NA,NA,NA
+catch,NA,laptops,NA,NA,NA,NA,NA,NA
+catch,NA,washing machines,NA,NA,NA,NA,NA,NA
+catch,NA,televisions,NA,NA,NA,NA,NA,NA

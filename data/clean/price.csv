@@ -1,0 +1,281 @@
+screen_id,trial_index,participant,gender,exp_duration,rt,phase,order,effect,t_high,category,d1_best,d2_best,d1_worst1,d2_worst1,d1_worst2,d2_worst2,first_dim,d1_t,d2_t,d1_c,d2_c,d1_d,d2_d,d1_name,d2_name,price_1,price_2,price_3
+rating_trial,4,1,Male,1977162.299999982,31.971,rating,tdc,attraction_2,2,laptops,NA,NA,NA,NA,NA,NA,2,50,60,60,50,40,60,Processing speed,Memory (RAM),350,320,350
+rating_trial,6,1,Male,1977162.299999982,66.374,rating,dct,attraction_2,2,microwave ovens,NA,NA,NA,NA,NA,NA,1,50,60,60,50,40,60,Warranty,Cooking power,100,130,100
+rating_trial,8,1,Male,1977162.299999982,34.997,rating,dtc,repulsion_2,2,laptops,NA,NA,NA,NA,NA,NA,2,30,100,40,90,20,100,Processing speed,Memory (RAM),220,230,220
+rating_trial,10,1,Male,1977162.299999982,30.066,rating,tdc,repulsion_2,1,televisions,NA,NA,NA,NA,NA,NA,2,100,30,90,40,100,20,Screen size,Average lifespan,200,180,200
+rating_trial,12,1,Male,1977162.299999982,49.647,rating,wbw,catch,NA,washing machines,55,70,35,45,45,30,2,NA,NA,NA,NA,NA,NA,Average lifespan,Energy savings,180,220,180
+rating_trial,14,1,Male,1977162.299999982,24.913,rating,ctd,repulsion_2,1,laptops,NA,NA,NA,NA,NA,NA,1,100,30,90,40,100,20,Processing speed,Memory (RAM),400,410,400
+rating_trial,16,1,Male,1977162.299999982,24.645,rating,dct,repulsion_1,1,televisions,NA,NA,NA,NA,NA,NA,2,100,30,90,40,100,25,Screen size,Average lifespan,180,210,180
+rating_trial,18,1,Male,1977162.299999982,26.124,rating,wbw,catch,NA,televisions,90,70,30,45,40,10,1,NA,NA,NA,NA,NA,NA,Screen size,Average lifespan,180,350,180
+rating_trial,20,1,Male,1977162.299999982,27.767,rating,bww,catch,NA,televisions,60,70,45,15,10,5,1,NA,NA,NA,NA,NA,NA,Screen size,Average lifespan,300,130,300
+rating_trial,22,1,Male,1977162.299999982,74.566,rating,dct,attraction_2,1,televisions,NA,NA,NA,NA,NA,NA,2,60,50,50,60,60,40,Screen size,Average lifespan,190,200,190
+rating_trial,24,1,Male,1977162.299999982,23.464,rating,ctd,repulsion_2,2,televisions,NA,NA,NA,NA,NA,NA,2,30,100,40,90,20,100,Screen size,Average lifespan,230,200,230
+rating_trial,26,1,Male,1977162.299999982,53.242,rating,dtc,attraction_1,1,televisions,NA,NA,NA,NA,NA,NA,1,60,50,50,60,60,45,Screen size,Average lifespan,200,210,200
+rating_trial,28,1,Male,1977162.299999982,18.702,rating,bww,catch,NA,microwave ovens,50,65,25,5,45,50,1,NA,NA,NA,NA,NA,NA,Warranty,Cooking power,110,50,110
+rating_trial,30,1,Male,1977162.299999982,20.979,rating,dtc,repulsion_1,1,microwave ovens,NA,NA,NA,NA,NA,NA,2,100,30,90,40,100,25,Warranty,Cooking power,60,70,60
+rating_trial,32,1,Male,1977162.299999982,15.334,rating,dtc,attraction_1,1,microwave ovens,NA,NA,NA,NA,NA,NA,2,60,50,50,60,60,45,Warranty,Cooking power,80,90,80
+rating_trial,34,1,Male,1977162.299999982,48.15,rating,dct,repulsion_1,2,televisions,NA,NA,NA,NA,NA,NA,1,30,100,40,90,25,100,Screen size,Average lifespan,150,180,150
+rating_trial,36,1,Male,1977162.299999982,23.684,rating,dtc,repulsion_1,2,washing machines,NA,NA,NA,NA,NA,NA,1,30,100,40,90,25,100,Average lifespan,Energy savings,180,185,180
+rating_trial,38,1,Male,1977162.299999982,111.277,rating,cdt,attraction_1,1,laptops,NA,NA,NA,NA,NA,NA,1,60,50,50,60,60,45,Processing speed,Memory (RAM),250,250,250
+rating_trial,40,1,Male,1977162.299999982,25.122,rating,wwb,catch,NA,laptops,80,90,40,15,20,20,2,NA,NA,NA,NA,NA,NA,Processing speed,Memory (RAM),200,150,200
+rating_trial,42,1,Male,1977162.299999982,39.156,rating,bww,catch,NA,washing machines,70,90,50,45,5,50,1,NA,NA,NA,NA,NA,NA,Average lifespan,Energy savings,300,200,300
+rating_trial,44,1,Male,1977162.299999982,19.248,rating,cdt,attraction_2,1,microwave ovens,NA,NA,NA,NA,NA,NA,2,60,50,50,60,60,40,Warranty,Cooking power,110,100,110
+rating_trial,46,1,Male,1977162.299999982,19.217,rating,ctd,repulsion_2,2,microwave ovens,NA,NA,NA,NA,NA,NA,2,30,100,40,90,20,100,Warranty,Cooking power,150,110,150
+rating_trial,48,1,Male,1977162.299999982,17.407,rating,tcd,repulsion_1,1,laptops,NA,NA,NA,NA,NA,NA,1,100,30,90,40,100,25,Processing speed,Memory (RAM),280,280,280
+rating_trial,50,1,Male,1977162.299999982,25.662,rating,tcd,attraction_2,2,washing machines,NA,NA,NA,NA,NA,NA,1,50,60,60,50,40,60,Average lifespan,Energy savings,250,250,250
+rating_trial,52,1,Male,1977162.299999982,27.742,rating,dct,repulsion_2,2,washing machines,NA,NA,NA,NA,NA,NA,2,30,100,40,90,20,100,Average lifespan,Energy savings,180,210,180
+rating_trial,54,1,Male,1977162.299999982,23.548,rating,ctd,repulsion_2,1,microwave ovens,NA,NA,NA,NA,NA,NA,2,100,30,90,40,100,20,Warranty,Cooking power,110,90,110
+rating_trial,56,1,Male,1977162.299999982,18.993,rating,bww,catch,NA,microwave ovens,80,85,25,25,35,45,2,NA,NA,NA,NA,NA,NA,Warranty,Cooking power,150,60,150
+rating_trial,58,1,Male,1977162.299999982,41.31,rating,dtc,attraction_1,2,televisions,NA,NA,NA,NA,NA,NA,2,50,60,60,50,45,60,Screen size,Average lifespan,190,200,190
+rating_trial,60,1,Male,1977162.299999982,22.847,rating,cdt,repulsion_2,1,washing machines,NA,NA,NA,NA,NA,NA,1,100,30,90,40,100,20,Average lifespan,Energy savings,240,220,240
+rating_trial,62,1,Male,1977162.299999982,33.417,rating,cdt,attraction_2,1,laptops,NA,NA,NA,NA,NA,NA,1,60,50,50,60,60,40,Processing speed,Memory (RAM),250,230,250
+rating_trial,64,1,Male,1977162.299999982,30.599,rating,cdt,repulsion_1,1,washing machines,NA,NA,NA,NA,NA,NA,2,100,30,90,40,100,25,Average lifespan,Energy savings,250,210,250
+rating_trial,66,1,Male,1977162.299999982,19.618,rating,dct,repulsion_1,2,laptops,NA,NA,NA,NA,NA,NA,1,30,100,40,90,25,100,Processing speed,Memory (RAM),180,240,180
+rating_trial,68,1,Male,1977162.299999982,23.444,rating,cdt,attraction_2,1,washing machines,NA,NA,NA,NA,NA,NA,2,60,50,50,60,60,40,Average lifespan,Energy savings,240,250,240
+rating_trial,70,1,Male,1977162.299999982,61.954,rating,cdt,attraction_2,2,televisions,NA,NA,NA,NA,NA,NA,2,50,60,60,50,40,60,Screen size,Average lifespan,220,220,220
+rating_trial,72,1,Male,1977162.299999982,57.046,rating,cdt,attraction_1,2,microwave ovens,NA,NA,NA,NA,NA,NA,2,50,60,60,50,45,60,Warranty,Cooking power,110,120,110
+rating_trial,74,1,Male,1977162.299999982,29.958,rating,wwb,catch,NA,laptops,90,85,20,10,45,5,1,NA,NA,NA,NA,NA,NA,Processing speed,Memory (RAM),110,120,110
+rating_trial,76,1,Male,1977162.299999982,19.772,rating,ctd,attraction_1,2,washing machines,NA,NA,NA,NA,NA,NA,1,50,60,60,50,45,60,Average lifespan,Energy savings,230,210,230
+rating_trial,78,1,Male,1977162.299999982,20.021,rating,dct,repulsion_1,2,microwave ovens,NA,NA,NA,NA,NA,NA,1,30,100,40,90,25,100,Warranty,Cooking power,120,135,120
+rating_trial,80,1,Male,1977162.299999982,28.386,rating,dct,attraction_1,1,washing machines,NA,NA,NA,NA,NA,NA,2,60,50,50,60,60,45,Average lifespan,Energy savings,230,210,230
+rating_trial,82,1,Male,1977162.299999982,51.632,rating,tcd,attraction_1,2,laptops,NA,NA,NA,NA,NA,NA,1,50,60,60,50,45,60,Processing speed,Memory (RAM),280,300,280
+rating_trial,4,11,Male,1404017.5999999642,51.755,rating,dct,repulsion_1,1,washing machines,NA,NA,NA,NA,NA,NA,2,100,30,90,40,100,25,Average lifespan,Energy savings,70,60,70
+rating_trial,6,11,Male,1404017.5999999642,45.675,rating,bww,catch,NA,televisions,95,60,10,20,30,40,1,NA,NA,NA,NA,NA,NA,Screen size,Average lifespan,80,30,80
+rating_trial,8,11,Male,1404017.5999999642,18.189,rating,dtc,repulsion_1,2,washing machines,NA,NA,NA,NA,NA,NA,1,30,100,40,90,25,100,Average lifespan,Energy savings,70,80,70
+rating_trial,10,11,Male,1404017.5999999642,36.005,rating,tdc,attraction_2,2,televisions,NA,NA,NA,NA,NA,NA,2,50,60,60,50,40,60,Screen size,Average lifespan,70,65,70
+rating_trial,12,11,Male,1404017.5999999642,42.43,rating,dct,attraction_1,1,televisions,NA,NA,NA,NA,NA,NA,1,60,50,50,60,60,45,Screen size,Average lifespan,90,80,90
+rating_trial,14,11,Male,1404017.5999999642,97.956,rating,dct,attraction_1,1,washing machines,NA,NA,NA,NA,NA,NA,2,60,50,50,60,60,45,Average lifespan,Energy savings,80,90,80
+rating_trial,16,11,Male,1404017.5999999642,26.794,rating,ctd,repulsion_2,1,washing machines,NA,NA,NA,NA,NA,NA,2,100,30,90,40,100,20,Average lifespan,Energy savings,80,80,80
+rating_trial,18,11,Male,1404017.5999999642,29.715,rating,cdt,attraction_1,1,microwave ovens,NA,NA,NA,NA,NA,NA,2,60,50,50,60,60,45,Warranty,Cooking power,70,60,70
+rating_trial,20,11,Male,1404017.5999999642,17.496,rating,ctd,attraction_2,1,washing machines,NA,NA,NA,NA,NA,NA,1,60,50,50,60,60,40,Average lifespan,Energy savings,70,60,70
+rating_trial,22,11,Male,1404017.5999999642,27.254,rating,tcd,attraction_1,2,laptops,NA,NA,NA,NA,NA,NA,1,50,60,60,50,45,60,Processing speed,Memory (RAM),80,80,80
+rating_trial,24,11,Male,1404017.5999999642,21.016,rating,tdc,repulsion_2,2,microwave ovens,NA,NA,NA,NA,NA,NA,2,30,100,40,90,20,100,Warranty,Cooking power,90,80,90
+rating_trial,26,11,Male,1404017.5999999642,42.396,rating,ctd,repulsion_2,1,microwave ovens,NA,NA,NA,NA,NA,NA,1,100,30,90,40,100,20,Warranty,Cooking power,80,80,80
+rating_trial,28,11,Male,1404017.5999999642,14.933,rating,dct,attraction_1,2,televisions,NA,NA,NA,NA,NA,NA,2,50,60,60,50,45,60,Screen size,Average lifespan,65,70,65
+rating_trial,30,11,Male,1404017.5999999642,12.795,rating,tdc,repulsion_1,1,microwave ovens,NA,NA,NA,NA,NA,NA,2,100,30,90,40,100,25,Warranty,Cooking power,80,70,80
+rating_trial,32,11,Male,1404017.5999999642,23.732,rating,cdt,attraction_1,2,washing machines,NA,NA,NA,NA,NA,NA,2,50,60,60,50,45,60,Average lifespan,Energy savings,90,80,90
+rating_trial,34,11,Male,1404017.5999999642,15.394,rating,ctd,repulsion_2,2,laptops,NA,NA,NA,NA,NA,NA,2,30,100,40,90,20,100,Processing speed,Memory (RAM),80,80,80
+rating_trial,36,11,Male,1404017.5999999642,39.416,rating,dct,repulsion_2,1,televisions,NA,NA,NA,NA,NA,NA,1,100,30,90,40,100,20,Screen size,Average lifespan,90,100,90
+rating_trial,38,11,Male,1404017.5999999642,23.634,rating,bww,catch,NA,laptops,75,85,5,20,50,40,2,NA,NA,NA,NA,NA,NA,Processing speed,Memory (RAM),300,100,300
+rating_trial,40,11,Male,1404017.5999999642,15.253,rating,ctd,attraction_1,2,microwave ovens,NA,NA,NA,NA,NA,NA,2,50,60,60,50,45,60,Warranty,Cooking power,80,80,80
+rating_trial,42,11,Male,1404017.5999999642,49.335,rating,ctd,repulsion_2,2,washing machines,NA,NA,NA,NA,NA,NA,1,30,100,40,90,20,100,Average lifespan,Energy savings,90,80,90
+rating_trial,44,11,Male,1404017.5999999642,19.852,rating,wwb,catch,NA,washing machines,65,90,35,50,5,50,1,NA,NA,NA,NA,NA,NA,Average lifespan,Energy savings,80,60,80
+rating_trial,46,11,Male,1404017.5999999642,14.478,rating,dct,repulsion_1,2,microwave ovens,NA,NA,NA,NA,NA,NA,1,30,100,40,90,25,100,Warranty,Cooking power,90,100,90
+rating_trial,48,11,Male,1404017.5999999642,14.598,rating,wwb,catch,NA,microwave ovens,60,90,45,35,15,5,2,NA,NA,NA,NA,NA,NA,Warranty,Cooking power,80,40,80
+rating_trial,50,11,Male,1404017.5999999642,18.823,rating,dct,attraction_2,1,microwave ovens,NA,NA,NA,NA,NA,NA,2,60,50,50,60,60,40,Warranty,Cooking power,90,100,90
+rating_trial,52,11,Male,1404017.5999999642,19.774,rating,dct,attraction_2,1,televisions,NA,NA,NA,NA,NA,NA,2,60,50,50,60,60,40,Screen size,Average lifespan,100,110,100
+rating_trial,54,11,Male,1404017.5999999642,16.572,rating,dct,attraction_2,2,microwave ovens,NA,NA,NA,NA,NA,NA,1,50,60,60,50,40,60,Warranty,Cooking power,80,90,80
+rating_trial,56,11,Male,1404017.5999999642,13.592,rating,tdc,repulsion_1,2,televisions,NA,NA,NA,NA,NA,NA,2,30,100,40,90,25,100,Screen size,Average lifespan,90,80,90
+rating_trial,58,11,Male,1404017.5999999642,15.512,rating,tdc,attraction_2,2,washing machines,NA,NA,NA,NA,NA,NA,2,50,60,60,50,40,60,Average lifespan,Energy savings,90,80,90
+rating_trial,60,11,Male,1404017.5999999642,18.971,rating,wbw,catch,NA,microwave ovens,75,90,50,5,10,10,1,NA,NA,NA,NA,NA,NA,Warranty,Cooking power,60,100,60
+rating_trial,62,11,Male,1404017.5999999642,16.473,rating,ctd,repulsion_1,1,televisions,NA,NA,NA,NA,NA,NA,2,100,30,90,40,100,25,Screen size,Average lifespan,90,90,90
+rating_trial,64,11,Male,1404017.5999999642,13.351,rating,wbw,catch,NA,washing machines,90,75,25,50,40,50,2,NA,NA,NA,NA,NA,NA,Average lifespan,Energy savings,90,120,90
+rating_trial,66,11,Male,1404017.5999999642,17.612,rating,tdc,repulsion_2,2,televisions,NA,NA,NA,NA,NA,NA,2,30,100,40,90,20,100,Screen size,Average lifespan,90,80,90
+rating_trial,68,11,Male,1404017.5999999642,22.811,rating,ctd,repulsion_1,2,laptops,NA,NA,NA,NA,NA,NA,2,30,100,40,90,25,100,Processing speed,Memory (RAM),90,90,90
+rating_trial,70,11,Male,1404017.5999999642,18.132,rating,dtc,repulsion_2,1,laptops,NA,NA,NA,NA,NA,NA,1,100,30,90,40,100,20,Processing speed,Memory (RAM),300,350,300
+rating_trial,72,11,Male,1404017.5999999642,32.732,rating,wwb,catch,NA,televisions,65,95,50,50,35,5,1,NA,NA,NA,NA,NA,NA,Screen size,Average lifespan,90,40,90
+rating_trial,74,11,Male,1404017.5999999642,18.11,rating,ctd,attraction_2,1,laptops,NA,NA,NA,NA,NA,NA,2,60,50,50,60,60,40,Processing speed,Memory (RAM),90,90,90
+rating_trial,76,11,Male,1404017.5999999642,28.011,rating,dct,attraction_1,1,laptops,NA,NA,NA,NA,NA,NA,1,60,50,50,60,60,45,Processing speed,Memory (RAM),90,90,90
+rating_trial,78,11,Male,1404017.5999999642,11.711,rating,tcd,attraction_2,2,laptops,NA,NA,NA,NA,NA,NA,1,50,60,60,50,40,60,Processing speed,Memory (RAM),90,90,90
+rating_trial,80,11,Male,1404017.5999999642,11.491,rating,wbw,catch,NA,laptops,95,65,10,40,35,40,1,NA,NA,NA,NA,NA,NA,Processing speed,Memory (RAM),50,120,50
+rating_trial,82,11,Male,1404017.5999999642,21.311,rating,tcd,repulsion_1,1,laptops,NA,NA,NA,NA,NA,NA,1,100,30,90,40,100,25,Processing speed,Memory (RAM),90,90,90
+rating_trial,4,16,Female,2077401,58.163,rating,dtc,attraction_2,1,televisions,NA,NA,NA,NA,NA,NA,2,60,50,50,60,60,40,Screen size,Average lifespan,159,199,159
+rating_trial,6,16,Female,2077401,62.711,rating,bww,catch,NA,televisions,70,60,20,45,5,10,2,NA,NA,NA,NA,NA,NA,Screen size,Average lifespan,175,69,175
+rating_trial,8,16,Female,2077401,34.388,rating,wbw,catch,NA,washing machines,75,80,5,15,40,40,2,NA,NA,NA,NA,NA,NA,Average lifespan,Energy savings,29,259,29
+rating_trial,10,16,Female,2077401,45.602,rating,dct,repulsion_1,2,laptops,NA,NA,NA,NA,NA,NA,1,30,100,40,90,25,100,Processing speed,Memory (RAM),229,219,229
+rating_trial,12,16,Female,2077401,46.114,rating,tdc,repulsion_1,1,laptops,NA,NA,NA,NA,NA,NA,1,100,30,90,40,100,25,Processing speed,Memory (RAM),179,169,179
+rating_trial,14,16,Female,2077401,26.37,rating,dtc,repulsion_2,1,televisions,NA,NA,NA,NA,NA,NA,2,100,30,90,40,100,20,Screen size,Average lifespan,59,49,59
+rating_trial,16,16,Female,2077401,40.126,rating,tdc,repulsion_1,2,televisions,NA,NA,NA,NA,NA,NA,1,30,100,40,90,25,100,Screen size,Average lifespan,49,44,49
+rating_trial,18,16,Female,2077401,37.853,rating,ctd,repulsion_1,1,microwave ovens,NA,NA,NA,NA,NA,NA,1,100,30,90,40,100,25,Warranty,Cooking power,59,49,59
+rating_trial,20,16,Female,2077401,18.908,rating,tdc,attraction_2,1,microwave ovens,NA,NA,NA,NA,NA,NA,2,60,50,50,60,60,40,Warranty,Cooking power,40,30,40
+rating_trial,22,16,Female,2077401,55.153,rating,dct,repulsion_2,2,televisions,NA,NA,NA,NA,NA,NA,2,30,100,40,90,20,100,Screen size,Average lifespan,30,35,30
+rating_trial,24,16,Female,2077401,26.821,rating,cdt,repulsion_2,1,washing machines,NA,NA,NA,NA,NA,NA,2,100,30,90,40,100,20,Average lifespan,Energy savings,230,180,230
+rating_trial,26,16,Female,2077401,27.698,rating,tdc,attraction_1,2,laptops,NA,NA,NA,NA,NA,NA,2,50,60,60,50,45,60,Processing speed,Memory (RAM),150,140,150
+rating_trial,28,16,Female,2077401,81.202,rating,tcd,attraction_1,1,televisions,NA,NA,NA,NA,NA,NA,1,60,50,50,60,60,45,Screen size,Average lifespan,135,130,135
+rating_trial,30,16,Female,2077401,48.518,rating,ctd,repulsion_2,1,laptops,NA,NA,NA,NA,NA,NA,2,100,30,90,40,100,20,Processing speed,Memory (RAM),150,155,150
+rating_trial,32,16,Female,2077401,27.585,rating,cdt,attraction_2,2,laptops,NA,NA,NA,NA,NA,NA,1,50,60,60,50,40,60,Processing speed,Memory (RAM),135,140,135
+rating_trial,34,16,Female,2077401,60.963,rating,bww,catch,NA,microwave ovens,95,50,5,30,35,45,1,NA,NA,NA,NA,NA,NA,Warranty,Cooking power,85,25,85
+rating_trial,36,16,Female,2077401,44.239,rating,cdt,repulsion_1,1,televisions,NA,NA,NA,NA,NA,NA,2,100,30,90,40,100,25,Screen size,Average lifespan,65,60,65
+rating_trial,38,16,Female,2077401,22.99,rating,dtc,attraction_1,2,microwave ovens,NA,NA,NA,NA,NA,NA,2,50,60,60,50,45,60,Warranty,Cooking power,55,57,55
+rating_trial,40,16,Female,2077401,22.559,rating,bww,catch,NA,laptops,65,80,5,5,35,20,2,NA,NA,NA,NA,NA,NA,Processing speed,Memory (RAM),144,89,144
+rating_trial,42,16,Female,2077401,28.19,rating,dct,attraction_1,2,televisions,NA,NA,NA,NA,NA,NA,2,50,60,60,50,45,60,Screen size,Average lifespan,56,61,56
+rating_trial,44,16,Female,2077401,54.097,rating,tdc,repulsion_2,1,microwave ovens,NA,NA,NA,NA,NA,NA,2,100,30,90,40,100,20,Warranty,Cooking power,63,61,63
+rating_trial,46,16,Female,2077401,39.695,rating,tcd,attraction_2,1,washing machines,NA,NA,NA,NA,NA,NA,1,60,50,50,60,60,40,Average lifespan,Energy savings,144,140,144
+rating_trial,48,16,Female,2077401,31.254,rating,cdt,repulsion_1,1,washing machines,NA,NA,NA,NA,NA,NA,2,100,30,90,40,100,25,Average lifespan,Energy savings,99,89,99
+rating_trial,50,16,Female,2077401,21.388,rating,ctd,repulsion_2,2,laptops,NA,NA,NA,NA,NA,NA,2,30,100,40,90,20,100,Processing speed,Memory (RAM),77,68,77
+rating_trial,52,16,Female,2077401,35.383,rating,cdt,repulsion_1,2,washing machines,NA,NA,NA,NA,NA,NA,2,30,100,40,90,25,100,Average lifespan,Energy savings,87,88,87
+rating_trial,54,16,Female,2077401,60.296,rating,tdc,attraction_1,1,washing machines,NA,NA,NA,NA,NA,NA,1,60,50,50,60,60,45,Average lifespan,Energy savings,88,75,88
+rating_trial,56,16,Female,2077401,15.395,rating,dct,attraction_2,1,laptops,NA,NA,NA,NA,NA,NA,2,60,50,50,60,60,40,Processing speed,Memory (RAM),75,77,75
+rating_trial,58,16,Female,2077401,18.443,rating,tcd,attraction_2,2,microwave ovens,NA,NA,NA,NA,NA,NA,2,50,60,60,50,40,60,Warranty,Cooking power,99,97,99
+rating_trial,60,16,Female,2077401,21.734,rating,tcd,attraction_1,2,washing machines,NA,NA,NA,NA,NA,NA,2,50,60,60,50,45,60,Average lifespan,Energy savings,135,135,135
+rating_trial,62,16,Female,2077401,13.454,rating,dtc,attraction_2,2,washing machines,NA,NA,NA,NA,NA,NA,1,50,60,60,50,40,60,Average lifespan,Energy savings,134,135,134
+rating_trial,64,16,Female,2077401,24.673,rating,wwb,catch,NA,televisions,50,60,45,15,30,45,1,NA,NA,NA,NA,NA,NA,Screen size,Average lifespan,65,55,65
+rating_trial,66,16,Female,2077401,29.646,rating,dct,repulsion_1,2,microwave ovens,NA,NA,NA,NA,NA,NA,1,30,100,40,90,25,100,Warranty,Cooking power,77,68,77
+rating_trial,68,16,Female,2077401,54.294,rating,dtc,repulsion_2,2,washing machines,NA,NA,NA,NA,NA,NA,1,30,100,40,90,20,100,Average lifespan,Energy savings,133,136,133
+rating_trial,70,16,Female,2077401,22.539,rating,tdc,attraction_2,2,televisions,NA,NA,NA,NA,NA,NA,2,50,60,60,50,40,60,Screen size,Average lifespan,125,129,125
+rating_trial,72,16,Female,2077401,27.421,rating,wwb,catch,NA,laptops,55,85,30,20,35,15,1,NA,NA,NA,NA,NA,NA,Processing speed,Memory (RAM),79,49,79
+rating_trial,74,16,Female,2077401,20.607,rating,dtc,attraction_1,1,laptops,NA,NA,NA,NA,NA,NA,2,60,50,50,60,60,45,Processing speed,Memory (RAM),79,80,79
+rating_trial,76,16,Female,2077401,18.274,rating,tdc,repulsion_2,2,microwave ovens,NA,NA,NA,NA,NA,NA,2,30,100,40,90,20,100,Warranty,Cooking power,99,95,99
+rating_trial,78,16,Female,2077401,27.678,rating,cdt,attraction_1,1,microwave ovens,NA,NA,NA,NA,NA,NA,2,60,50,50,60,60,45,Warranty,Cooking power,85,83,85
+rating_trial,80,16,Female,2077401,21.73,rating,wbw,catch,NA,microwave ovens,95,75,25,50,35,15,2,NA,NA,NA,NA,NA,NA,Warranty,Cooking power,79,80,79
+rating_trial,82,16,Female,2077401,81.344,rating,bww,catch,NA,washing machines,50,85,5,40,30,30,2,NA,NA,NA,NA,NA,NA,Average lifespan,Energy savings,135,75,135
+rating_trial,4,2,Male,1759731.599999994,86.994,rating,cdt,attraction_1,2,washing machines,NA,NA,NA,NA,NA,NA,2,50,60,60,50,45,60,Average lifespan,Energy savings,225,250,225
+rating_trial,6,2,Male,1759731.599999994,66.875,rating,dtc,repulsion_2,1,microwave ovens,NA,NA,NA,NA,NA,NA,1,100,30,90,40,100,20,Warranty,Cooking power,50,60,50
+rating_trial,8,2,Male,1759731.599999994,37.964,rating,bww,catch,NA,laptops,55,70,25,35,5,25,1,NA,NA,NA,NA,NA,NA,Processing speed,Memory (RAM),750,500,750
+rating_trial,10,2,Male,1759731.599999994,38.822,rating,tdc,attraction_2,2,televisions,NA,NA,NA,NA,NA,NA,1,50,60,60,50,40,60,Screen size,Average lifespan,350,300,350
+rating_trial,12,2,Male,1759731.599999994,43.386,rating,tcd,attraction_2,1,laptops,NA,NA,NA,NA,NA,NA,2,60,50,50,60,60,40,Processing speed,Memory (RAM),450,500,450
+rating_trial,14,2,Male,1759731.599999994,36.286,rating,tdc,attraction_1,1,microwave ovens,NA,NA,NA,NA,NA,NA,1,60,50,50,60,60,45,Warranty,Cooking power,35,30,35
+rating_trial,16,2,Male,1759731.599999994,49.796,rating,dct,repulsion_1,1,washing machines,NA,NA,NA,NA,NA,NA,2,100,30,90,40,100,25,Average lifespan,Energy savings,250,300,250
+rating_trial,18,2,Male,1759731.599999994,44.651,rating,dtc,repulsion_2,2,televisions,NA,NA,NA,NA,NA,NA,1,30,100,40,90,20,100,Screen size,Average lifespan,180,200,180
+rating_trial,20,2,Male,1759731.599999994,23.793,rating,tdc,repulsion_1,2,microwave ovens,NA,NA,NA,NA,NA,NA,2,30,100,40,90,25,100,Warranty,Cooking power,30,25,30
+rating_trial,22,2,Male,1759731.599999994,32.893,rating,dtc,repulsion_2,2,laptops,NA,NA,NA,NA,NA,NA,1,30,100,40,90,20,100,Processing speed,Memory (RAM),300,325,300
+rating_trial,24,2,Male,1759731.599999994,23.276,rating,tdc,repulsion_1,2,washing machines,NA,NA,NA,NA,NA,NA,2,30,100,40,90,25,100,Average lifespan,Energy savings,200,200,200
+rating_trial,26,2,Male,1759731.599999994,53.559,rating,cdt,repulsion_2,2,washing machines,NA,NA,NA,NA,NA,NA,1,30,100,40,90,20,100,Average lifespan,Energy savings,300,275,300
+rating_trial,28,2,Male,1759731.599999994,30.444,rating,dtc,attraction_1,2,laptops,NA,NA,NA,NA,NA,NA,1,50,60,60,50,45,60,Processing speed,Memory (RAM),400,400,400
+rating_trial,30,2,Male,1759731.599999994,24.576,rating,tdc,repulsion_2,1,laptops,NA,NA,NA,NA,NA,NA,2,100,30,90,40,100,20,Processing speed,Memory (RAM),300,275,300
+rating_trial,32,2,Male,1759731.599999994,22.796,rating,bww,catch,NA,televisions,75,80,5,50,45,5,1,NA,NA,NA,NA,NA,NA,Screen size,Average lifespan,400,100,400
+rating_trial,34,2,Male,1759731.599999994,28.088,rating,tdc,attraction_2,2,laptops,NA,NA,NA,NA,NA,NA,2,50,60,60,50,40,60,Processing speed,Memory (RAM),300,275,300
+rating_trial,36,2,Male,1759731.599999994,23.771,rating,dct,repulsion_1,2,televisions,NA,NA,NA,NA,NA,NA,1,30,100,40,90,25,100,Screen size,Average lifespan,180,200,180
+rating_trial,38,2,Male,1759731.599999994,47.614,rating,bww,catch,NA,microwave ovens,85,90,10,20,50,15,1,NA,NA,NA,NA,NA,NA,Warranty,Cooking power,70,30,70
+rating_trial,40,2,Male,1759731.599999994,32.146,rating,bww,catch,NA,washing machines,65,80,35,25,40,5,2,NA,NA,NA,NA,NA,NA,Average lifespan,Energy savings,300,250,300
+rating_trial,42,2,Male,1759731.599999994,37.278,rating,tcd,attraction_1,1,televisions,NA,NA,NA,NA,NA,NA,1,60,50,50,60,60,45,Screen size,Average lifespan,280,250,280
+rating_trial,44,2,Male,1759731.599999994,28.007,rating,cdt,attraction_2,1,televisions,NA,NA,NA,NA,NA,NA,1,60,50,50,60,60,40,Screen size,Average lifespan,220,250,220
+rating_trial,46,2,Male,1759731.599999994,23.737,rating,bww,catch,NA,washing machines,50,50,25,10,25,30,2,NA,NA,NA,NA,NA,NA,Average lifespan,Energy savings,250,180,250
+rating_trial,48,2,Male,1759731.599999994,16.615,rating,ctd,attraction_2,2,washing machines,NA,NA,NA,NA,NA,NA,1,50,60,60,50,40,60,Average lifespan,Energy savings,230,300,230
+rating_trial,50,2,Male,1759731.599999994,16.756,rating,bww,catch,NA,microwave ovens,75,60,30,10,50,20,1,NA,NA,NA,NA,NA,NA,Warranty,Cooking power,55,25,55
+rating_trial,52,2,Male,1759731.599999994,34.337,rating,tdc,repulsion_2,1,televisions,NA,NA,NA,NA,NA,NA,2,100,30,90,40,100,20,Screen size,Average lifespan,350,325,350
+rating_trial,54,2,Male,1759731.599999994,21.919,rating,cdt,repulsion_1,2,laptops,NA,NA,NA,NA,NA,NA,2,30,100,40,90,25,100,Processing speed,Memory (RAM),550,500,550
+rating_trial,56,2,Male,1759731.599999994,27.611,rating,bww,catch,NA,laptops,70,50,35,25,20,15,2,NA,NA,NA,NA,NA,NA,Processing speed,Memory (RAM),300,250,300
+rating_trial,58,2,Male,1759731.599999994,20.708,rating,tdc,attraction_2,2,microwave ovens,NA,NA,NA,NA,NA,NA,1,50,60,60,50,40,60,Warranty,Cooking power,40,35,40
+rating_trial,60,2,Male,1759731.599999994,22.602,rating,dtc,attraction_1,2,televisions,NA,NA,NA,NA,NA,NA,2,50,60,60,50,45,60,Screen size,Average lifespan,250,275,250
+rating_trial,62,2,Male,1759731.599999994,29.733,rating,dtc,attraction_2,1,washing machines,NA,NA,NA,NA,NA,NA,1,60,50,50,60,60,40,Average lifespan,Energy savings,250,275,250
+rating_trial,64,2,Male,1759731.599999994,15.435,rating,dct,repulsion_2,2,microwave ovens,NA,NA,NA,NA,NA,NA,2,30,100,40,90,20,100,Warranty,Cooking power,30,35,30
+rating_trial,66,2,Male,1759731.599999994,27.955,rating,ctd,attraction_1,1,laptops,NA,NA,NA,NA,NA,NA,2,60,50,50,60,60,45,Processing speed,Memory (RAM),350,350,350
+rating_trial,68,2,Male,1759731.599999994,16.508,rating,tcd,repulsion_1,1,laptops,NA,NA,NA,NA,NA,NA,1,100,30,90,40,100,25,Processing speed,Memory (RAM),350,400,350
+rating_trial,70,2,Male,1759731.599999994,17.492,rating,tdc,attraction_1,1,washing machines,NA,NA,NA,NA,NA,NA,1,60,50,50,60,60,45,Average lifespan,Energy savings,250,225,250
+rating_trial,72,2,Male,1759731.599999994,18.323,rating,tcd,repulsion_1,1,televisions,NA,NA,NA,NA,NA,NA,1,100,30,90,40,100,25,Screen size,Average lifespan,300,300,300
+rating_trial,74,2,Male,1759731.599999994,26.397,rating,wwb,catch,NA,televisions,70,90,25,10,50,5,2,NA,NA,NA,NA,NA,NA,Screen size,Average lifespan,150,200,150
+rating_trial,76,2,Male,1759731.599999994,21.105,rating,cdt,attraction_1,2,microwave ovens,NA,NA,NA,NA,NA,NA,1,50,60,60,50,45,60,Warranty,Cooking power,35,30,35
+rating_trial,78,2,Male,1759731.599999994,14.874,rating,tcd,attraction_2,1,microwave ovens,NA,NA,NA,NA,NA,NA,1,60,50,50,60,60,40,Warranty,Cooking power,35,35,35
+rating_trial,80,2,Male,1759731.599999994,29.503,rating,dct,repulsion_1,1,microwave ovens,NA,NA,NA,NA,NA,NA,2,100,30,90,40,100,25,Warranty,Cooking power,35,45,35
+rating_trial,82,2,Male,1759731.599999994,15.474,rating,dtc,repulsion_2,1,washing machines,NA,NA,NA,NA,NA,NA,1,100,30,90,40,100,20,Average lifespan,Energy savings,250,275,250
+rating_trial,4,20,Female,1948604.299999997,72.15,rating,bww,catch,NA,microwave ovens,50,55,45,35,5,5,1,NA,NA,NA,NA,NA,NA,Warranty,Cooking power,100,80,100
+rating_trial,6,20,Female,1948604.299999997,156.322,rating,tdc,attraction_1,2,televisions,NA,NA,NA,NA,NA,NA,2,50,60,60,50,45,60,Screen size,Average lifespan,110,105,110
+rating_trial,8,20,Female,1948604.299999997,67.107,rating,tcd,repulsion_1,1,laptops,NA,NA,NA,NA,NA,NA,1,100,30,90,40,100,25,Processing speed,Memory (RAM),130,130,130
+rating_trial,10,20,Female,1948604.299999997,51.78,rating,wwb,catch,NA,washing machines,55,90,45,45,35,35,1,NA,NA,NA,NA,NA,NA,Average lifespan,Energy savings,80,70,80
+rating_trial,12,20,Female,1948604.299999997,38.035,rating,wbw,catch,NA,washing machines,70,60,40,50,35,30,2,NA,NA,NA,NA,NA,NA,Average lifespan,Energy savings,80,130,80
+rating_trial,14,20,Female,1948604.299999997,28.632,rating,wbw,catch,NA,laptops,65,65,20,20,50,30,2,NA,NA,NA,NA,NA,NA,Processing speed,Memory (RAM),40,130,40
+rating_trial,16,20,Female,1948604.299999997,24.333,rating,dct,repulsion_1,1,microwave ovens,NA,NA,NA,NA,NA,NA,2,100,30,90,40,100,25,Warranty,Cooking power,125,130,125
+rating_trial,18,20,Female,1948604.299999997,17.673,rating,dct,repulsion_1,1,televisions,NA,NA,NA,NA,NA,NA,2,100,30,90,40,100,25,Screen size,Average lifespan,125,130,125
+rating_trial,20,20,Female,1948604.299999997,18.774,rating,dtc,attraction_2,2,laptops,NA,NA,NA,NA,NA,NA,2,50,60,60,50,40,60,Processing speed,Memory (RAM),100,110,100
+rating_trial,22,20,Female,1948604.299999997,16.594,rating,tcd,attraction_2,1,laptops,NA,NA,NA,NA,NA,NA,1,60,50,50,60,60,40,Processing speed,Memory (RAM),110,110,110
+rating_trial,24,20,Female,1948604.299999997,21.517,rating,tdc,repulsion_1,2,washing machines,NA,NA,NA,NA,NA,NA,2,30,100,40,90,25,100,Average lifespan,Energy savings,130,125,130
+rating_trial,26,20,Female,1948604.299999997,17.593,rating,ctd,repulsion_2,2,microwave ovens,NA,NA,NA,NA,NA,NA,1,30,100,40,90,20,100,Warranty,Cooking power,130,130,130
+rating_trial,28,20,Female,1948604.299999997,22.599,rating,wwb,catch,NA,microwave ovens,75,70,50,50,30,50,1,NA,NA,NA,NA,NA,NA,Warranty,Cooking power,100,80,100
+rating_trial,30,20,Female,1948604.299999997,19.399,rating,tdc,repulsion_2,1,washing machines,NA,NA,NA,NA,NA,NA,2,100,30,90,40,100,20,Average lifespan,Energy savings,130,120,130
+rating_trial,32,20,Female,1948604.299999997,18.154,rating,dtc,attraction_2,2,microwave ovens,NA,NA,NA,NA,NA,NA,2,50,60,60,50,40,60,Warranty,Cooking power,100,110,100
+rating_trial,34,20,Female,1948604.299999997,24.446,rating,tcd,attraction_1,2,washing machines,NA,NA,NA,NA,NA,NA,2,50,60,60,50,45,60,Average lifespan,Energy savings,110,110,110
+rating_trial,36,20,Female,1948604.299999997,30,rating,wwb,catch,NA,laptops,65,75,10,20,35,35,2,NA,NA,NA,NA,NA,NA,Processing speed,Memory (RAM),30,70,30
+rating_trial,38,20,Female,1948604.299999997,21.188,rating,cdt,repulsion_1,2,microwave ovens,NA,NA,NA,NA,NA,NA,1,30,100,40,90,25,100,Warranty,Cooking power,130,125,130
+rating_trial,40,20,Female,1948604.299999997,27.347,rating,ctd,attraction_1,2,microwave ovens,NA,NA,NA,NA,NA,NA,1,50,60,60,50,45,60,Warranty,Cooking power,110,110,110
+rating_trial,42,20,Female,1948604.299999997,23.394,rating,tcd,repulsion_1,2,laptops,NA,NA,NA,NA,NA,NA,1,30,100,40,90,25,100,Processing speed,Memory (RAM),130,130,130
+rating_trial,44,20,Female,1948604.299999997,21.957,rating,tdc,attraction_1,1,televisions,NA,NA,NA,NA,NA,NA,1,60,50,50,60,60,45,Screen size,Average lifespan,110,105,110
+rating_trial,46,20,Female,1948604.299999997,16.96,rating,ctd,attraction_2,1,washing machines,NA,NA,NA,NA,NA,NA,2,60,50,50,60,60,40,Average lifespan,Energy savings,110,110,110
+rating_trial,48,20,Female,1948604.299999997,18.084,rating,tcd,attraction_2,1,televisions,NA,NA,NA,NA,NA,NA,1,60,50,50,60,60,40,Screen size,Average lifespan,110,110,110
+rating_trial,50,20,Female,1948604.299999997,18.148,rating,tdc,repulsion_2,2,laptops,NA,NA,NA,NA,NA,NA,1,30,100,40,90,20,100,Processing speed,Memory (RAM),130,120,130
+rating_trial,52,20,Female,1948604.299999997,18.868,rating,dct,attraction_1,1,laptops,NA,NA,NA,NA,NA,NA,1,60,50,50,60,60,45,Processing speed,Memory (RAM),105,110,105
+rating_trial,54,20,Female,1948604.299999997,36.311,rating,wwb,catch,NA,televisions,75,55,15,10,25,35,1,NA,NA,NA,NA,NA,NA,Screen size,Average lifespan,25,60,25
+rating_trial,56,20,Female,1948604.299999997,26.342,rating,tdc,repulsion_2,2,televisions,NA,NA,NA,NA,NA,NA,2,30,100,40,90,20,100,Screen size,Average lifespan,130,120,130
+rating_trial,58,20,Female,1948604.299999997,17.07,rating,tdc,repulsion_1,2,televisions,NA,NA,NA,NA,NA,NA,1,30,100,40,90,25,100,Screen size,Average lifespan,130,125,130
+rating_trial,60,20,Female,1948604.299999997,23.126,rating,ctd,attraction_1,1,microwave ovens,NA,NA,NA,NA,NA,NA,2,60,50,50,60,60,45,Warranty,Cooking power,110,110,110
+rating_trial,62,20,Female,1948604.299999997,21.238,rating,dtc,repulsion_2,2,washing machines,NA,NA,NA,NA,NA,NA,2,30,100,40,90,20,100,Average lifespan,Energy savings,120,130,120
+rating_trial,64,20,Female,1948604.299999997,26.963,rating,tcd,attraction_1,2,laptops,NA,NA,NA,NA,NA,NA,2,50,60,60,50,45,60,Processing speed,Memory (RAM),110,110,110
+rating_trial,66,20,Female,1948604.299999997,27.203,rating,tdc,attraction_2,2,televisions,NA,NA,NA,NA,NA,NA,1,50,60,60,50,40,60,Screen size,Average lifespan,110,100,110
+rating_trial,68,20,Female,1948604.299999997,25.911,rating,cdt,repulsion_1,1,washing machines,NA,NA,NA,NA,NA,NA,2,100,30,90,40,100,25,Average lifespan,Energy savings,130,125,130
+rating_trial,70,20,Female,1948604.299999997,19.722,rating,dtc,attraction_2,1,microwave ovens,NA,NA,NA,NA,NA,NA,1,60,50,50,60,60,40,Warranty,Cooking power,100,110,100
+rating_trial,72,20,Female,1948604.299999997,18.131,rating,tdc,repulsion_2,1,laptops,NA,NA,NA,NA,NA,NA,1,100,30,90,40,100,20,Processing speed,Memory (RAM),130,120,130
+rating_trial,74,20,Female,1948604.299999997,34.379,rating,bww,catch,NA,televisions,85,65,25,35,20,15,2,NA,NA,NA,NA,NA,NA,Screen size,Average lifespan,150,60,150
+rating_trial,76,20,Female,1948604.299999997,23.502,rating,dtc,attraction_1,1,washing machines,NA,NA,NA,NA,NA,NA,1,60,50,50,60,60,45,Average lifespan,Energy savings,105,110,105
+rating_trial,78,20,Female,1948604.299999997,21.01,rating,tcd,repulsion_2,1,microwave ovens,NA,NA,NA,NA,NA,NA,1,100,30,90,40,100,20,Warranty,Cooking power,130,130,130
+rating_trial,80,20,Female,1948604.299999997,28.295,rating,ctd,attraction_2,2,washing machines,NA,NA,NA,NA,NA,NA,1,50,60,60,50,40,60,Average lifespan,Energy savings,110,110,110
+rating_trial,82,20,Female,1948604.299999997,20.343,rating,tdc,repulsion_2,1,televisions,NA,NA,NA,NA,NA,NA,2,100,30,90,40,100,20,Screen size,Average lifespan,130,120,130
+rating_trial,4,22,Female,2096511.399999976,21.288,rating,bww,catch,NA,microwave ovens,90,85,50,5,45,40,1,NA,NA,NA,NA,NA,NA,Warranty,Cooking power,100,20,100
+rating_trial,6,22,Female,2096511.399999976,18.342,rating,wbw,catch,NA,laptops,85,90,45,20,20,35,2,NA,NA,NA,NA,NA,NA,Processing speed,Memory (RAM),20,200,20
+rating_trial,8,22,Female,2096511.399999976,20.392,rating,tdc,repulsion_2,1,televisions,NA,NA,NA,NA,NA,NA,2,100,30,90,40,100,20,Screen size,Average lifespan,100,40,100
+rating_trial,10,22,Female,2096511.399999976,16.358,rating,wbw,catch,NA,televisions,60,85,10,10,40,30,1,NA,NA,NA,NA,NA,NA,Screen size,Average lifespan,5,75,5
+rating_trial,12,22,Female,2096511.399999976,35.336,rating,tdc,attraction_2,2,laptops,NA,NA,NA,NA,NA,NA,2,50,60,60,50,40,60,Processing speed,Memory (RAM),100,50,100
+rating_trial,14,22,Female,2096511.399999976,20.432,rating,cdt,repulsion_1,1,laptops,NA,NA,NA,NA,NA,NA,1,100,30,90,40,100,25,Processing speed,Memory (RAM),75,60,75
+rating_trial,16,22,Female,2096511.399999976,47.215,rating,dct,attraction_1,1,washing machines,NA,NA,NA,NA,NA,NA,1,60,50,50,60,60,45,Average lifespan,Energy savings,100,125,100
+rating_trial,18,22,Female,2096511.399999976,16.717,rating,wbw,catch,NA,microwave ovens,95,90,20,15,20,10,2,NA,NA,NA,NA,NA,NA,Warranty,Cooking power,5,95,5
+rating_trial,20,22,Female,2096511.399999976,13.047,rating,tdc,repulsion_1,1,televisions,NA,NA,NA,NA,NA,NA,1,100,30,90,40,100,25,Screen size,Average lifespan,100,80,100
+rating_trial,22,22,Female,2096511.399999976,24.015,rating,dct,repulsion_1,1,washing machines,NA,NA,NA,NA,NA,NA,2,100,30,90,40,100,25,Average lifespan,Energy savings,100,90,100
+rating_trial,24,22,Female,2096511.399999976,31.263,rating,bww,catch,NA,televisions,80,55,5,45,40,25,2,NA,NA,NA,NA,NA,NA,Screen size,Average lifespan,75,10,75
+rating_trial,26,22,Female,2096511.399999976,26.935,rating,ctd,repulsion_1,1,microwave ovens,NA,NA,NA,NA,NA,NA,1,100,30,90,40,100,25,Warranty,Cooking power,50,90,50
+rating_trial,28,22,Female,2096511.399999976,33.039,rating,dtc,attraction_2,2,washing machines,NA,NA,NA,NA,NA,NA,2,50,60,60,50,40,60,Average lifespan,Energy savings,65,70,65
+rating_trial,30,22,Female,2096511.399999976,17.757,rating,cdt,attraction_1,1,microwave ovens,NA,NA,NA,NA,NA,NA,1,60,50,50,60,60,45,Warranty,Cooking power,50,40,50
+rating_trial,32,22,Female,2096511.399999976,36.653,rating,dct,attraction_2,2,televisions,NA,NA,NA,NA,NA,NA,1,50,60,60,50,40,60,Screen size,Average lifespan,90,85,90
+rating_trial,34,22,Female,2096511.399999976,14.998,rating,tcd,repulsion_2,2,televisions,NA,NA,NA,NA,NA,NA,1,30,100,40,90,20,100,Screen size,Average lifespan,70,65,70
+rating_trial,36,22,Female,2096511.399999976,13.784,rating,tdc,repulsion_2,1,laptops,NA,NA,NA,NA,NA,NA,2,100,30,90,40,100,20,Processing speed,Memory (RAM),75,70,75
+rating_trial,38,22,Female,2096511.399999976,30.622,rating,ctd,attraction_1,2,microwave ovens,NA,NA,NA,NA,NA,NA,2,50,60,60,50,45,60,Warranty,Cooking power,75,75,75
+rating_trial,40,22,Female,2096511.399999976,29.173,rating,cdt,repulsion_2,1,washing machines,NA,NA,NA,NA,NA,NA,1,100,30,90,40,100,20,Average lifespan,Energy savings,50,60,50
+rating_trial,42,22,Female,2096511.399999976,54.676,rating,cdt,repulsion_2,2,washing machines,NA,NA,NA,NA,NA,NA,2,30,100,40,90,20,100,Average lifespan,Energy savings,50,75,50
+rating_trial,44,22,Female,2096511.399999976,32.452,rating,tdc,attraction_1,1,laptops,NA,NA,NA,NA,NA,NA,2,60,50,50,60,60,45,Processing speed,Memory (RAM),25,25,25
+rating_trial,46,22,Female,2096511.399999976,40.645,rating,dct,attraction_1,2,washing machines,NA,NA,NA,NA,NA,NA,2,50,60,60,50,45,60,Average lifespan,Energy savings,45,50,45
+rating_trial,48,22,Female,2096511.399999976,49.458,rating,dtc,repulsion_2,1,microwave ovens,NA,NA,NA,NA,NA,NA,2,100,30,90,40,100,20,Warranty,Cooking power,80,85,80
+rating_trial,50,22,Female,2096511.399999976,56.304,rating,dct,repulsion_2,2,microwave ovens,NA,NA,NA,NA,NA,NA,2,30,100,40,90,20,100,Warranty,Cooking power,95,80,95
+rating_trial,52,22,Female,2096511.399999976,52.068,rating,ctd,repulsion_1,2,televisions,NA,NA,NA,NA,NA,NA,2,30,100,40,90,25,100,Screen size,Average lifespan,50,100,50
+rating_trial,54,22,Female,2096511.399999976,58.627,rating,dct,attraction_1,2,televisions,NA,NA,NA,NA,NA,NA,1,50,60,60,50,45,60,Screen size,Average lifespan,50,53,50
+rating_trial,56,22,Female,2096511.399999976,29.805,rating,wwb,catch,NA,washing machines,75,60,20,5,10,15,2,NA,NA,NA,NA,NA,NA,Average lifespan,Energy savings,10,10,10
+rating_trial,58,22,Female,2096511.399999976,39.836,rating,tdc,attraction_2,1,microwave ovens,NA,NA,NA,NA,NA,NA,1,60,50,50,60,60,40,Warranty,Cooking power,95,50,95
+rating_trial,60,22,Female,2096511.399999976,74.933,rating,dct,attraction_2,1,laptops,NA,NA,NA,NA,NA,NA,2,60,50,50,60,60,40,Processing speed,Memory (RAM),64,65,64
+rating_trial,62,22,Female,2096511.399999976,53.361,rating,tdc,attraction_2,1,washing machines,NA,NA,NA,NA,NA,NA,1,60,50,50,60,60,40,Average lifespan,Energy savings,80,50,80
+rating_trial,64,22,Female,2096511.399999976,41.477,rating,tdc,repulsion_1,2,washing machines,NA,NA,NA,NA,NA,NA,1,30,100,40,90,25,100,Average lifespan,Energy savings,60,60,60
+rating_trial,66,22,Female,2096511.399999976,57.636,rating,dct,repulsion_1,2,microwave ovens,NA,NA,NA,NA,NA,NA,1,30,100,40,90,25,100,Warranty,Cooking power,70,40,70
+rating_trial,68,22,Female,2096511.399999976,22.108,rating,tdc,attraction_1,2,laptops,NA,NA,NA,NA,NA,NA,1,50,60,60,50,45,60,Processing speed,Memory (RAM),30,20,30
+rating_trial,70,22,Female,2096511.399999976,35.397,rating,dtc,attraction_2,2,microwave ovens,NA,NA,NA,NA,NA,NA,2,50,60,60,50,40,60,Warranty,Cooking power,15,18,15
+rating_trial,72,22,Female,2096511.399999976,42.427,rating,cdt,attraction_1,1,televisions,NA,NA,NA,NA,NA,NA,2,60,50,50,60,60,45,Screen size,Average lifespan,30,27,30
+rating_trial,74,22,Female,2096511.399999976,24.436,rating,bww,catch,NA,laptops,75,70,5,40,15,45,1,NA,NA,NA,NA,NA,NA,Processing speed,Memory (RAM),70,20,70
+rating_trial,76,22,Female,2096511.399999976,36.66,rating,dct,repulsion_1,2,laptops,NA,NA,NA,NA,NA,NA,2,30,100,40,90,25,100,Processing speed,Memory (RAM),80,65,80
+rating_trial,78,22,Female,2096511.399999976,10.315,rating,wbw,catch,NA,washing machines,85,95,20,10,45,15,2,NA,NA,NA,NA,NA,NA,Average lifespan,Energy savings,7,12,7
+rating_trial,80,22,Female,2096511.399999976,74.805,rating,ctd,attraction_2,1,televisions,NA,NA,NA,NA,NA,NA,1,60,50,50,60,60,40,Screen size,Average lifespan,35,35,35
+rating_trial,82,22,Female,2096511.399999976,51.859,rating,cdt,repulsion_2,2,laptops,NA,NA,NA,NA,NA,NA,1,30,100,40,90,20,100,Processing speed,Memory (RAM),50,75,50
+rating_trial,4,4,Female,1714419.6999998093,35.544,rating,tdc,repulsion_1,2,televisions,NA,NA,NA,NA,NA,NA,1,30,100,40,90,25,100,Screen size,Average lifespan,120,200,120
+rating_trial,6,4,Female,1714419.6999998093,19.167,rating,dtc,attraction_1,1,microwave ovens,NA,NA,NA,NA,NA,NA,2,60,50,50,60,60,45,Warranty,Cooking power,150,200,150
+rating_trial,8,4,Female,1714419.6999998093,16.172,rating,tdc,repulsion_2,1,televisions,NA,NA,NA,NA,NA,NA,2,100,30,90,40,100,20,Screen size,Average lifespan,120,100,120
+rating_trial,10,4,Female,1714419.6999998093,24.79,rating,cdt,repulsion_1,2,laptops,NA,NA,NA,NA,NA,NA,2,30,100,40,90,25,100,Processing speed,Memory (RAM),200,170,200
+rating_trial,12,4,Female,1714419.6999998093,42.651,rating,ctd,attraction_1,1,televisions,NA,NA,NA,NA,NA,NA,2,60,50,50,60,60,45,Screen size,Average lifespan,120,130,120
+rating_trial,14,4,Female,1714419.6999998093,34.083,rating,cdt,attraction_1,1,washing machines,NA,NA,NA,NA,NA,NA,2,60,50,50,60,60,45,Average lifespan,Energy savings,200,180,200
+rating_trial,16,4,Female,1714419.6999998093,22.917,rating,ctd,repulsion_2,1,washing machines,NA,NA,NA,NA,NA,NA,2,100,30,90,40,100,20,Average lifespan,Energy savings,240,220,240
+rating_trial,18,4,Female,1714419.6999998093,21.205,rating,dct,repulsion_1,1,televisions,NA,NA,NA,NA,NA,NA,2,100,30,90,40,100,25,Screen size,Average lifespan,120,140,120
+rating_trial,20,4,Female,1714419.6999998093,17.874,rating,tcd,attraction_2,2,washing machines,NA,NA,NA,NA,NA,NA,1,50,60,60,50,40,60,Average lifespan,Energy savings,200,230,200
+rating_trial,22,4,Female,1714419.6999998093,15.131,rating,cdt,attraction_1,2,laptops,NA,NA,NA,NA,NA,NA,1,50,60,60,50,45,60,Processing speed,Memory (RAM),120,200,120
+rating_trial,24,4,Female,1714419.6999998093,31.024,rating,tdc,repulsion_1,1,microwave ovens,NA,NA,NA,NA,NA,NA,2,100,30,90,40,100,25,Warranty,Cooking power,200,230,200
+rating_trial,26,4,Female,1714419.6999998093,33.994,rating,tdc,attraction_2,2,microwave ovens,NA,NA,NA,NA,NA,NA,2,50,60,60,50,40,60,Warranty,Cooking power,200,210,200
+rating_trial,28,4,Female,1714419.6999998093,17.568,rating,tcd,attraction_1,2,washing machines,NA,NA,NA,NA,NA,NA,1,50,60,60,50,45,60,Average lifespan,Energy savings,210,220,210
+rating_trial,30,4,Female,1714419.6999998093,64.408,rating,cdt,repulsion_2,2,washing machines,NA,NA,NA,NA,NA,NA,1,30,100,40,90,20,100,Average lifespan,Energy savings,220,200,220
+rating_trial,32,4,Female,1714419.6999998093,10.054,rating,bww,catch,NA,washing machines,95,60,25,30,15,35,1,NA,NA,NA,NA,NA,NA,Average lifespan,Energy savings,230,220,230
+rating_trial,34,4,Female,1714419.6999998093,9.081,rating,tdc,attraction_2,1,laptops,NA,NA,NA,NA,NA,NA,1,60,50,50,60,60,40,Processing speed,Memory (RAM),120,130,120
+rating_trial,36,4,Female,1714419.6999998093,34.866,rating,dtc,attraction_1,2,televisions,NA,NA,NA,NA,NA,NA,1,50,60,60,50,45,60,Screen size,Average lifespan,210,210,210
+rating_trial,38,4,Female,1714419.6999998093,9.54,rating,wbw,catch,NA,microwave ovens,80,85,5,30,25,35,2,NA,NA,NA,NA,NA,NA,Warranty,Cooking power,210,220,210
+rating_trial,40,4,Female,1714419.6999998093,17.804,rating,bww,catch,NA,washing machines,85,75,5,15,10,25,2,NA,NA,NA,NA,NA,NA,Average lifespan,Energy savings,210,100,210
+rating_trial,42,4,Female,1714419.6999998093,16.836,rating,dct,repulsion_2,1,laptops,NA,NA,NA,NA,NA,NA,2,100,30,90,40,100,20,Processing speed,Memory (RAM),120,150,120
+rating_trial,44,4,Female,1714419.6999998093,9.774,rating,tdc,repulsion_2,2,microwave ovens,NA,NA,NA,NA,NA,NA,2,30,100,40,90,20,100,Warranty,Cooking power,150,140,150
+rating_trial,46,4,Female,1714419.6999998093,8.912,rating,dct,repulsion_1,1,laptops,NA,NA,NA,NA,NA,NA,1,100,30,90,40,100,25,Processing speed,Memory (RAM),140,130,140
+rating_trial,48,4,Female,1714419.6999998093,31.732,rating,wwb,catch,NA,televisions,65,70,40,35,35,10,2,NA,NA,NA,NA,NA,NA,Screen size,Average lifespan,150,140,150
+rating_trial,50,4,Female,1714419.6999998093,15.856,rating,dct,repulsion_1,2,microwave ovens,NA,NA,NA,NA,NA,NA,2,30,100,40,90,25,100,Warranty,Cooking power,200,200,200
+rating_trial,52,4,Female,1714419.6999998093,13.925,rating,wwb,catch,NA,microwave ovens,75,80,40,25,40,30,2,NA,NA,NA,NA,NA,NA,Warranty,Cooking power,130,140,130
+rating_trial,54,4,Female,1714419.6999998093,23.559,rating,dct,repulsion_1,1,washing machines,NA,NA,NA,NA,NA,NA,1,100,30,90,40,100,25,Average lifespan,Energy savings,200,120,200
+rating_trial,56,4,Female,1714419.6999998093,20.752,rating,tcd,repulsion_1,2,washing machines,NA,NA,NA,NA,NA,NA,2,30,100,40,90,25,100,Average lifespan,Energy savings,194,150,194
+rating_trial,58,4,Female,1714419.6999998093,14.909,rating,bww,catch,NA,laptops,50,55,50,10,40,45,1,NA,NA,NA,NA,NA,NA,Processing speed,Memory (RAM),170,140,170
+rating_trial,60,4,Female,1714419.6999998093,11.246,rating,dtc,attraction_2,2,laptops,NA,NA,NA,NA,NA,NA,1,50,60,60,50,40,60,Processing speed,Memory (RAM),120,140,120
+rating_trial,62,4,Female,1714419.6999998093,23.596,rating,bww,catch,NA,televisions,55,60,15,10,45,35,2,NA,NA,NA,NA,NA,NA,Screen size,Average lifespan,130,140,130
+rating_trial,64,4,Female,1714419.6999998093,9.841,rating,dct,attraction_2,1,microwave ovens,NA,NA,NA,NA,NA,NA,2,60,50,50,60,60,40,Warranty,Cooking power,140,160,140
+rating_trial,66,4,Female,1714419.6999998093,15.611,rating,cdt,repulsion_2,2,televisions,NA,NA,NA,NA,NA,NA,2,30,100,40,90,20,100,Screen size,Average lifespan,150,160,150
+rating_trial,68,4,Female,1714419.6999998093,34.804,rating,cdt,repulsion_2,2,laptops,NA,NA,NA,NA,NA,NA,2,30,100,40,90,20,100,Processing speed,Memory (RAM),140,150,140
+rating_trial,70,4,Female,1714419.6999998093,21.904,rating,cdt,attraction_1,1,laptops,NA,NA,NA,NA,NA,NA,1,60,50,50,60,60,45,Processing speed,Memory (RAM),140,140,140
+rating_trial,72,4,Female,1714419.6999998093,13.202,rating,tcd,attraction_2,1,televisions,NA,NA,NA,NA,NA,NA,1,60,50,50,60,60,40,Screen size,Average lifespan,150,130,150
+rating_trial,74,4,Female,1714419.6999998093,33.061,rating,dct,attraction_1,2,microwave ovens,NA,NA,NA,NA,NA,NA,2,50,60,60,50,45,60,Warranty,Cooking power,130,140,130
+rating_trial,76,4,Female,1714419.6999998093,31.17,rating,tdc,attraction_2,1,washing machines,NA,NA,NA,NA,NA,NA,2,60,50,50,60,60,40,Average lifespan,Energy savings,160,140,160
+rating_trial,78,4,Female,1714419.6999998093,43.061,rating,cdt,repulsion_2,1,microwave ovens,NA,NA,NA,NA,NA,NA,1,100,30,90,40,100,20,Warranty,Cooking power,200,170,200
+rating_trial,80,4,Female,1714419.6999998093,22.55,rating,wwb,catch,NA,laptops,95,95,20,15,30,30,2,NA,NA,NA,NA,NA,NA,Processing speed,Memory (RAM),110,140,110
+rating_trial,82,4,Female,1714419.6999998093,22.418,rating,ctd,attraction_2,2,televisions,NA,NA,NA,NA,NA,NA,2,50,60,60,50,40,60,Screen size,Average lifespan,200,230,200

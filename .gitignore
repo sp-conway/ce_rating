@@ -4,3 +4,8 @@
 .Ruserdata
 banerjee_2024_data/
 misc/
+data_check/test
+data_check/
+old/
+slurm*
+experiment/prolific_code.txt
