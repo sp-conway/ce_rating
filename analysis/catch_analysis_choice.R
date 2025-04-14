@@ -17,4 +17,6 @@ d %>%
 
 # choices ============================================================================================================
 d %>%
-  count(participant,choice)
+  count(participant,choice) %>%
+  group_by(choice,n) %>%
+  summarise(N=n())

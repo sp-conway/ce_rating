@@ -9,22 +9,28 @@ library(fs)
 library(glue)
 
 catch_criterion <- 5 # need to have >=5/8 trials correct in both price and choice to pass
-f <- here("data/raw/sc-pref-rating_04_10_25/") %>% 
+f <- here("data/raw/sc-pref-rating") %>% 
   dir_ls(regexp = ".csv")
 
 read <- function(ff){
-  d <- read_csv(ff)
+  print(ff)
+  d <- data.table::fread(ff) %>%
+    as_tibble()
   if(!("age" %in% colnames(d))){
     return(NULL)
   }else{
+    if(!is.na(unique(d$age))){
+      print(unique(d$age))
+    }
     dd <- d %>%
-      select(c(screen_id,trial_type,trial_index,run_id,final_score,age,race,ethnicity,gender,
+      select(c(screen_id,trial_type,trial_index,run_id,age,race,ethnicity,gender,
                exp_duration,rt,response,phase,order,effect,t_high,category,d1_best,d2_best,d1_worst1,
                d2_worst1,d1_worst2,d2_worst2,first_dim,d1_t,d2_t,d1_c,d2_c,d1_d,d2_d,
-               d1_name,d2_name,strategy_response,trialType,question_order)) %>%
+               d1_name,d2_name,strategy_response,question_order)) %>%
       rename(participant=run_id) %>%
       mutate(across(c(d1_best,d2_best,d1_worst1,d2_worst1,d1_worst2,d2_worst2,t_high,d1_t,d2_t,d1_c,d2_c,d1_d,d2_d),
-                    ~na_if(.x,"null"))) # JS uses null for na values
+                    ~na_if(.x,"null")),
+             age=as.numeric(age)) # JS uses null for na values
   }
   return(dd)
 }
@@ -34,24 +40,25 @@ d <- map(f,read) %>%
 # clean data =====================================================================================
 clean_price <- function(dat){
   dat1 <- dat %>%
-    filter(str_detect(screen_id,"rating_trial$")) %>%
-    mutate(price_1=as.numeric(str_extract(response,'(?<=\"price_1\":\")[:digit:]{1,}')),
-           price_2=as.numeric(str_extract(response,'(?<=\"price_2\":\")[:digit:]{1,}')),
-           price_3=as.numeric(str_extract(response,'(?<=\"price_1\":\")[:digit:]{1,}'))) %>%
-    select(-c(final_score,age,trial_type,race,ethnicity,response,question_order,strategy_response,trialType))
+    filter(screen_id=="rating_trial") %>%
+    separate(response,into=c("r1","r2","r3"),sep=",") %>%
+    mutate(price_1=as.numeric(str_extract(r1,'(?<=")[:digit:]{1,}')),
+           price_2=as.numeric(str_extract(r2,'(?<=")[:digit:]{1,}')),
+           price_3=as.numeric(str_extract(r3,'(?<=")[:digit:]{1,}'))) %>%
+    select(-c(age,trial_type,race,ethnicity,question_order,strategy_response,r1,r2,r3))
   return(dat1)
 }
 clean_choice <- function(dat){
   dat1  <- dat %>%
     filter(screen_id=="choice_trial") %>%
-    mutate(response=str_extract(response,'(?<=\"product_choice\":\")[:upper:]{1}'),
+    mutate(response=str_extract(response,'[:upper:]{1}'),
            choice=case_when(
              response=="A"~str_sub(order,1,1),
              response=="B"~str_sub(order,2,2),
              response=="C"~str_sub(order,3,3)
            )) %>%
-    select(-c(final_score,age,trial_type,race,ethnicity,response,question_order,strategy_response,trialType))
-  return(dat1)
+    select(-c(age,trial_type,race,ethnicity,question_order,strategy_response))
+ return(dat1)
 }
 
 clean_demo <- function(dat){
@@ -126,3 +133,4 @@ cat("\n============\nFinal Sample Size: N=",length(unique(price_filtered$partici
 write_csv(price_filtered,here("data","clean","price.csv"))
 write_csv(choice_filtered,here("data","clean","choice.csv"))
 write_csv(demo_filtered,here("data","clean","demo.csv"))
+

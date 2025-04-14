@@ -28,7 +28,8 @@ d <- here("data","clean","price.csv") %>%
 d %>%
   ggplot(aes(rt))+
   geom_histogram(fill="lightblue")+
-  scale_x_continuous(limits=c(0,100))+
+  labs(x="rt (secs)")+
+  # scale_x_continuous(limits=c(0,100))+
   ggthemes::theme_few()
 summary(d$rt)
 

@@ -49,8 +49,31 @@ price_long %>%
   scale_x_continuous(labels=scales::label_currency())+
   facet_grid(option~.)+
   ggthemes::theme_few()
+ggsave(filename=here("analysis","plots","price_hist_all.jpeg"))
 
-# z-score everything by participant ========================================================================
+# mean plots ========================================================================
+price_long_m <- price_long %>%
+  group_by(effect,category,option) %>%
+  summarise(m=mean(price),
+            s=sd(price),
+            se=s/sqrt(n()),
+            se_lower=m-se,
+            se_upper=m+se) %>%
+  ungroup()
+price_long_m %>%
+  mutate(category=str_replace(category," ","\n")) %>%
+  ggplot(aes(effect,m,fill=option))+
+  geom_col(position = "dodge",width=.6)+
+  geom_hline(yintercept=0,alpha=.6)+
+  geom_errorbar(aes(ymin=se_lower,ymax=se_upper),position = position_dodge(width=.6),width=.2)+
+  labs(x="product category",y="mean price")+
+  facet_grid(category~.)+
+  ggsci::scale_fill_startrek()+
+  ggthemes::theme_few()+
+  theme(text=element_text(size = 10))
+ggsave(filename=here("analysis","plots","price_m_by_effect.jpeg"),width=5,height=6)
+
+# z-score everything ========================================================================
 price_long_z <- price_long %>%
   group_by(participant) %>%
   mutate(m=mean(price),
@@ -62,14 +85,11 @@ price_long_z %>%
   geom_histogram(fill="lightblue")+
   facet_grid(option~.)+
   ggthemes::theme_few()
-price_long_z %>%
-  group_by(option) %>%
-  summarise(m=mean(price),
-            med=median(price))
+ggsave(filename=here("analysis","plots","price_hist_z_all.jpeg"))
 
 # mean z by option and category =======================================================================
 price_long_z_m <- price_long_z %>%
-  group_by(category,option) %>%
+  group_by(effect,category,option) %>%
   summarise(m=mean(price),
             s=sd(price),
             se=s/sqrt(n()),
@@ -78,15 +98,16 @@ price_long_z_m <- price_long_z %>%
   ungroup()
 price_long_z_m %>%
   mutate(category=str_replace(category," ","\n")) %>%
-  ggplot(aes(category,m,fill=option))+
+  ggplot(aes(effect,m,fill=option))+
   geom_col(position = "dodge",width=.6)+
   geom_hline(yintercept=0,alpha=.4,linetype="dashed")+
   geom_errorbar(aes(ymin=se_lower,ymax=se_upper),position = position_dodge(width=.6),width=.2)+
   labs(x="product category",y="mean price (Z units)")+
+  facet_grid(category~.)+
   ggsci::scale_fill_startrek()+
   ggthemes::theme_few()+
   theme(text=element_text(size = 10))
-ggsave(filename=here("analysis","plots","price_m_z.jpeg"),width=4,height=3)
+ggsave(filename=here("analysis","plots","price_m_z_by_effect.jpeg"),width=5,height=6)
 
 # mean z by option, category, effect =======================================================================
 price_long_z_m_by_opt_cat_eff <- price_long_z %>%
@@ -124,11 +145,17 @@ price_long_z_m_by_eff %>%
   labs(x="product category",y="mean price (Z units)")+
   ggsci::scale_fill_startrek()+
   ggthemes::theme_few()
+ggsave(filename=here("analysis","plots","price_m_z_by_effect.jpeg"),width=6,height=4)
 
 # correlations ====================================================
 price_wide_z <- price_long_z %>%
   pivot_wider(names_from = option,
               values_from = price)
-round(cor(price_wide_z[c("t","c","d")]),digits=4)
+round(cor(price_wide_z[str_detect(price_wide_z$effect,"repulsion"),c("t","c","d")]),digits=4)
+round(cor(price_wide_z[str_detect(price_wide_z$effect,"attraction"),c("t","c","d")]),digits=4)
 
-
+repulsion <- filter(price_wide_z, str_detect(effect,"repulsion"))
+attraction <- filter(price_wide_z, str_detect(effect,"attraction"))
+par(pty='s')
+plot(repulsion[,c("t","c","d")],pch=".",main="repulsion")
+plot(attraction[,c("t","c","d")],pch=".",main="attraction")

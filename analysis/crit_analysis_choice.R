@@ -52,6 +52,8 @@ p <- d %>%
   pivot_wider(names_from = choice,
               values_from = prop,
               values_fill = 0) 
+p %>% 
+  arrange(desc(d))
 
 pp <- d %>%
   group_by(participant,choice,category) %>%
@@ -62,5 +64,20 @@ pp <- d %>%
   select(-n) %>%
   pivot_wider(names_from = choice,
               values_from = prop,
-              values_fill = 0) 
+              values_fill = 0) %>%
+  arrange(desc(d))
+pp
 
+# att / rep ========================================================
+d %>%
+  group_by(effect,choice) %>%
+  summarise(N=n()) %>%
+  group_by(effect) %>%
+  mutate(p=N/sum(N)) %>%
+  select(-N) %>%
+  ggplot(aes(effect,p,fill=choice))+
+  geom_col(position="dodge")+
+  labs(x="choice set",y="choice proportion")+
+  ggsci::scale_fill_startrek()+
+  ggthemes::theme_few()
+ggsave(filename=here("analysis","plots","crit_choice.jpeg"),width=6,height=4)
