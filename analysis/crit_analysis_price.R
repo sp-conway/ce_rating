@@ -64,12 +64,12 @@ price_long_m_by_effect_category <- price_long %>%
   ungroup()
 price_long_m_by_effect_category %>%
   mutate(category=str_replace(category," ","\n")) %>%
-  ggplot(aes(effect,m,fill=option))+
+  ggplot(aes(category,m,fill=option))+
   geom_col(position = "dodge",width=.6)+
   geom_hline(yintercept=0,alpha=.6)+
   geom_errorbar(aes(ymin=se_lower,ymax=se_upper),position = position_dodge(width=.6),width=.2)+
   labs(x="product category",y="mean price")+
-  facet_grid(category~.)+
+  facet_grid(effect~.)+
   ggsci::scale_fill_startrek()+
   ggthemes::theme_few()+
   theme(text=element_text(size = 10))
@@ -88,7 +88,7 @@ price_long_m_by_effect %>%
   geom_col(position = "dodge",width=.6)+
   geom_hline(yintercept=0,alpha=.6)+
   geom_errorbar(aes(ymin=se_lower,ymax=se_upper),position = position_dodge(width=.6),width=.2)+
-  labs(x="set",y="mean price")+
+  labs(x="trial type",y="mean price")+
   ggsci::scale_fill_startrek()+
   ggthemes::theme_few()+
   theme(text=element_text(size = 10))
@@ -120,12 +120,12 @@ price_long_z_m <- price_long_z %>%
   ungroup()
 price_long_z_m %>%
   mutate(category=str_replace(category," ","\n")) %>%
-  ggplot(aes(effect,m,fill=option))+
+  ggplot(aes(category,m,fill=option))+
   geom_col(position = "dodge",width=.6)+
   geom_hline(yintercept=0,alpha=.4,linetype="dashed")+
   geom_errorbar(aes(ymin=se_lower,ymax=se_upper),position = position_dodge(width=.6),width=.2)+
   labs(x="product category",y="mean price (Z units)")+
-  facet_grid(category~.)+
+  facet_grid(effect~.)+
   ggsci::scale_fill_startrek()+
   ggthemes::theme_few()+
   theme(text=element_text(size = 10))
@@ -145,7 +145,7 @@ price_long_z_m_by_eff %>%
   geom_col(position = "dodge",width=.6)+
   geom_hline(yintercept=0,alpha=.4,linetype="dashed")+
   geom_errorbar(aes(ymin=se_lower,ymax=se_upper),position = position_dodge(width=.6),width=.2)+
-  labs(x="product category",y="mean price (Z units)")+
+  labs(x="trial type",y="mean price (Z units)")+
   ggsci::scale_fill_startrek()+
   ggthemes::theme_few()
 ggsave(filename=here("analysis","plots","price_m_z_by_effect.jpeg"),width=6,height=4)
