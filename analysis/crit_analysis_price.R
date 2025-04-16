@@ -4,7 +4,9 @@ library(tidyverse)
 library(here)
 library(fs)
 library(glue)
+library(patchwork)
 
+# read in data and figure out target
 d <- here("data","clean","price.csv") %>%
   read_csv() %>%
   filter(effect!="catch") %>%
@@ -52,7 +54,7 @@ price_long %>%
 ggsave(filename=here("analysis","plots","price_hist_all.jpeg"))
 
 # mean plots ========================================================================
-price_long_m <- price_long %>%
+price_long_m_by_effect_category <- price_long %>%
   group_by(effect,category,option) %>%
   summarise(m=mean(price),
             s=sd(price),
@@ -60,7 +62,7 @@ price_long_m <- price_long %>%
             se_lower=m-se,
             se_upper=m+se) %>%
   ungroup()
-price_long_m %>%
+price_long_m_by_effect_category %>%
   mutate(category=str_replace(category," ","\n")) %>%
   ggplot(aes(effect,m,fill=option))+
   geom_col(position = "dodge",width=.6)+
@@ -71,7 +73,26 @@ price_long_m %>%
   ggsci::scale_fill_startrek()+
   ggthemes::theme_few()+
   theme(text=element_text(size = 10))
-ggsave(filename=here("analysis","plots","price_m_by_effect.jpeg"),width=5,height=6)
+ggsave(filename=here("analysis","plots","price_m_by_effect_category.jpeg"),width=5,height=6)
+
+price_long_m_by_effect <- price_long %>%
+  group_by(effect,option) %>%
+  summarise(m=mean(price),
+            s=sd(price),
+            se=s/sqrt(n()),
+            se_lower=m-se,
+            se_upper=m+se) %>%
+  ungroup()
+price_long_m_by_effect %>%
+  ggplot(aes(effect,m,fill=option))+
+  geom_col(position = "dodge",width=.6)+
+  geom_hline(yintercept=0,alpha=.6)+
+  geom_errorbar(aes(ymin=se_lower,ymax=se_upper),position = position_dodge(width=.6),width=.2)+
+  labs(x="set",y="mean price")+
+  ggsci::scale_fill_startrek()+
+  ggthemes::theme_few()+
+  theme(text=element_text(size = 10))
+ggsave(filename=here("analysis","plots","price_m_by_effect.jpeg"),width=5,height=3)
 
 # z-score everything ========================================================================
 price_long_z <- price_long %>%
@@ -83,9 +104,10 @@ price_long_z <- price_long %>%
 price_long_z %>%
   ggplot(aes(price))+
   geom_histogram(fill="lightblue")+
+  labs(x="price (z)")+
   facet_grid(option~.)+
   ggthemes::theme_few()
-ggsave(filename=here("analysis","plots","price_hist_z_all.jpeg"))
+ggsave(filename=here("analysis","plots","price_hist_z_all.jpeg"),width=5,height=4)
 
 # mean z by option and category =======================================================================
 price_long_z_m <- price_long_z %>%
@@ -107,27 +129,7 @@ price_long_z_m %>%
   ggsci::scale_fill_startrek()+
   ggthemes::theme_few()+
   theme(text=element_text(size = 10))
-ggsave(filename=here("analysis","plots","price_m_z_by_effect.jpeg"),width=5,height=6)
-
-# mean z by option, category, effect =======================================================================
-price_long_z_m_by_opt_cat_eff <- price_long_z %>%
-  group_by(category,option, effect) %>%
-  summarise(m=mean(price),
-            s=sd(price),
-            se=s/sqrt(n()),
-            se_lower=m-se,
-            se_upper=m+se) %>%
-  ungroup()
-price_long_z_m_by_opt_cat_eff %>%
-  ggplot(aes(category,m,fill=option))+
-  geom_col(position = "dodge",width=.6)+
-  geom_errorbar(aes(ymin=se_lower,ymax=se_upper),position = position_dodge(width=.6),width=.2)+
-  labs(x="product category",y="mean price (Z units)")+
-  coord_flip()+
-  facet_grid(effect~.)+
-  ggsci::scale_fill_startrek()+
-  ggthemes::theme_few()
-
+ggsave(filename=here("analysis","plots","price_m_z_by_effect_category.jpeg"),width=5,height=6)
 
 # mean z by option, effect =======================================================================
 price_long_z_m_by_eff <- price_long_z %>%
@@ -141,6 +143,7 @@ price_long_z_m_by_eff <- price_long_z %>%
 price_long_z_m_by_eff %>%
   ggplot(aes(effect,m,fill=option))+
   geom_col(position = "dodge",width=.6)+
+  geom_hline(yintercept=0,alpha=.4,linetype="dashed")+
   geom_errorbar(aes(ymin=se_lower,ymax=se_upper),position = position_dodge(width=.6),width=.2)+
   labs(x="product category",y="mean price (Z units)")+
   ggsci::scale_fill_startrek()+
@@ -148,14 +151,41 @@ price_long_z_m_by_eff %>%
 ggsave(filename=here("analysis","plots","price_m_z_by_effect.jpeg"),width=6,height=4)
 
 # correlations ====================================================
-price_wide_z <- price_long_z %>%
+price_wide_z_FILTERED <- price_long_z %>%
+  filter(price<=3 | price>=3) %>%
   pivot_wider(names_from = option,
-              values_from = price)
-round(cor(price_wide_z[str_detect(price_wide_z$effect,"repulsion"),c("t","c","d")]),digits=4)
-round(cor(price_wide_z[str_detect(price_wide_z$effect,"attraction"),c("t","c","d")]),digits=4)
+              values_from = price) %>%
+  mutate(effect1=str_extract(effect,"repulsion|attraction"))
+compute_cors <- function(dat,cond){
+  cors <- round(cor(dat[str_detect(dat$effect,cond),c("t","c","d")]),digits=4)
+  print(cond)
+  print(cors)
+}
+walk(c("repulsion","attraction"),compute_cors,dat=price_wide_z_FILTERED)
 
-repulsion <- filter(price_wide_z, str_detect(effect,"repulsion"))
-attraction <- filter(price_wide_z, str_detect(effect,"attraction"))
-par(pty='s')
-plot(repulsion[,c("t","c","d")],pch=".",main="repulsion")
-plot(attraction[,c("t","c","d")],pch=".",main="attraction")
+td <- ggplot(price_wide_z_FILTERED,aes(t,d))+
+  geom_point(shape=".")+
+  geom_abline(slope=1,intercept=0,linetype="dashed",alpha=.5,col="red")+
+  coord_fixed(xlim=c(-3,3),ylim=c(-3,3))+
+  scale_x_continuous(breaks = c(-3,0,3))+
+  scale_y_continuous(breaks = c(-3,0,3))+
+  facet_grid(effect1~.)+
+  ggthemes::theme_few()
+tc <- ggplot(price_wide_z_FILTERED,aes(t,c))+
+  geom_point(shape=".")+
+  geom_abline(slope=1,intercept=0,linetype="dashed",alpha=.5,col="red")+
+  coord_fixed(xlim=c(-3,3),ylim=c(-3,3))+
+  scale_x_continuous(breaks = c(-3,0,3))+
+  scale_y_continuous(breaks = c(-3,0,3))+
+  facet_grid(effect1~.)+
+  ggthemes::theme_few()
+cd <- ggplot(price_wide_z_FILTERED,aes(c,d))+
+  geom_point(shape=".")+
+  geom_abline(slope=1,intercept=0,linetype="dashed",alpha=.5,col="red")+
+  coord_fixed(xlim=c(-3,3),ylim=c(-3,3))+
+  scale_x_continuous(breaks = c(-3,0,3))+
+  scale_y_continuous(breaks = c(-3,0,3))+
+  facet_grid(effect1~.)+
+  ggthemes::theme_few()
+tc|td|cd
+ggsave(filename=here("analysis","plots","price_z_corplot.jpeg"),width=6,height=4)

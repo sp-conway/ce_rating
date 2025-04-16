@@ -34,8 +34,26 @@ read <- function(ff){
   }
   return(dd)
 }
+
+# ppt numbers are not sequential due to people starting and quitting task
+# renumbering people sequentially
+renumber <- function(dat){
+  n_ppt <- length(unique(dat$participant))
+  ppt_key <- tibble(
+    participant = sort(unique(dat$participant)),
+    participant_new = seq(1,n_ppt,1)
+  )
+  dat1 <- dat %>%
+    left_join(ppt_key) %>%
+    select(-participant) %>%
+    rename(participant=participant_new) %>%
+    relocate(participant,.before = everything())
+  return(dat1)
+}
+
 d <- map(f,read) %>%
-  list_rbind()
+  list_rbind() %>%
+  renumber()
 
 # clean data =====================================================================================
 clean_price <- function(dat){

@@ -70,14 +70,51 @@ pp
 
 # att / rep ========================================================
 d %>%
+  group_by(participant,effect,choice) %>%
+  summarise(N=n()) %>%
+  group_by(participant,effect) %>%
+  mutate(p=N/sum(N)) %>%
+  select(-N) %>%
+  group_by(effect,choice) %>%
+  summarise(m=mean(p),
+            s=sd(p),
+            se=s/sqrt(n()),
+            ci_lower=m-qt(.975,n())*se,
+            ci_upper=m+qt(.975,n())*se) %>%
+  ungroup() %>%
+  ggplot(aes(effect,m,fill=choice))+
+  geom_col(position="dodge",width=.6)+
+  geom_errorbar(aes(ymin=ci_lower,ymax=ci_upper),position = position_dodge(width=.6),width=.2)+
+  labs(x="choice set",y="mean choice proportion")+
+  ggsci::scale_fill_startrek()+
+  ggthemes::theme_few()
+ggsave(filename=here("analysis","plots","crit_choice_meanprops.jpeg"),width=6,height=4)
+
+d %>%
   group_by(effect,choice) %>%
   summarise(N=n()) %>%
   group_by(effect) %>%
   mutate(p=N/sum(N)) %>%
   select(-N) %>%
+  group_by(effect,choice) %>%
   ggplot(aes(effect,p,fill=choice))+
-  geom_col(position="dodge")+
-  labs(x="choice set",y="choice proportion")+
+  geom_col(position="dodge",width=.6)+
+  labs(x="choice set",y="aggregate choice proportion")+
   ggsci::scale_fill_startrek()+
   ggthemes::theme_few()
-ggsave(filename=here("analysis","plots","crit_choice.jpeg"),width=6,height=4)
+ggsave(filename=here("analysis","plots","crit_choice_aggprops.jpeg"),width=6,height=4)
+
+d %>%
+  group_by(effect,category,choice) %>%
+  summarise(N=n()) %>%
+  group_by(effect,category) %>%
+  mutate(p=N/sum(N)) %>%
+  select(-N) %>%
+  ggplot(aes(effect,p,fill=choice))+
+  geom_col(position="dodge")+
+  labs(x="choice set",y="aggregated choice proportion")+
+  facet_grid(category~.)+
+  ggsci::scale_fill_startrek()+
+  ggthemes::theme_few()
+ggsave(filename=here("analysis","plots","crit_choice_by_category.jpeg"),width=5,height=7)
+
