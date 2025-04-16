@@ -70,7 +70,7 @@ stan_data <- list(N=N,
                   n_cat=n_cat,
                   attraction=attraction,
                   repulsion=repulsion)
-# stan stuff ==================================================================
+# sample from posterior ==================================================================
 m <- cmdstan_model(model_file)
 fit <- m$sample(data=stan_data,
                 iter_sampling = n_iter,
@@ -87,6 +87,7 @@ save(fit_summary, file=path(results_dir,"fit_summary.RData"))
 sampler_diagnostics <- fit$sampler_diagnostics()
 rhat(fit)
 
+# analyze model ========================================================================
 color_scheme_set("red")
 mcmc_trace(fit$draws(variables = "lp__"))
 ggsave(filename=path(results_dir,"lp__trace.jpeg"),width=4,height=4)
@@ -101,6 +102,7 @@ ggsave(filename=path(results_dir,"cor_attraction_trace.jpeg"),width=7,height=6)
 mcmc_trace(fit$draws(variables = c("cor_repulsion[1,2]","cor_repulsion[1,3]","cor_repulsion[2,3]")))
 ggsave(filename=path(results_dir,"cor_repulsion_trace.jpeg"),width=7,height=6)
 
+# repulsion posterior cor
 mcmc_dens_chains(fit$draws(variables = c("cor_repulsion[1,2]","cor_repulsion[1,3]","cor_repulsion[2,3]")))+
   scale_y_discrete(labels=c(
     TeX("$\\rho_{tc}$"),
@@ -115,7 +117,7 @@ mcmc_dens_chains(fit$draws(variables = c("cor_repulsion[1,2]","cor_repulsion[1,3
         text = element_text(size=16))
 ggsave(filename=path(results_dir,"cor_repulsion_densplot.jpeg"),width=5,height=5)
 
-
+# attraction posterior cor
 mcmc_dens_chains(fit$draws(variables = c("cor_attraction[1,2]","cor_attraction[1,3]","cor_attraction[2,3]")))+
   scale_y_discrete(labels=c(
     TeX("$\\rho_{tc}$"),
@@ -130,6 +132,7 @@ mcmc_dens_chains(fit$draws(variables = c("cor_attraction[1,2]","cor_attraction[1
         text = element_text(size=16))
 ggsave(filename=path(results_dir,"cor_attraction_densplot.jpeg"),width=5,height=5)
 
+# analyze mu =================================================================================
 mu_attraction <- fit$draws(variables="mu_attraction",format = "df")
 mu_repulsion <- fit$draws(variables="mu_repulsion",format="df")
 
@@ -173,5 +176,4 @@ mu_data_model %>%
   facet_grid(effect~.)+
   ggthemes::theme_few()
 ggsave(filename=path(results_dir,"mu_model_data.jpeg"),width=4,height=5)
-
 save(mu_data_model, file=path(results_dir,"mu_data_model.RData"))
