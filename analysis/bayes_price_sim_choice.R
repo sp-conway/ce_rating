@@ -8,7 +8,6 @@ library(mvtnorm)
 
 # settings
 N <- 1e6 # n samples
-set_cmdstan_path(here("cmdstan-2.36.0"))
 which_model <- "bayes_price_1"
 results_dir <- here("analysis","bayes_price",which_model)
 
@@ -34,11 +33,15 @@ mu_attraction_df <- mu_data_model %>%
   filter(effect=="attraction" & source=="model") %>%
   select(option,m)
 mu_attraction <- mu_attraction_df$m[c(3,1,2)] # r does c d t
+ma <- mean(mu_attraction[1:2])
+mu_attraction <- c(ma,ma,mu_attraction[3])
 
 mu_repulsion_df <- mu_data_model %>%
   filter(effect=="repulsion" & source=="model") %>%
   select(option,m)
 mu_repulsion <- mu_repulsion_df$m[c(3,1,2)] # r does c d t
+mr <- mean(mu_repulsion[1:2])
+mu_repulsion <- c(mr,mr,mu_repulsion[3])
 
 cor_attraction_df <- fit_summary %>%
   filter(str_detect(variable,"cor_attraction")) 
