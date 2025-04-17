@@ -39,13 +39,13 @@ d <- here("data","clean","price.csv") %>%
     str_sub(order,3,3)=="d"~price_3,
   )) %>%
   select(-c(price_1,price_2,price_3)) %>%
-  pivot_longer(contains("price"),names_to = "opt",values_to = "price") %>%
+  pivot_longer(contains("price"),names_to="opt",values_to="price") %>%
   group_by(participant) %>%
   mutate(m=mean(price),
          s=sd(price)) %>%
   ungroup() %>%
   mutate(price=(price-m)/s) %>%
-  pivot_wider(names_from = opt, values_from = price) %>%
+  pivot_wider(names_from=opt, values_from=price) %>%
   mutate(keep_t=abs(price_t)<=3,
          keep_c=abs(price_c)<=3,
          keep_d=abs(price_d)<=3) %>%
@@ -85,15 +85,15 @@ stan_data <- list(N_att=N_att,
 # sample from posterior ==================================================================
 m <- cmdstan_model(model_file)
 fit <- m$sample(data=stan_data,
-                iter_sampling = n_iter,
-                chains = n_chain,
-                parallel_chains = n_chain,
-                output_dir = results_dir,
-                output_basename = which_model)
+                iter_sampling=n_iter,
+                chains=n_chain,
+                parallel_chains=n_chain,
+                output_dir=results_dir,
+                output_basename=which_model)
 fit_summary <- fit$summary(
-  variables = NULL,
+  variables=NULL,
   posterior::default_summary_measures(),
-  extra_quantiles = ~posterior::quantile2(., probs = c(.0275, .975))
+  extra_quantiles=~posterior::quantile2(., probs=c(.0275, .975))
 )
 save(fit_summary, file=path(results_dir,"fit_summary.RData"))
 sampler_diagnostics <- fit$sampler_diagnostics()
@@ -101,51 +101,27 @@ rhat(fit)
 
 # analyze model ========================================================================
 color_scheme_set("red")
-mcmc_trace(fit$draws(variables = "lp__"))
+mcmc_trace(fit$draws(variables="lp__"))
 ggsave(filename=path(results_dir,"lp__trace.jpeg"),width=4,height=4)
-mcmc_trace(fit$draws(variables = "mu_attraction"))
+mcmc_trace(fit$draws(variables="mu_attraction"))
 ggsave(filename=path(results_dir,"mu_attraction_trace.jpeg"),width=7,height=6)
-mcmc_trace(fit$draws(variables = "mu_repulsion"))
+mcmc_trace(fit$draws(variables="mu_repulsion"))
 ggsave(filename=path(results_dir,"mu_repulsion_trace.jpeg"),width=7,height=6)
-mcmc_trace(fit$draws(variables = c("s")))
+mcmc_trace(fit$draws(variables=c("s")))
 ggsave(filename=path(results_dir,"s_trace.jpeg"),width=4,height=4)
-mcmc_trace(fit$draws(variables = c("cor_attraction[1,2]","cor_attraction[1,3]","cor_attraction[2,3]")))
+mcmc_trace(fit$draws(variables=c("cor_attraction[1,2]","cor_attraction[1,3]","cor_attraction[2,3]")))
 ggsave(filename=path(results_dir,"cor_attraction_trace.jpeg"),width=7,height=6)
-mcmc_trace(fit$draws(variables = c("cor_repulsion[1,2]","cor_repulsion[1,3]","cor_repulsion[2,3]")))
+mcmc_trace(fit$draws(variables=c("cor_repulsion[1,2]","cor_repulsion[1,3]","cor_repulsion[2,3]")))
 ggsave(filename=path(results_dir,"cor_repulsion_trace.jpeg"),width=7,height=6)
 
-# repulsion posterior cor
-mcmc_dens_chains(fit$draws(variables = c("cor_repulsion[1,2]","cor_repulsion[1,3]","cor_repulsion[2,3]")))+
-  scale_y_discrete(labels=c(
-    TeX("$\\rho_{tc}$"),
-    TeX("$\\rho_{td}$"),
-    TeX("$\\rho_{cd}$")))+
-  labs(x="estimate",
-       y="parameter",
-       title="repulsion")+
-  scale_x_continuous(limits = c(.6,.9))+
-  theme(plot.title = element_text(hjust=0.5),
-        plot.subtitle = element_text(hjust=0.5),
-        text = element_text(size=16))
-ggsave(filename=path(results_dir,"cor_repulsion_densplot.jpeg"),width=5,height=5)
+mcmc_hist(fit$draws(variables=c("cor_repulsion[1,2]","cor_repulsion[1,3]","cor_repulsion[2,3]")))
+ggsave(filename=path(results_dir,"cor_repulsion_hist.jpeg"),width=5,height=5)
 
-# attraction posterior cor
-mcmc_dens_chains(fit$draws(variables = c("cor_attraction[1,2]","cor_attraction[1,3]","cor_attraction[2,3]")))+
-  scale_y_discrete(labels=c(
-    TeX("$\\rho_{tc}$"),
-    TeX("$\\rho_{td}$"),
-    TeX("$\\rho_{cd}$")))+
-  labs(x="estimate",
-       y="parameter",
-       title="attraction")+
-  scale_x_continuous(limits = c(.6,.9))+
-  theme(plot.title = element_text(hjust=0.5),
-        plot.subtitle = element_text(hjust=0.5),
-        text = element_text(size=16))
-ggsave(filename=path(results_dir,"cor_attraction_densplot.jpeg"),width=5,height=5)
+mcmc_hist(fit$draws(variables=c("cor_attraction[1,2]","cor_attraction[1,3]","cor_attraction[2,3]")))
+ggsave(filename=path(results_dir,"cor_attraction_hist.jpeg"),width=5,height=5)
 
 # analyze mu =================================================================================
-mu_attraction <- fit$draws(variables="mu_attraction",format = "df")
+mu_attraction <- fit$draws(variables="mu_attraction",format="df")
 mu_repulsion <- fit$draws(variables="mu_repulsion",format="df")
 
 summarise_mu <- function(mu,effect){
@@ -171,7 +147,7 @@ mu_model <- map2(list(mu_attraction,mu_repulsion),
   list_rbind() %>%
   mutate(source="model")
 mu_data <- d %>%
-  pivot_longer(contains("price"),names_to = "option",values_to = "price") %>%
+  pivot_longer(contains("price"),names_to="option",values_to="price") %>%
   mutate(option=str_remove(option,"price_")) %>%
   group_by(effect,option) %>%
   summarise(m=mean(price)) %>%
@@ -189,30 +165,28 @@ mu_data_model %>%
   ggthemes::theme_few()
 ggsave(filename=path(results_dir,"mu_model_data.jpeg"),width=4,height=5)
 save(mu_data_model, file=path(results_dir,"mu_data_model.RData"))
-
 fit_summary %>%
-  filter(str_detect(variable,"cor")) %>%
-  filter(str_detect(variable,"1,2|1,3|2,3")) %>%
-  select(variable,mean,q2.75,q97.5) %>%
+  filter(str_detect(variable, "cor")) %>%
+  filter(str_detect(variable, "1,2|1,3|2,3")) %>%
+  select(variable, mean, q2.75, q97.5) %>%
   rename(lower=q2.75,
          upper=q97.5) %>%
-  mutate(param=case_when(
-    str_detect(variable,"1,2")~"r_tc",
-    str_detect(variable,"1,3")~"r_td",
-    str_detect(variable,"2,3")~"r_cd"
-  ),
-  cond=str_extract(variable,"attraction|repulsion")) %>%
-  ggplot(aes(param,mean))+
-  geom_point()+
-  geom_errorbar(aes(ymin=lower,ymax=upper),width=.2)+
-  scale_x_discrete(labels=c(
-      TeX("$\\rho_{\\; tc}$"),
-      TeX("$\\rho_{\\; td}$"),
-      TeX("$\\rho_{\\; cd}$")))+
-  scale_y_continuous(limits=c(.65,.9))+
-  labs(x="parameter",y="estimate")+
-  coord_flip()+
-  facet_grid(cond~.)+
-  ggthemes::theme_few()+
+  mutate(
+    param_label=case_when(
+      str_detect(variable, "1,2") ~ "$\\rho_{tc}$",
+      str_detect(variable, "1,3") ~ "$\\rho_{td}$",
+      str_detect(variable, "2,3") ~ "$\\rho_{cd}$"
+    ),
+    cond=str_extract(variable, "attraction|repulsion")
+  ) %>%
+  ggplot(aes(x=param_label, y=mean)) +
+  geom_point() +
+  geom_errorbar(aes(ymin=lower, ymax=upper), width=0.2) +
+  scale_y_continuous(limits=c(0.65, 0.9)) +
+  scale_x_discrete(labels=TeX) + 
+  labs(x="parameter", y="estimate") +
+  coord_flip() +
+  facet_grid(cond ~ .) +
+  ggthemes::theme_few() +
   theme(text=element_text(size=15))
-ggsave(filename=path(results_dir,"omega_posteriors.jpeg"),width = 5,height=4)
+ggsave(filename=path(results_dir,"omega_posteriors.jpeg"),width=5,height=4)
