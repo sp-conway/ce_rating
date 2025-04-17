@@ -14,8 +14,8 @@ data {
 }
 
 parameters {
-  array[4] vector[3] real mu_attraction;
-  array[4] vector[3] real mu_repulsion;
+  array[4] vector[3] mu_attraction;
+  array[4] vector[3] mu_repulsion;
   
   // correlation mat in chol. form
   cholesky_factor_corr[3] omega_attraction;
@@ -26,8 +26,8 @@ parameters {
 }
 transformed parameters{
   vector[3] sigma = rep_vector(s, 3);  // Covariance matrix
-  matrix[3,3] L_attraction = diag_pre_multiply(s,omega_attraction);
-  matrix[3,3] L_repulsion = diag_pre_multiply(s,omega_repulsion);
+  matrix[3,3] L_attraction = diag_pre_multiply(sigma,omega_attraction);
+  matrix[3,3] L_repulsion = diag_pre_multiply(sigma,omega_repulsion);
 }
 model {
   s ~ cauchy(0,2.5);

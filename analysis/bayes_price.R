@@ -54,9 +54,6 @@ d <- here("data","clean","price.csv") %>%
   mutate(effect=str_remove(effect,"_1|_2")) %>%
   arrange(participant, effect, category) 
 
-effects <- unique(d$effect)
-categories <- unique(d$category)
-n_cat <- length(categories)
 N_att <- d %>%
   filter(effect=="attraction") %>%
   count(category) %>%
@@ -110,7 +107,7 @@ mcmc_trace(fit$draws(variables = "mu_attraction"))
 ggsave(filename=path(results_dir,"mu_attraction_trace.jpeg"),width=7,height=6)
 mcmc_trace(fit$draws(variables = "mu_repulsion"))
 ggsave(filename=path(results_dir,"mu_repulsion_trace.jpeg"),width=7,height=6)
-mcmc_trace(fit$draws(variables = c("s[1]","s[2]","s[3]")))
+mcmc_trace(fit$draws(variables = c("s")))
 ggsave(filename=path(results_dir,"s_trace.jpeg"),width=4,height=4)
 mcmc_trace(fit$draws(variables = c("cor_attraction[1,2]","cor_attraction[1,3]","cor_attraction[2,3]")))
 ggsave(filename=path(results_dir,"cor_attraction_trace.jpeg"),width=7,height=6)
@@ -192,3 +189,30 @@ mu_data_model %>%
   ggthemes::theme_few()
 ggsave(filename=path(results_dir,"mu_model_data.jpeg"),width=4,height=5)
 save(mu_data_model, file=path(results_dir,"mu_data_model.RData"))
+
+fit_summary %>%
+  filter(str_detect(variable,"cor")) %>%
+  filter(str_detect(variable,"1,2|1,3|2,3")) %>%
+  select(variable,mean,q2.75,q97.5) %>%
+  rename(lower=q2.75,
+         upper=q97.5) %>%
+  mutate(param=case_when(
+    str_detect(variable,"1,2")~"r_tc",
+    str_detect(variable,"1,3")~"r_td",
+    str_detect(variable,"2,3")~"r_cd"
+  ),
+  cond=str_extract(variable,"attraction|repulsion")) %>%
+  ggplot(aes(param,mean))+
+  geom_point()+
+  geom_errorbar(aes(ymin=lower,ymax=upper),width=.2)+
+  scale_x_discrete(labels=c(
+      TeX("$\\rho_{\\; tc}$"),
+      TeX("$\\rho_{\\; td}$"),
+      TeX("$\\rho_{\\; cd}$")))+
+  scale_y_continuous(limits=c(.65,.9))+
+  labs(x="parameter",y="estimate")+
+  coord_flip()+
+  facet_grid(cond~.)+
+  ggthemes::theme_few()+
+  theme(text=element_text(size=15))
+ggsave(filename=path(results_dir,"omega_posteriors.jpeg"),width = 5,height=4)
