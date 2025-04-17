@@ -46,30 +46,45 @@ d <- here("data","clean","price.csv") %>%
   ungroup() %>%
   mutate(price=(price-m)/s) %>%
   pivot_wider(names_from = opt, values_from = price) %>%
-  select(-c(m,s)) %>%
+  mutate(keep_t=abs(price_t)<=3,
+         keep_c=abs(price_c)<=3,
+         keep_d=abs(price_d)<=3) %>%
+  filter(keep_t & keep_c & keep_d) %>%
+  select(-c(m,s,keep_t,keep_c,keep_d)) %>%
   mutate(effect=str_remove(effect,"_1|_2")) %>%
   arrange(participant, effect, category) 
 
 effects <- unique(d$effect)
 categories <- unique(d$category)
 n_cat <- length(categories)
-N <- (nrow(d)/2)/n_cat
-repulsion <- attraction <- array(NA_real_,dim=c(N,n_cat,3))
+N_att <- d %>%
+  filter(effect=="attraction") %>%
+  count(category) %>%
+  pull(n)
+N_rep <- d %>%
+  filter(effect=="repulsion") %>%
+  count(category) %>%
+  pull(n)
+laptops_att <- as.matrix(filter(d,effect=="attraction" & category=="laptops") %>% select(price_t,price_c,price_d))
+microwaves_att <- as.matrix(filter(d,effect=="attraction" & category=="microwave ovens") %>% select(price_t,price_c,price_d))
+tv_att <- as.matrix(filter(d,effect=="attraction" & category=="televisions") %>% select(price_t,price_c,price_d))
+washers_att <- as.matrix(filter(d,effect=="attraction" & category=="washing machines") %>% select(price_t,price_c,price_d))
 
-for(i in 1:n_cat){
-  dtmp_att <- filter(d,effect=="attraction" & category==categories[i])
-  dtmp_rep <- filter(d,effect=="repulsion" & category==categories[i])
-  repulsion[,i,1] <- dtmp_rep$price_t
-  repulsion[,i,2] <- dtmp_rep$price_c
-  repulsion[,i,3] <- dtmp_rep$price_d
-  attraction[,i,1] <- dtmp_att$price_t
-  attraction[,i,2] <- dtmp_att$price_c
-  attraction[,i,3] <- dtmp_att$price_d
-}
-stan_data <- list(N=N,
-                  n_cat=n_cat,
-                  attraction=attraction,
-                  repulsion=repulsion)
+laptops_rep <- as.matrix(filter(d,effect=="repulsion" & category=="laptops") %>% select(price_t,price_c,price_d))
+microwaves_rep <- as.matrix(filter(d,effect=="repulsion" & category=="microwave ovens") %>% select(price_t,price_c,price_d))
+tv_rep <- as.matrix(filter(d,effect=="repulsion" & category=="televisions") %>% select(price_t,price_c,price_d))
+washers_rep <- as.matrix(filter(d,effect=="repulsion" & category=="washing machines") %>% select(price_t,price_c,price_d))
+
+stan_data <- list(N_att=N_att,
+                  N_rep=N_rep,
+                  laptops_att=laptops_att,
+                  microwaves_att=microwaves_att,
+                  tv_att=tv_att,
+                  washers_att=washers_att,
+                  laptops_rep=laptops_rep,
+                  microwaves_rep=microwaves_rep,
+                  tv_rep=tv_rep,
+                  washers_rep=washers_rep)
 # sample from posterior ==================================================================
 m <- cmdstan_model(model_file)
 fit <- m$sample(data=stan_data,
