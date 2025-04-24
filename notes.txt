@@ -1,0 +1,6 @@
+modeled stimuli off of Banerjee et al, exp 5
+where the decoys value = 25
+
+
+
+USED JSPSYCH 7.3 FOR BOTH EXPS

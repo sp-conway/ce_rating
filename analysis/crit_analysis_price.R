@@ -189,3 +189,13 @@ cd <- ggplot(price_wide_z_FILTERED,aes(c,d))+
   ggthemes::theme_few()
 tc|td|cd
 ggsave(filename=here("analysis","plots","price_z_corplot.jpeg"),width=6,height=4)
+
+price_wide_z_FILTERED$d_best <- price_wide_z_FILTERED$d>price_wide_z_FILTERED$t & price_wide_z_FILTERED$d>price_wide_z_FILTERED$c
+price_wide_z_FILTERED %>%
+  group_by(effect1) %>%
+  summarise(pdbest=mean(d_best))
+
+price_wide_z_FILTERED$d_bestt <- price_wide_z_FILTERED$d>price_wide_z_FILTERED$t
+price_wide_z_FILTERED %>%
+  group_by(effect1) %>%
+  summarise(pdbestt=mean(d_bestt))

@@ -131,7 +131,7 @@ catch_correct <- map2(list(price_catch,choice_catch),c("price","choice"),check_c
 
 # IMPORTANT - FIGURE OUT WHO WE ARE KEEPING
 ppt_keep <- catch_correct %>%
-  filter(price>=5 & choice>=5) %>%
+  filter(price>=catch_criterion & choice>=catch_criterion) %>%
   pull(participant)
 
 # filter !!!! ALSO CHANGE RT TO SECS =======================================================
@@ -145,7 +145,8 @@ demo_filtered <- filter_data(demo,ppt_keep)
 # Print out exp. info =====================================================================================================================================================================
 cat("\n============\nInitial Sample Size: N=",length(unique(d$participant)),"\n============\n",sep="")
 cat("\n============\n",length(unique(d$participant))-length(ppt_keep)," Participants Removed\n============\n",sep="")
-cat("\n============\nFinal Sample Size: N=",length(unique(price_filtered$participant)),"\n============\n",sep="")
+cat("\n============\nFinal Sample 
+    Size: N=",length(unique(price_filtered$participant)),"\n============\n",sep="")
 
 # write cleaned data to files =====================================================================================
 write_csv(price_filtered,here("data","clean","price.csv"))

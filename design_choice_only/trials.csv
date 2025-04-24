@@ -1,0 +1,49 @@
+effect,t_high,category,set,d1_t,d1_c,d1_d,d2_t,d2_c,d2_d
+repulsion_1,1,microwave ovens,trinary,100,90,100,30,40,25
+repulsion_1,1,microwave ovens,binary,100,90,NA,30,40,NA
+repulsion_1,1,laptops,trinary,100,90,100,30,40,25
+repulsion_1,1,laptops,binary,100,90,NA,30,40,NA
+repulsion_1,1,washing machines,trinary,100,90,100,30,40,25
+repulsion_1,1,washing machines,binary,100,90,NA,30,40,NA
+repulsion_1,1,televisions,trinary,100,90,100,30,40,25
+repulsion_1,1,televisions,binary,100,90,NA,30,40,NA
+repulsion_1,2,microwave ovens,trinary,30,40,25,100,90,100
+repulsion_1,2,microwave ovens,binary,30,40,NA,100,90,NA
+repulsion_1,2,laptops,trinary,30,40,25,100,90,100
+repulsion_1,2,laptops,binary,30,40,NA,100,90,NA
+repulsion_1,2,washing machines,trinary,30,40,25,100,90,100
+repulsion_1,2,washing machines,binary,30,40,NA,100,90,NA
+repulsion_1,2,televisions,trinary,30,40,25,100,90,100
+repulsion_1,2,televisions,binary,30,40,NA,100,90,NA
+repulsion_2,1,microwave ovens,trinary,100,90,100,30,40,20
+repulsion_2,1,microwave ovens,binary,100,90,NA,30,40,NA
+repulsion_2,1,laptops,trinary,100,90,100,30,40,20
+repulsion_2,1,laptops,binary,100,90,NA,30,40,NA
+repulsion_2,1,washing machines,trinary,100,90,100,30,40,20
+repulsion_2,1,washing machines,binary,100,90,NA,30,40,NA
+repulsion_2,1,televisions,trinary,100,90,100,30,40,20
+repulsion_2,1,televisions,binary,100,90,NA,30,40,NA
+repulsion_2,2,microwave ovens,trinary,30,40,20,100,90,100
+repulsion_2,2,microwave ovens,binary,30,40,NA,100,90,NA
+repulsion_2,2,laptops,trinary,30,40,20,100,90,100
+repulsion_2,2,laptops,binary,30,40,NA,100,90,NA
+repulsion_2,2,washing machines,trinary,30,40,20,100,90,100
+repulsion_2,2,washing machines,binary,30,40,NA,100,90,NA
+repulsion_2,2,televisions,trinary,30,40,20,100,90,100
+repulsion_2,2,televisions,binary,30,40,NA,100,90,NA
+catch,NA,microwave ovens,trinary,NA,NA,NA,NA,NA,NA
+catch,NA,laptops,trinary,NA,NA,NA,NA,NA,NA
+catch,NA,washing machines,trinary,NA,NA,NA,NA,NA,NA
+catch,NA,televisions,trinary,NA,NA,NA,NA,NA,NA
+catch,NA,microwave ovens,trinary,NA,NA,NA,NA,NA,NA
+catch,NA,laptops,trinary,NA,NA,NA,NA,NA,NA
+catch,NA,washing machines,trinary,NA,NA,NA,NA,NA,NA
+catch,NA,televisions,trinary,NA,NA,NA,NA,NA,NA
+catch,NA,microwave ovens,binary,NA,NA,NA,NA,NA,NA
+catch,NA,laptops,binary,NA,NA,NA,NA,NA,NA
+catch,NA,washing machines,binary,NA,NA,NA,NA,NA,NA
+catch,NA,televisions,binary,NA,NA,NA,NA,NA,NA
+catch,NA,microwave ovens,binary,NA,NA,NA,NA,NA,NA
+catch,NA,laptops,binary,NA,NA,NA,NA,NA,NA
+catch,NA,washing machines,binary,NA,NA,NA,NA,NA,NA
+catch,NA,televisions,binary,NA,NA,NA,NA,NA,NA

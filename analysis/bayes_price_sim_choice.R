@@ -25,6 +25,12 @@ data_props <- d %>%
   select(-N) %>%
   mutate(source="data")
 
+# load banerjee data
+banerjee <- here("analysis/banerjee_2024_data/e1_props.csv") %>%
+  read_csv()
+banerjee_corr <- here("analysis/banerjee_2024_data/e1_props_corrected.csv") %>%
+  read_csv()
+data_props$p[4] - banerjee$prop[1]
 # load modeling results ============================================================
 load(path(results_dir,"fit_summary.RData"))
 load(path(results_dir,"mu_data_model.RData"))
@@ -94,8 +100,22 @@ all_props %>%
 ggplot()+
   geom_point(data=all_props,aes(choice,p,shape=source),alpha=.9,size=3,col="red")+
   labs(y="choice proportion")+
-  scale_shape_manual(values=c(1,4))+
+  scale_shape_manual(values=c(1,4),name="")+
   facet_grid(.~effect)+
   ggthemes::theme_few()+
   theme(text=element_text(size=14))
 ggsave(filename=path(results_dir,"choice_sim_preds.jpeg"),width=5,height=4)
+
+all_props_banerjee_corr <- model_props %>%
+  filter(effect=="repulsion") %>%
+  bind_rows(
+    filter(banerjee_corr,source=="corrected") %>% mutate(choice=tolower(Choice), source="banerjee (adjusted)") %>% rename(p=prop),
+    filter(data_props,effect=="repulsion") %>% mutate(source="current data")
+  )
+ggplot()+
+  geom_point(data=all_props_banerjee_corr,aes(choice,p,shape=source),alpha=.9,size=3,col="red")+
+  labs(y="choice proportion")+
+  scale_shape_manual(values=c(1,16,4),name="")+
+  ggthemes::theme_few()+
+  theme(text=element_text(size=14))
+ggsave(filename=path(results_dir,"choice_sim_preds2.jpeg"),width=5,height=4)

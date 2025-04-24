@@ -1,0 +1,22 @@
+rm(list=ls())
+library(readxl)
+library(tidyverse)
+library(here)
+s <- here("design_choice_only","stim_crit.xlsx") %>%
+  read_excel()
+
+s$t_high <- factor(s$t_high, levels=c(1,2),
+                   labels=c("target high: 1","target high: 2"))
+s %>%
+  ggplot(aes(d1,d2,col=option))+
+  # geom_text(aes(label=option))+
+  geom_point(size=.8,alpha=.75)+
+  facet_grid(effect~t_high+set)+
+  coord_fixed(xlim=c(0,120),ylim=c(0,120))+
+  ggsci::scale_color_startrek()+
+  ggthemes::theme_few()+
+  theme(axis.text = element_blank(),
+        axis.ticks = element_blank(),
+        text=element_text(size=15),
+        legend.position = "top")
+ggsave(filename=here("design_choice_only","stim.jpeg"),width=6,height=6,dpi=600)
