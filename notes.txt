@@ -1,7 +1,28 @@
 modeled stimuli off of Banerjee et al, exp 5
 where the decoys value = 25
 
-
-
+4/24/25
 USED JSPSYCH 7.3 FOR BOTH EXPS
 Added back in attraction trials, both binary and trinary, to choice only experiment
+
+4/25/25
+Now there are both attraction and repulsion trials, both binary and trinary
+No longer using the TD distance manipulation.
+
+I labeled the repulsion trials:
+    - target_high (the dimension the target is highest on)
+      - doesn't apply to attraction binary because target / comp label is arbitrary
+      - repulsion binary target/comp label is also arbitrary, but need to account for taking up separate regions of space
+    - A/B. 
+      - A if the target is the more extreme option (as in the rating experiment), B if the target is the more intermediate option (NEW).
+There are now 44 total trials. 8 catch, 36 critical
+  - 4 catch trinary
+  - 4 catch binary
+  - 4 attraction binary
+    - 1 per product category
+  - 8 repulsion binary
+    - 1 each per product category, t_high value
+  - 16 repulsion trinary
+    - 1 each per product category, t_high value, A/B label
+  - 8 attraction trinary
+    - 1 each per product category, t_high value

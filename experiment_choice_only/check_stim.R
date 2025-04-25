@@ -1,7 +1,7 @@
 rm(list=ls())
 library(tidyverse)
 library(jsonlite)
-d <- read_json(here("experiment/trials.json"),simplifyVector = T)
+d <- read_json(here("experiment_choice_only/trials.json"),simplifyVector = T)
 d %>%
   filter(effect!="catch" ) %>%
   pivot_longer(c(d1_c,d1_t,d1_d,d2_c,d2_t,d2_d),
@@ -12,5 +12,5 @@ d %>%
   ggplot(aes(d1,d2,col=option))+
   coord_fixed(xlim=c(0,120),ylim=c(0,120))+
   geom_point()+
-  facet_grid(effect~t_high)+
+  facet_grid(effect~t_high+set)+
   ggthemes::theme_few()

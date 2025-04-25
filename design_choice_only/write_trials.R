@@ -15,13 +15,15 @@ trials <- expand_grid(effect,t_high,category) %>%
   pivot_wider(names_from = option, values_from = c(d1,d2)) %>%
   select(-trial_id) %>%
   bind_rows(
-    tibble(effect=rep("catch",8), # 4 catch trials
-           category=rep(category,2),
+    tibble(effect=rep("catch",4), # 8 catch trials
+           category=rep(category,1),
            set="trinary"),
-    tibble(effect=rep("catch",8), # 4 catch trials
-           category=rep(category,2),
+    tibble(effect=rep("catch",4), # 8 catch trials
+           category=rep(category,1),
            set="binary"),
   )
+trials %>%
+  count(effect,set)
 
 write_csv(trials,file=here("design_choice_only","trials.csv"))
 write_json(trials,path=here("design_choice_only","trials.json"))
