@@ -10,3 +10,4 @@ old/
 slurm*
 experiment/prolific_code.txt
 cmdstan-2.36.0/
+data_check_choice_only/

@@ -15,6 +15,22 @@ repulsion_1,2,washing machines,trinary,30,40,25,100,90,100
 repulsion_1,2,washing machines,binary,30,40,NA,100,90,NA
 repulsion_1,2,televisions,trinary,30,40,25,100,90,100
 repulsion_1,2,televisions,binary,30,40,NA,100,90,NA
+attraction_1,1,microwave ovens,trinary,60,50,60,50,60,45
+attraction_1,1,microwave ovens,binary,60,50,NA,50,60,NA
+attraction_1,1,laptops,trinary,60,50,60,50,60,45
+attraction_1,1,laptops,binary,60,50,NA,50,60,NA
+attraction_1,1,washing machines,trinary,60,50,60,50,60,45
+attraction_1,1,washing machines,binary,60,50,NA,50,60,NA
+attraction_1,1,televisions,trinary,60,50,60,50,60,45
+attraction_1,1,televisions,binary,60,50,NA,50,60,NA
+attraction_1,2,microwave ovens,trinary,50,60,45,60,50,60
+attraction_1,2,microwave ovens,binary,50,60,NA,60,50,NA
+attraction_1,2,laptops,trinary,50,60,45,60,50,60
+attraction_1,2,laptops,binary,50,60,NA,60,50,NA
+attraction_1,2,washing machines,trinary,50,60,45,60,50,60
+attraction_1,2,washing machines,binary,50,60,NA,60,50,NA
+attraction_1,2,televisions,trinary,50,60,45,60,50,60
+attraction_1,2,televisions,binary,50,60,NA,60,50,NA
 repulsion_2,1,microwave ovens,trinary,100,90,100,30,40,20
 repulsion_2,1,microwave ovens,binary,100,90,NA,30,40,NA
 repulsion_2,1,laptops,trinary,100,90,100,30,40,20
@@ -31,6 +47,22 @@ repulsion_2,2,washing machines,trinary,30,40,20,100,90,100
 repulsion_2,2,washing machines,binary,30,40,NA,100,90,NA
 repulsion_2,2,televisions,trinary,30,40,20,100,90,100
 repulsion_2,2,televisions,binary,30,40,NA,100,90,NA
+attraction_2,1,microwave ovens,trinary,60,50,60,50,60,40
+attraction_2,1,microwave ovens,binary,60,50,NA,50,60,NA
+attraction_2,1,laptops,trinary,60,50,60,50,60,40
+attraction_2,1,laptops,binary,60,50,NA,50,60,NA
+attraction_2,1,washing machines,trinary,60,50,60,50,60,40
+attraction_2,1,washing machines,binary,60,50,NA,50,60,NA
+attraction_2,1,televisions,trinary,60,50,60,50,60,40
+attraction_2,1,televisions,binary,60,50,NA,50,60,NA
+attraction_2,2,microwave ovens,trinary,50,60,40,60,50,60
+attraction_2,2,microwave ovens,binary,50,60,NA,60,50,NA
+attraction_2,2,laptops,trinary,50,60,40,60,50,60
+attraction_2,2,laptops,binary,50,60,NA,60,50,NA
+attraction_2,2,washing machines,trinary,50,60,40,60,50,60
+attraction_2,2,washing machines,binary,50,60,NA,60,50,NA
+attraction_2,2,televisions,trinary,50,60,40,60,50,60
+attraction_2,2,televisions,binary,50,60,NA,60,50,NA
 catch,NA,microwave ovens,trinary,NA,NA,NA,NA,NA,NA
 catch,NA,laptops,trinary,NA,NA,NA,NA,NA,NA
 catch,NA,washing machines,trinary,NA,NA,NA,NA,NA,NA

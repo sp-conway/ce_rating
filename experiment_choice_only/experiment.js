@@ -4,9 +4,9 @@
 // BUT ALSO RANDOMIZE DIMENSION ORDER ON SCREEN
 // init js psych
 const jsPsych = initJsPsych();
-// exp_start_time = performance.now();
+exp_start_time = performance.now();
 
-var code = "Y"+jsPsych.randomization.randomID(6)+"X";
+// var code = "Y"+jsPsych.randomization.randomID(6)+"X";
 
 // sampling function
 function sample(X){
@@ -90,14 +90,14 @@ var choice_instructions = {
     "<div width='100px'; style='text-align: center; padding-left: 40px;'><p><b>The Task:</b></p><br>" +
     "<p>In this experiment, you are taking the perspective of someone who is purchasing consumer goods in bulk.</p>",
     "<p>On each trial, you will see either two or three products.</p></div>"+
-    "<p>You are to select the product you would like to purchase.</p></div>",
+    "<p>You are to select the product you would like to purchase for your company to resell.</p></div>",
     "<p>There will be a different set of products on each trial. The products will either be microwave ovens, laptops, televisions, or washing machines.</p>",
     "<p>Each of these products will have information about its rating on two relevant characteristics.</p>",
     "<p>Below is an example of what you will see on each trial. You will click the circle next to the option you wish to select.</p>"+
     "<div  width='100px';style='float: center;'><img src='choice_example.png' width='500' height='440'/> ",
     "<div  width='100px';style='text-align: center; padding-left: 40px;'><p><b>The Task:</b></p><br>" +
     "<p>You will use this information to make your decisions.</p>"+
-    "<p>There will be 48 trials. After these are finished, the experiment will be concluded.</p>"+
+    "<p>There will be 80 trials. After these are finished, the experiment will be concluded.</p>"+
     "<div  width='100px';style='text-align: left; padding-left: 20px;'><p>Click to start the experiment.</p></div>"
   ]
 };
@@ -753,14 +753,14 @@ var demo3 = {
   }
 };
 
-var end_exp_present_code = {
-  type: jsPsychHtmlKeyboardResponse,
-  stimulus: '',
-  choices: ['q'],
-  prompt: "<p>Thank you for participating! Please copy this code and enter it on SONA: <b>"+code+"</b></p>"+
-  "<p>Press the <b>'q'</b> key to end the experiment. This page will automatically close in 2 minutes. </p>",
-  trial_duration: 120000
-};
+// var end_exp_present_code = {
+//   type: jsPsychHtmlKeyboardResponse,
+//   stimulus: '',
+//   choices: ['q'],
+//   prompt: "<p>Thank you for participating! Please copy this code and enter it on SONA: <b>"+code+"</b></p>"+
+//   "<p>Press the <b>'q'</b> key to end the experiment. This page will automatically close in 2 minutes. </p>",
+//   trial_duration: 120000
+// };
 
 timeline.push(img_preload);
 timeline.push(enter_fullscreen);
@@ -778,6 +778,6 @@ timeline.push(post_exp_survey);
 timeline.push(demo1);
 timeline.push(demo2);
 timeline.push(demo3);
-timeline.push(end_exp_present_code);
+// timeline.push(end_exp_present_code);
 
 jsPsych.run(timeline);

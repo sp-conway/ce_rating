@@ -4,3 +4,4 @@ where the decoys value = 25
 
 
 USED JSPSYCH 7.3 FOR BOTH EXPS
+Added back in attraction trials, both binary and trinary, to choice only experiment
