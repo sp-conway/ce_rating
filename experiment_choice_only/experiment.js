@@ -3,7 +3,14 @@
 // USE THIS TERMINOLOGY BECAUSE WE NEED TO BALANCE WHICH DIM TARGET IS HIGH ON
 // BUT ALSO RANDOMIZE DIMENSION ORDER ON SCREEN
 // init js psych
-const jsPsych = initJsPsych();
+let sona_id = jsPsych.data.urlVariables()['sona_id']
+
+const jsPsych = initJsPsych({
+  on_finish: function(data) {
+    window.location.assign("https://umasspsych.sona-systems.com/webstudy_credit.aspx?experiment_id=1658&credit_token=e7821bf652a04f36ad8b4cffd3c85c93&survey_code=" +sona_id)
+  }
+});
+
 const exp_start_time = performance.now();
 
 // create a random participant ID just in case
@@ -85,6 +92,17 @@ var img_preload = {
     'Judg_choice_debrief.png']
 }
 
+var computer_message = {
+  data: {
+    screen_id: "computer_message"
+  },
+  type: jsPsychInstructions,
+  choices: ['Continue'],
+  show_clickable_nav: true,
+  pages: ["<p>If you are using a smart phone or tablet, please leave the study and participate using a computer.</p>"],
+  response_ends_trial: true
+};
+
 var choice_instructions = {
   data: {
     screen_id: "choice_instructions"
@@ -96,7 +114,7 @@ var choice_instructions = {
   button_label_previous: "Previous Page",
   pages: [
     "<div style='text-align: center; padding-left: 40px;'><p>Welcome! Thank you for participating!</p></div>",
-    "<div width='100px'; style='text-align: center; padding-left: 40px;'><p><b>The Task:</b></p><br>" +
+    "<div width='100px'; style='text-align: center; padding-left: 40px;'><p><b>This Experiment:</b></p><br>" +
     "<p>In this experiment, you are taking the perspective of someone who is purchasing consumer goods in bulk.</p>",
     "<p>On each trial, you will see either two or three products.</p></div>"+
     "<p>You are to select the product you would like to purchase for your company to resell.</p></div>",
@@ -105,8 +123,8 @@ var choice_instructions = {
     "<p>Below is an example of what you will see on each trial. You will click the circle next to the option you wish to select.</p>"+
     "<div  width='100px';style='float: center;'><img src='choice_example.png' width='500' height='440'/> ",
     "<div  width='100px';style='text-align: center; padding-left: 40px;'><p><b>The Task:</b></p><br>" +
-    "<p>You will use this information to make your decisions.</p>"+
-    "<p>There will be 80 trials. After these are finished, the experiment will be concluded.</p>"+
+    "<p>You should use the ratings you see next to each option to make your decisions.</p>"+
+    "<p>There will be 44 trials in total. After these trials are finished, we will ask you some questions. Then, the experiment will be concluded.</p>"+
     "<div  width='100px';style='text-align: left; padding-left: 20px;'><p>Click to start the experiment.</p></div>"
   ]
 };
@@ -144,15 +162,12 @@ var setup_choice_trial = {
       return jsPsych.timelineVariable("set");
     },
     effect: function () {
-      //console.log(jsPsych.timelineVariable("effect"));
       return jsPsych.timelineVariable("effect");
     },
     t_high: function () {
       if(is_catch()) {
         return null
       } else {
-        // console.log("T high on dim"+jsPsych.timelineVariable("t_high"));
-        // console.log();
         return jsPsych.timelineVariable("t_high");
       }
     },
@@ -225,7 +240,6 @@ var setup_choice_trial = {
     // important - which dimension to present first
     first_dim: function() {
       var d = sample([1, 2]);
-      // console.log(d);
       return d;
     }
   }
@@ -236,7 +250,6 @@ var choice_trial = {
   type: jsPsychSurveyHtmlForm,
   preamble: function() {
     var category = jsPsych.timelineVariable("category");
-    // console.log("category", category);
     return "<p><b>" + capitalize(category) + "</b></p>";
   },
   data: {
@@ -246,21 +259,15 @@ var choice_trial = {
       return jsPsych.data.get().last(1).values()[0].order;
     },
     effect: function () {
-      // console.log(jsPsych.timelineVariable("effect"));
       return jsPsych.timelineVariable("effect");
     },
     set: function(){
-      // console.log(jsPsych.timelineVariable("set"));
       return jsPsych.timelineVariable("set");
     },
     t_high: function () {
       if(is_catch()) {
         return null
       } else {
-        // console.log("T high on dim");
-        // console.log(jsPsych.timelineVariable("effect"));
-        // console.log("t high");
-        // console.log(jsPsych.timelineVariable("t_high"));
         return jsPsych.timelineVariable("t_high");
       }
     },
@@ -272,8 +279,6 @@ var choice_trial = {
       if(is_catch()) {
         return null
       } else {
-        // console.log("D1 t (in Data)");
-        // console.log(jsPsych.timelineVariable("d1_t"));
         return jsPsych.timelineVariable("d1_t");
       }
     },
@@ -281,8 +286,6 @@ var choice_trial = {
       if(is_catch()) {
         return null
       } else {
-        // console.log("D1 c (in Data)");
-        // console.log(jsPsych.timelineVariable("d1_c"));
         return jsPsych.timelineVariable("d1_c");
       }
     },
@@ -291,8 +294,6 @@ var choice_trial = {
         return null
       } else {
         if(is_trinary()){
-          // console.log("D1 d (in Data)");
-          // console.log(jsPsych.timelineVariable("d1_d"));
           return jsPsych.timelineVariable("d1_d");
         }else{
           return null
@@ -305,8 +306,6 @@ var choice_trial = {
       if(is_catch()) {
         return null
       } else {
-        // console.log("D2 t (in Data)");
-        // console.log(jsPsych.timelineVariable("d2_t"));
         return jsPsych.timelineVariable("d2_t");
       }
     },
@@ -314,8 +313,6 @@ var choice_trial = {
       if(is_catch()) {
         return null
       } else {
-        // console.log("D2 c (in Data)");
-        // console.log(jsPsych.timelineVariable("d2_c"));
         return jsPsych.timelineVariable("d2_c");
       }
     },
@@ -324,8 +321,6 @@ var choice_trial = {
         return null
       } else {
         if(is_trinary()){
-          // console.log("D2 d (in Data)");
-          // console.log(jsPsych.timelineVariable("d2_d"));
           return jsPsych.timelineVariable("d2_d");
         }else{
           return null
@@ -352,14 +347,10 @@ var choice_trial = {
     // dimension1 name DOES NOT MEAN THIS WAS NECESSARILY FIRST DIM DISPLAYED, SEE BELOOW
     // shuffle dim values
     d1_name: function() {
-      // console.log("d1 name (in data)");
-      // console.log(d1_key.get(jsPsych.timelineVariable("category")))
       return d1_key.get(jsPsych.timelineVariable("category"));
     },
     // dimension2 name
     d2_name: function() {
-      // console.log("d2 name (in data)");
-      // console.log(d2_key.get(jsPsych.timelineVariable("category")))
       return d2_key.get(jsPsych.timelineVariable("category"));
     },
     // dimension1 for worst option1 (again arbitrary but still matters)
@@ -398,8 +389,6 @@ var choice_trial = {
     },
     // WHICH DIMENSION IS PRESENTED FIRST
     first_dim: function() {
-      // console.log("First dim");
-      // console.log(jsPsych.data.get().last(1).values()[0].first_dim);
       return jsPsych.data.get().last(1).values()[0].first_dim;
     }
     // ... (Other data parameters unchanged)
@@ -427,7 +416,9 @@ var choice_trial = {
     // stimulus order
     var order = jsPsych.data.get().last(1).values()[0].order;
     console.log("Order = "+order);
-    //console.log("Order", jsPsych.data.get().last(1).values()[0].order)
+    console.log("effect="+jsPsych.timelineVariable("effect"));
+    console.log("t high="+jsPsych.timelineVariable("t_high"));
+
     // first figure out d1 and d2 for each option
     // later we figure out if we need to flip the attributes around
     if(jsPsych.timelineVariable('set')=="trinary"){
@@ -584,28 +575,6 @@ var choice_trial = {
       second_dim_name_displayed = d1_key.get(category);
     }
 
-    //console.log("Dimension 1 Name (Displayed)");
-    //console.log(first_dim_name_displayed);
-
-    //console.log("Dimension 2 Name (Displayed)");
-    //console.log(second_dim_name_displayed);
-
-    //console.log("option 1, dimension 1:")
-    //console.log(opt1_first_dim_displayed);
-    //console.log("option 1, dimension 2:")
-    //console.log(opt1_second_dim_displayed);
-
-    //console.log("option 2, dimension 1:")
-    //console.log(opt2_first_dim_displayed);
-    //console.log("option 2, dimension 2:")
-    //console.log(opt2_second_dim_displayed);
-
-    //console.log("option 3, dimension 1:")
-    //console.log(opt3_first_dim_displayed);
-    //console.log("option 3, dimension 2:")
-    //console.log(opt3_second_dim_displayed);
-
-
     if(is_trinary()){
       console.log("trinary");
       return `
@@ -688,7 +657,7 @@ var post_exp_survey = {
     prompt: "We would like to know how you chose to go about this task. " +
     "There are no right or wrong answers - we are interested in your strategy. "+
     "Write as little or as much as you would like below.",
-    required: false
+    required: true
   }],
   on_finish: function(data) {
     var d = jsPsych.data.getLastTrialData().trials[0].response;
@@ -701,7 +670,7 @@ var post_exp_survey = {
 // demographics_1: age
 var demo1 = {
   data: {
-    screen_id: "age"
+    screen_id: "demo_age"
   },
   type: jsPsychSurveyText,
   questions: [{
@@ -721,7 +690,7 @@ var demo1 = {
 // demographics 2 - race
 var demo2 = {
   data: {
-    screen_id: "race"
+    screen_id: "demo_race"
   },
   type: jsPsychSurveyMultiSelect,
   questions: [{
@@ -748,7 +717,7 @@ var demo2 = {
 // demographics 3 - gender ethnicity
 var demo3 = {
   data: {
-    screen_id: "ethnicity_gender"
+    screen_id: "demo_ethnicity_gender"
   },
   type: jsPsychSurveyMultiChoice,
   questions: [{
@@ -776,6 +745,25 @@ var demo3 = {
       gender: d.Q1,
     });
   }
+};
+
+var demo4 = {
+    data: {
+      screen_id: "demo_countries"
+    },
+  	type: jsPsychSurveyText,
+  	questions: [{prompt: '<p style= "text-align:left;">Please list any other countries you have lived in for more than a year <br>'+
+  		              'and the number of years you lived in each country.<br>'+
+  		              'Please type NA if you have only lived in the US.</p>', rows:10,columns:50, required:true}], 
+		preamble: "<p> <strong>  DEMOGRAPHIC FORM </strong> </p>",
+		  
+		on_finish: function(data) {
+      var d = jsPsych.data.getLastTrialData().trials[0].response;
+      jsPsych.data.addProperties({
+        other_countries: d.Q0,
+      });
+
+    }
 };
 
 var end_exp = {
@@ -810,7 +798,8 @@ var debrief = {
     
 
 timeline.push(img_preload);
-// timeline.push(enter_fullscreen);
+timeline.push(computer_message);
+timeline.push(enter_fullscreen);
 var choice_procedure = {
   timeline: [setup_choice_trial,
     choice_trial],
@@ -825,7 +814,9 @@ timeline.push(post_exp_survey);
 timeline.push(demo1);
 timeline.push(demo2);
 timeline.push(demo3);
+timeline.push(demo4);
 timeline.push(end_exp);
 timeline.push(debrief);
+
 
 jsPsych.run(timeline);

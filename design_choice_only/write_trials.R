@@ -1,3 +1,5 @@
+# this code takes the stimuli from the stim_crit excel file and writes a json file for the experiment
+# I then modify the json file (in the experiment folder) to be a javascript variable
 rm(list=ls())
 library(readxl)
 library(tidyverse)
