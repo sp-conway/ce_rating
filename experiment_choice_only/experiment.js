@@ -766,6 +766,30 @@ var demo4 = {
     }
 };
 
+var demo5 = {
+  data: {
+    screen_id: "demo_prev_study"
+  },
+  type: jsPsychSurveyMultiChoice,
+  questions: [{
+    prompt: "Have you ever participated in a study, here at UMass, involving choosing amongst rectangles?",
+    options: ["Yes",
+      "No",
+      "I'm not sure"],
+    required: true
+  },
+  preamble: "<p> <strong>  DEMOGRAPHIC FORM </strong> </p>",
+  on_finish: function(data) {
+
+    var d = jsPsych.data.getLastTrialData().trials[0].response;
+
+    jsPsych.data.addProperties({
+      prev_study: d.Q0
+    });
+  }
+};
+
+
 var end_exp = {
   data: {
     screen_id: "post_survey_message"
@@ -815,6 +839,7 @@ timeline.push(demo1);
 timeline.push(demo2);
 timeline.push(demo3);
 timeline.push(demo4);
+timeline.push(demo5);
 timeline.push(end_exp);
 timeline.push(debrief);
 
