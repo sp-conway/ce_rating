@@ -1,0 +1,304 @@
+success,timeout,failed_images,failed_audio,failed_video,screen_id,trial_type,trial_index,time_elapsed,internal_node_id,run_id,condition,recorded_at,source_code_version,user_agent,device,browser,browser_version,platform,platform_version,referer,accept_language,ppt_id,age,race,ethnicity,gender,other_countries,prev_study,exp_duration,view_history,rt,stimulus,response,phase,order,set,effect,t_high,category,d1_best,d2_best,d1_worst1,d2_worst1,d1_worst2,d2_worst2,first_dim,d1_t,d1_c,d1_d,d2_t,d2_c,d2_d,d1_name,d2_name,strategy_response,question_order
+TRUE,FALSE,[],[],[],img preload,preload,0,105,0.0-0.0,158,1,2025-05-04T17:38:23Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=58234,"en-US,en;q=0.9",m6ocxkk4kxhncl5,19,"[""Asian""]",No,Female,"NA
+
+",No,205758.60000000897,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,computer_message,instructions,1,3656,0.0-1.0,158,1,2025-05-04T17:38:23Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=58234,"en-US,en;q=0.9",m6ocxkk4kxhncl5,19,"[""Asian""]",No,Female,"NA
+
+",No,205758.60000000897,"[{""page_index"":0,""viewing_time"":3550}]",3551,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+TRUE,NA,NA,NA,NA,NA,fullscreen,2,5563,0.0-2.0,158,1,2025-05-04T17:38:23Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=58234,"en-US,en;q=0.9",m6ocxkk4kxhncl5,19,"[""Asian""]",No,Female,"NA
+
+",No,205758.60000000897,NA,903,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,choice_instructions,instructions,3,23952,0.0-3.0,158,1,2025-05-04T17:38:23Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=58234,"en-US,en;q=0.9",m6ocxkk4kxhncl5,19,"[""Asian""]",No,Female,"NA
+
+",No,205758.60000000897,"[{""page_index"":0,""viewing_time"":880},{""page_index"":1,""viewing_time"":2805},{""page_index"":2,""viewing_time"":3489},{""page_index"":3,""viewing_time"":1168},{""page_index"":4,""viewing_time"":851},{""page_index"":5,""viewing_time"":8280},{""page_index"":6,""viewing_time"":914}]",18387,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,choice_trial_setup,html-keyboard-response,4,24257,0.0-4.0-0.0,158,1,2025-05-04T17:38:23Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=58234,"en-US,en;q=0.9",m6ocxkk4kxhncl5,19,"[""Asian""]",No,Female,"NA
+
+",No,205758.60000000897,NA,null,<p></p>,null,choice,bww,trinary,catch,null,televisions,65,60,40,50,25,25,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,choice_trial,survey-html-form,5,32083,0.0-4.0-1.0,158,1,2025-05-04T17:38:23Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=58234,"en-US,en;q=0.9",m6ocxkk4kxhncl5,19,"[""Asian""]",No,Female,"NA
+
+",No,205758.60000000897,NA,7821,NA,"{""product_choice"":""A""}",choice,bww,trinary,catch,null,televisions,65,60,40,50,25,25,2,null,null,null,null,null,null,Screen size,Average lifespan,NA,NA
+NA,NA,NA,NA,NA,choice_trial_setup,html-keyboard-response,6,32386,0.0-4.0-0.1,158,1,2025-05-04T17:38:23Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=58234,"en-US,en;q=0.9",m6ocxkk4kxhncl5,19,"[""Asian""]",No,Female,"NA
+
+",No,205758.60000000897,NA,null,<p></p>,null,choice,cdt,trinary,attraction,2,washing machines,null,null,null,null,null,null,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,choice_trial,survey-html-form,7,37097,0.0-4.0-1.1,158,1,2025-05-04T17:38:23Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=58234,"en-US,en;q=0.9",m6ocxkk4kxhncl5,19,"[""Asian""]",No,Female,"NA
+
+",No,205758.60000000897,NA,4708,NA,"{""product_choice"":""C""}",choice,cdt,trinary,attraction,2,washing machines,null,null,null,null,null,null,2,50,60,40,60,50,60,Average lifespan,Energy savings,NA,NA
+NA,NA,NA,NA,NA,choice_trial_setup,html-keyboard-response,8,37401,0.0-4.0-0.2,158,1,2025-05-04T17:38:23Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=58234,"en-US,en;q=0.9",m6ocxkk4kxhncl5,19,"[""Asian""]",No,Female,"NA
+
+",No,205758.60000000897,NA,null,<p></p>,null,choice,ctd,trinary,attraction,1,laptops,null,null,null,null,null,null,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,choice_trial,survey-html-form,9,40053,0.0-4.0-1.2,158,1,2025-05-04T17:38:23Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=58234,"en-US,en;q=0.9",m6ocxkk4kxhncl5,19,"[""Asian""]",No,Female,"NA
+
+",No,205758.60000000897,NA,2649,NA,"{""product_choice"":""A""}",choice,ctd,trinary,attraction,1,laptops,null,null,null,null,null,null,2,60,50,60,50,60,40,Processing speed,Memory (RAM),NA,NA
+NA,NA,NA,NA,NA,choice_trial_setup,html-keyboard-response,10,40357,0.0-4.0-0.3,158,1,2025-05-04T17:38:23Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=58234,"en-US,en;q=0.9",m6ocxkk4kxhncl5,19,"[""Asian""]",No,Female,"NA
+
+",No,205758.60000000897,NA,null,<p></p>,null,choice,bww,trinary,catch,null,washing machines,95,75,5,15,45,10,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,choice_trial,survey-html-form,11,43168,0.0-4.0-1.3,158,1,2025-05-04T17:38:23Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=58234,"en-US,en;q=0.9",m6ocxkk4kxhncl5,19,"[""Asian""]",No,Female,"NA
+
+",No,205758.60000000897,NA,2808,NA,"{""product_choice"":""A""}",choice,bww,trinary,catch,null,washing machines,95,75,5,15,45,10,1,null,null,null,null,null,null,Average lifespan,Energy savings,NA,NA
+NA,NA,NA,NA,NA,choice_trial_setup,html-keyboard-response,12,43471,0.0-4.0-0.4,158,1,2025-05-04T17:38:23Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=58234,"en-US,en;q=0.9",m6ocxkk4kxhncl5,19,"[""Asian""]",No,Female,"NA
+
+",No,205758.60000000897,NA,null,<p></p>,null,choice,ct,binary,attraction,NA,microwave ovens,null,null,null,null,null,null,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,choice_trial,survey-html-form,13,47029,0.0-4.0-1.4,158,1,2025-05-04T17:38:23Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=58234,"en-US,en;q=0.9",m6ocxkk4kxhncl5,19,"[""Asian""]",No,Female,"NA
+
+",No,205758.60000000897,NA,3555,NA,"{""product_choice"":""A""}",choice,ct,binary,attraction,NA,microwave ovens,null,null,null,null,null,null,2,60,50,null,50,60,null,Warranty,Cooking power,NA,NA
+NA,NA,NA,NA,NA,choice_trial_setup,html-keyboard-response,14,47333,0.0-4.0-0.5,158,1,2025-05-04T17:38:23Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=58234,"en-US,en;q=0.9",m6ocxkk4kxhncl5,19,"[""Asian""]",No,Female,"NA
+
+",No,205758.60000000897,NA,null,<p></p>,null,choice,wwb,trinary,catch,null,microwave ovens,60,85,25,20,20,50,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,choice_trial,survey-html-form,15,49557,0.0-4.0-1.5,158,1,2025-05-04T17:38:23Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=58234,"en-US,en;q=0.9",m6ocxkk4kxhncl5,19,"[""Asian""]",No,Female,"NA
+
+",No,205758.60000000897,NA,2220,NA,"{""product_choice"":""C""}",choice,wwb,trinary,catch,null,microwave ovens,60,85,25,20,20,50,1,null,null,null,null,null,null,Warranty,Cooking power,NA,NA
+NA,NA,NA,NA,NA,choice_trial_setup,html-keyboard-response,16,49861,0.0-4.0-0.6,158,1,2025-05-04T17:38:23Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=58234,"en-US,en;q=0.9",m6ocxkk4kxhncl5,19,"[""Asian""]",No,Female,"NA
+
+",No,205758.60000000897,NA,null,<p></p>,null,choice,tcd,trinary,repulsion_A,1,televisions,null,null,null,null,null,null,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,choice_trial,survey-html-form,17,51655,0.0-4.0-1.6,158,1,2025-05-04T17:38:23Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=58234,"en-US,en;q=0.9",m6ocxkk4kxhncl5,19,"[""Asian""]",No,Female,"NA
+
+",No,205758.60000000897,NA,1790,NA,"{""product_choice"":""B""}",choice,tcd,trinary,repulsion_A,1,televisions,null,null,null,null,null,null,2,100,90,100,30,40,20,Screen size,Average lifespan,NA,NA
+NA,NA,NA,NA,NA,choice_trial_setup,html-keyboard-response,18,51959,0.0-4.0-0.7,158,1,2025-05-04T17:38:23Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=58234,"en-US,en;q=0.9",m6ocxkk4kxhncl5,19,"[""Asian""]",No,Female,"NA
+
+",No,205758.60000000897,NA,null,<p></p>,null,choice,ctd,trinary,repulsion_B,1,televisions,null,null,null,null,null,null,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,choice_trial,survey-html-form,19,53348,0.0-4.0-1.7,158,1,2025-05-04T17:38:23Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=58234,"en-US,en;q=0.9",m6ocxkk4kxhncl5,19,"[""Asian""]",No,Female,"NA
+
+",No,205758.60000000897,NA,1386,NA,"{""product_choice"":""A""}",choice,ctd,trinary,repulsion_B,1,televisions,null,null,null,null,null,null,1,90,100,80,40,30,40,Screen size,Average lifespan,NA,NA
+NA,NA,NA,NA,NA,choice_trial_setup,html-keyboard-response,20,53651,0.0-4.0-0.8,158,1,2025-05-04T17:38:23Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=58234,"en-US,en;q=0.9",m6ocxkk4kxhncl5,19,"[""Asian""]",No,Female,"NA
+
+",No,205758.60000000897,NA,null,<p></p>,null,choice,tc,binary,repulsion,2,televisions,null,null,null,null,null,null,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,choice_trial,survey-html-form,21,55477,0.0-4.0-1.8,158,1,2025-05-04T17:38:23Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=58234,"en-US,en;q=0.9",m6ocxkk4kxhncl5,19,"[""Asian""]",No,Female,"NA
+
+",No,205758.60000000897,NA,1822,NA,"{""product_choice"":""A""}",choice,tc,binary,repulsion,2,televisions,null,null,null,null,null,null,1,30,40,null,100,90,null,Screen size,Average lifespan,NA,NA
+NA,NA,NA,NA,NA,choice_trial_setup,html-keyboard-response,22,55780,0.0-4.0-0.9,158,1,2025-05-04T17:38:23Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=58234,"en-US,en;q=0.9",m6ocxkk4kxhncl5,19,"[""Asian""]",No,Female,"NA
+
+",No,205758.60000000897,NA,null,<p></p>,null,choice,dtc,trinary,repulsion_A,1,laptops,null,null,null,null,null,null,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,choice_trial,survey-html-form,23,57115,0.0-4.0-1.9,158,1,2025-05-04T17:38:23Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=58234,"en-US,en;q=0.9",m6ocxkk4kxhncl5,19,"[""Asian""]",No,Female,"NA
+
+",No,205758.60000000897,NA,1331,NA,"{""product_choice"":""B""}",choice,dtc,trinary,repulsion_A,1,laptops,null,null,null,null,null,null,1,100,90,100,30,40,20,Processing speed,Memory (RAM),NA,NA
+NA,NA,NA,NA,NA,choice_trial_setup,html-keyboard-response,24,57418,0.0-4.0-0.10,158,1,2025-05-04T17:38:23Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=58234,"en-US,en;q=0.9",m6ocxkk4kxhncl5,19,"[""Asian""]",No,Female,"NA
+
+",No,205758.60000000897,NA,null,<p></p>,null,choice,ctd,trinary,repulsion_A,2,microwave ovens,null,null,null,null,null,null,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,choice_trial,survey-html-form,25,58784,0.0-4.0-1.10,158,1,2025-05-04T17:38:23Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=58234,"en-US,en;q=0.9",m6ocxkk4kxhncl5,19,"[""Asian""]",No,Female,"NA
+
+",No,205758.60000000897,NA,1363,NA,"{""product_choice"":""B""}",choice,ctd,trinary,repulsion_A,2,microwave ovens,null,null,null,null,null,null,1,30,40,20,100,90,100,Warranty,Cooking power,NA,NA
+NA,NA,NA,NA,NA,choice_trial_setup,html-keyboard-response,26,59087,0.0-4.0-0.11,158,1,2025-05-04T17:38:23Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=58234,"en-US,en;q=0.9",m6ocxkk4kxhncl5,19,"[""Asian""]",No,Female,"NA
+
+",No,205758.60000000897,NA,null,<p></p>,null,choice,wwb,trinary,catch,null,laptops,50,70,20,40,15,35,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,choice_trial,survey-html-form,27,61643,0.0-4.0-1.11,158,1,2025-05-04T17:38:23Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=58234,"en-US,en;q=0.9",m6ocxkk4kxhncl5,19,"[""Asian""]",No,Female,"NA
+
+",No,205758.60000000897,NA,2553,NA,"{""product_choice"":""C""}",choice,wwb,trinary,catch,null,laptops,50,70,20,40,15,35,1,null,null,null,null,null,null,Processing speed,Memory (RAM),NA,NA
+NA,NA,NA,NA,NA,choice_trial_setup,html-keyboard-response,28,61947,0.0-4.0-0.12,158,1,2025-05-04T17:38:23Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=58234,"en-US,en;q=0.9",m6ocxkk4kxhncl5,19,"[""Asian""]",No,Female,"NA
+
+",No,205758.60000000897,NA,null,<p></p>,null,choice,dtc,trinary,repulsion_A,2,televisions,null,null,null,null,null,null,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,choice_trial,survey-html-form,29,64140,0.0-4.0-1.12,158,1,2025-05-04T17:38:23Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=58234,"en-US,en;q=0.9",m6ocxkk4kxhncl5,19,"[""Asian""]",No,Female,"NA
+
+",No,205758.60000000897,NA,2189,NA,"{""product_choice"":""B""}",choice,dtc,trinary,repulsion_A,2,televisions,null,null,null,null,null,null,2,30,40,20,100,90,100,Screen size,Average lifespan,NA,NA
+NA,NA,NA,NA,NA,choice_trial_setup,html-keyboard-response,30,64444,0.0-4.0-0.13,158,1,2025-05-04T17:38:23Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=58234,"en-US,en;q=0.9",m6ocxkk4kxhncl5,19,"[""Asian""]",No,Female,"NA
+
+",No,205758.60000000897,NA,null,<p></p>,null,choice,tdc,trinary,repulsion_B,1,microwave ovens,null,null,null,null,null,null,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,choice_trial,survey-html-form,31,66435,0.0-4.0-1.13,158,1,2025-05-04T17:38:23Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=58234,"en-US,en;q=0.9",m6ocxkk4kxhncl5,19,"[""Asian""]",No,Female,"NA
+
+",No,205758.60000000897,NA,1987,NA,"{""product_choice"":""B""}",choice,tdc,trinary,repulsion_B,1,microwave ovens,null,null,null,null,null,null,2,90,100,80,40,30,40,Warranty,Cooking power,NA,NA
+NA,NA,NA,NA,NA,choice_trial_setup,html-keyboard-response,32,66739,0.0-4.0-0.14,158,1,2025-05-04T17:38:23Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=58234,"en-US,en;q=0.9",m6ocxkk4kxhncl5,19,"[""Asian""]",No,Female,"NA
+
+",No,205758.60000000897,NA,null,<p></p>,null,choice,ct,binary,repulsion,1,televisions,null,null,null,null,null,null,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,choice_trial,survey-html-form,33,68129,0.0-4.0-1.14,158,1,2025-05-04T17:38:23Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=58234,"en-US,en;q=0.9",m6ocxkk4kxhncl5,19,"[""Asian""]",No,Female,"NA
+
+",No,205758.60000000897,NA,1386,NA,"{""product_choice"":""A""}",choice,ct,binary,repulsion,1,televisions,null,null,null,null,null,null,1,100,90,null,30,40,null,Screen size,Average lifespan,NA,NA
+NA,NA,NA,NA,NA,choice_trial_setup,html-keyboard-response,34,68434,0.0-4.0-0.15,158,1,2025-05-04T17:38:23Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=58234,"en-US,en;q=0.9",m6ocxkk4kxhncl5,19,"[""Asian""]",No,Female,"NA
+
+",No,205758.60000000897,NA,null,<p></p>,null,choice,ct,binary,repulsion,1,washing machines,null,null,null,null,null,null,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,choice_trial,survey-html-form,35,69757,0.0-4.0-1.15,158,1,2025-05-04T17:38:23Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=58234,"en-US,en;q=0.9",m6ocxkk4kxhncl5,19,"[""Asian""]",No,Female,"NA
+
+",No,205758.60000000897,NA,1319,NA,"{""product_choice"":""A""}",choice,ct,binary,repulsion,1,washing machines,null,null,null,null,null,null,1,100,90,null,30,40,null,Average lifespan,Energy savings,NA,NA
+NA,NA,NA,NA,NA,choice_trial_setup,html-keyboard-response,36,70061,0.0-4.0-0.16,158,1,2025-05-04T17:38:23Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=58234,"en-US,en;q=0.9",m6ocxkk4kxhncl5,19,"[""Asian""]",No,Female,"NA
+
+",No,205758.60000000897,NA,null,<p></p>,null,choice,bw,binary,catch,null,televisions,90,50,5,45,null,null,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,choice_trial,survey-html-form,37,71602,0.0-4.0-1.16,158,1,2025-05-04T17:38:23Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=58234,"en-US,en;q=0.9",m6ocxkk4kxhncl5,19,"[""Asian""]",No,Female,"NA
+
+",No,205758.60000000897,NA,1536,NA,"{""product_choice"":""B""}",choice,bw,binary,catch,null,televisions,90,50,5,45,null,null,1,null,null,null,null,null,null,Screen size,Average lifespan,NA,NA
+NA,NA,NA,NA,NA,choice_trial_setup,html-keyboard-response,38,71906,0.0-4.0-0.17,158,1,2025-05-04T17:38:23Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=58234,"en-US,en;q=0.9",m6ocxkk4kxhncl5,19,"[""Asian""]",No,Female,"NA
+
+",No,205758.60000000897,NA,null,<p></p>,null,choice,wb,binary,catch,null,microwave ovens,55,85,10,25,null,null,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,choice_trial,survey-html-form,39,75017,0.0-4.0-1.17,158,1,2025-05-04T17:38:23Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=58234,"en-US,en;q=0.9",m6ocxkk4kxhncl5,19,"[""Asian""]",No,Female,"NA
+
+",No,205758.60000000897,NA,3108,NA,"{""product_choice"":""A""}",choice,wb,binary,catch,null,microwave ovens,55,85,10,25,null,null,2,null,null,null,null,null,null,Warranty,Cooking power,NA,NA
+NA,NA,NA,NA,NA,choice_trial_setup,html-keyboard-response,40,75321,0.0-4.0-0.18,158,1,2025-05-04T17:38:23Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=58234,"en-US,en;q=0.9",m6ocxkk4kxhncl5,19,"[""Asian""]",No,Female,"NA
+
+",No,205758.60000000897,NA,null,<p></p>,null,choice,tc,binary,repulsion,2,washing machines,null,null,null,null,null,null,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,choice_trial,survey-html-form,41,84978,0.0-4.0-1.18,158,1,2025-05-04T17:38:23Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=58234,"en-US,en;q=0.9",m6ocxkk4kxhncl5,19,"[""Asian""]",No,Female,"NA
+
+",No,205758.60000000897,NA,9652,NA,"{""product_choice"":""A""}",choice,tc,binary,repulsion,2,washing machines,null,null,null,null,null,null,2,30,40,null,100,90,null,Average lifespan,Energy savings,NA,NA
+NA,NA,NA,NA,NA,choice_trial_setup,html-keyboard-response,42,85282,0.0-4.0-0.19,158,1,2025-05-04T17:38:23Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=58234,"en-US,en;q=0.9",m6ocxkk4kxhncl5,19,"[""Asian""]",No,Female,"NA
+
+",No,205758.60000000897,NA,null,<p></p>,null,choice,ct,binary,repulsion,2,microwave ovens,null,null,null,null,null,null,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,choice_trial,survey-html-form,43,87823,0.0-4.0-1.19,158,1,2025-05-04T17:38:23Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=58234,"en-US,en;q=0.9",m6ocxkk4kxhncl5,19,"[""Asian""]",No,Female,"NA
+
+",No,205758.60000000897,NA,2536,NA,"{""product_choice"":""B""}",choice,ct,binary,repulsion,2,microwave ovens,null,null,null,null,null,null,2,30,40,null,100,90,null,Warranty,Cooking power,NA,NA
+NA,NA,NA,NA,NA,choice_trial_setup,html-keyboard-response,44,88127,0.0-4.0-0.20,158,1,2025-05-04T17:38:23Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=58234,"en-US,en;q=0.9",m6ocxkk4kxhncl5,19,"[""Asian""]",No,Female,"NA
+
+",No,205758.60000000897,NA,null,<p></p>,null,choice,dtc,trinary,attraction,2,laptops,null,null,null,null,null,null,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,choice_trial,survey-html-form,45,94322,0.0-4.0-1.20,158,1,2025-05-04T17:38:23Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=58234,"en-US,en;q=0.9",m6ocxkk4kxhncl5,19,"[""Asian""]",No,Female,"NA
+
+",No,205758.60000000897,NA,6191,NA,"{""product_choice"":""C""}",choice,dtc,trinary,attraction,2,laptops,null,null,null,null,null,null,1,50,60,40,60,50,60,Processing speed,Memory (RAM),NA,NA
+NA,NA,NA,NA,NA,choice_trial_setup,html-keyboard-response,46,94627,0.0-4.0-0.21,158,1,2025-05-04T17:38:23Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=58234,"en-US,en;q=0.9",m6ocxkk4kxhncl5,19,"[""Asian""]",No,Female,"NA
+
+",No,205758.60000000897,NA,null,<p></p>,null,choice,ctd,trinary,repulsion_B,2,microwave ovens,null,null,null,null,null,null,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,choice_trial,survey-html-form,47,97199,0.0-4.0-1.21,158,1,2025-05-04T17:38:23Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=58234,"en-US,en;q=0.9",m6ocxkk4kxhncl5,19,"[""Asian""]",No,Female,"NA
+
+",No,205758.60000000897,NA,2568,NA,"{""product_choice"":""A""}",choice,ctd,trinary,repulsion_B,2,microwave ovens,null,null,null,null,null,null,1,40,30,40,90,100,80,Warranty,Cooking power,NA,NA
+NA,NA,NA,NA,NA,choice_trial_setup,html-keyboard-response,48,97504,0.0-4.0-0.22,158,1,2025-05-04T17:38:23Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=58234,"en-US,en;q=0.9",m6ocxkk4kxhncl5,19,"[""Asian""]",No,Female,"NA
+
+",No,205758.60000000897,NA,null,<p></p>,null,choice,wb,binary,catch,null,washing machines,90,85,10,20,null,null,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,choice_trial,survey-html-form,49,99599,0.0-4.0-1.22,158,1,2025-05-04T17:38:23Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=58234,"en-US,en;q=0.9",m6ocxkk4kxhncl5,19,"[""Asian""]",No,Female,"NA
+
+",No,205758.60000000897,NA,2090,NA,"{""product_choice"":""B""}",choice,wb,binary,catch,null,washing machines,90,85,10,20,null,null,1,null,null,null,null,null,null,Average lifespan,Energy savings,NA,NA
+NA,NA,NA,NA,NA,choice_trial_setup,html-keyboard-response,50,99904,0.0-4.0-0.23,158,1,2025-05-04T17:38:23Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=58234,"en-US,en;q=0.9",m6ocxkk4kxhncl5,19,"[""Asian""]",No,Female,"NA
+
+",No,205758.60000000897,NA,null,<p></p>,null,choice,tc,binary,attraction,NA,washing machines,null,null,null,null,null,null,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,choice_trial,survey-html-form,51,101539,0.0-4.0-1.23,158,1,2025-05-04T17:38:23Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=58234,"en-US,en;q=0.9",m6ocxkk4kxhncl5,19,"[""Asian""]",No,Female,"NA
+
+",No,205758.60000000897,NA,1631,NA,"{""product_choice"":""A""}",choice,tc,binary,attraction,NA,washing machines,null,null,null,null,null,null,1,60,50,null,50,60,null,Average lifespan,Energy savings,NA,NA
+NA,NA,NA,NA,NA,choice_trial_setup,html-keyboard-response,52,101844,0.0-4.0-0.24,158,1,2025-05-04T17:38:23Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=58234,"en-US,en;q=0.9",m6ocxkk4kxhncl5,19,"[""Asian""]",No,Female,"NA
+
+",No,205758.60000000897,NA,null,<p></p>,null,choice,dtc,trinary,attraction,1,washing machines,null,null,null,null,null,null,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,choice_trial,survey-html-form,53,108090,0.0-4.0-1.24,158,1,2025-05-04T17:38:23Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=58234,"en-US,en;q=0.9",m6ocxkk4kxhncl5,19,"[""Asian""]",No,Female,"NA
+
+",No,205758.60000000897,NA,6240,NA,"{""product_choice"":""B""}",choice,dtc,trinary,attraction,1,washing machines,null,null,null,null,null,null,2,60,50,60,50,60,40,Average lifespan,Energy savings,NA,NA
+NA,NA,NA,NA,NA,choice_trial_setup,html-keyboard-response,54,108394,0.0-4.0-0.25,158,1,2025-05-04T17:38:23Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=58234,"en-US,en;q=0.9",m6ocxkk4kxhncl5,19,"[""Asian""]",No,Female,"NA
+
+",No,205758.60000000897,NA,null,<p></p>,null,choice,ct,binary,repulsion,2,laptops,null,null,null,null,null,null,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,choice_trial,survey-html-form,55,112897,0.0-4.0-1.25,158,1,2025-05-04T17:38:23Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=58234,"en-US,en;q=0.9",m6ocxkk4kxhncl5,19,"[""Asian""]",No,Female,"NA
+
+",No,205758.60000000897,NA,4498,NA,"{""product_choice"":""B""}",choice,ct,binary,repulsion,2,laptops,null,null,null,null,null,null,2,30,40,null,100,90,null,Processing speed,Memory (RAM),NA,NA
+NA,NA,NA,NA,NA,choice_trial_setup,html-keyboard-response,56,113201,0.0-4.0-0.26,158,1,2025-05-04T17:38:23Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=58234,"en-US,en;q=0.9",m6ocxkk4kxhncl5,19,"[""Asian""]",No,Female,"NA
+
+",No,205758.60000000897,NA,null,<p></p>,null,choice,dct,trinary,repulsion_A,1,microwave ovens,null,null,null,null,null,null,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,choice_trial,survey-html-form,57,116815,0.0-4.0-1.26,158,1,2025-05-04T17:38:23Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=58234,"en-US,en;q=0.9",m6ocxkk4kxhncl5,19,"[""Asian""]",No,Female,"NA
+
+",No,205758.60000000897,NA,3611,NA,"{""product_choice"":""A""}",choice,dct,trinary,repulsion_A,1,microwave ovens,null,null,null,null,null,null,2,100,90,100,30,40,20,Warranty,Cooking power,NA,NA
+NA,NA,NA,NA,NA,choice_trial_setup,html-keyboard-response,58,117119,0.0-4.0-0.27,158,1,2025-05-04T17:38:23Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=58234,"en-US,en;q=0.9",m6ocxkk4kxhncl5,19,"[""Asian""]",No,Female,"NA
+
+",No,205758.60000000897,NA,null,<p></p>,null,choice,cdt,trinary,repulsion_B,2,washing machines,null,null,null,null,null,null,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,choice_trial,survey-html-form,59,118580,0.0-4.0-1.27,158,1,2025-05-04T17:38:23Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=58234,"en-US,en;q=0.9",m6ocxkk4kxhncl5,19,"[""Asian""]",No,Female,"NA
+
+",No,205758.60000000897,NA,1458,NA,"{""product_choice"":""B""}",choice,cdt,trinary,repulsion_B,2,washing machines,null,null,null,null,null,null,2,40,30,40,90,100,80,Average lifespan,Energy savings,NA,NA
+NA,NA,NA,NA,NA,choice_trial_setup,html-keyboard-response,60,118884,0.0-4.0-0.28,158,1,2025-05-04T17:38:23Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=58234,"en-US,en;q=0.9",m6ocxkk4kxhncl5,19,"[""Asian""]",No,Female,"NA
+
+",No,205758.60000000897,NA,null,<p></p>,null,choice,tc,binary,repulsion,1,microwave ovens,null,null,null,null,null,null,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,choice_trial,survey-html-form,61,123976,0.0-4.0-1.28,158,1,2025-05-04T17:38:23Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=58234,"en-US,en;q=0.9",m6ocxkk4kxhncl5,19,"[""Asian""]",No,Female,"NA
+
+",No,205758.60000000897,NA,5086,NA,"{""product_choice"":""A""}",choice,tc,binary,repulsion,1,microwave ovens,null,null,null,null,null,null,1,100,90,null,30,40,null,Warranty,Cooking power,NA,NA
+NA,NA,NA,NA,NA,choice_trial_setup,html-keyboard-response,62,124281,0.0-4.0-0.29,158,1,2025-05-04T17:38:23Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=58234,"en-US,en;q=0.9",m6ocxkk4kxhncl5,19,"[""Asian""]",No,Female,"NA
+
+",No,205758.60000000897,NA,null,<p></p>,null,choice,cdt,trinary,repulsion_A,2,laptops,null,null,null,null,null,null,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,choice_trial,survey-html-form,63,125908,0.0-4.0-1.29,158,1,2025-05-04T17:38:23Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=58234,"en-US,en;q=0.9",m6ocxkk4kxhncl5,19,"[""Asian""]",No,Female,"NA
+
+",No,205758.60000000897,NA,1622,NA,"{""product_choice"":""C""}",choice,cdt,trinary,repulsion_A,2,laptops,null,null,null,null,null,null,2,30,40,20,100,90,100,Processing speed,Memory (RAM),NA,NA
+NA,NA,NA,NA,NA,choice_trial_setup,html-keyboard-response,64,126212,0.0-4.0-0.30,158,1,2025-05-04T17:38:23Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=58234,"en-US,en;q=0.9",m6ocxkk4kxhncl5,19,"[""Asian""]",No,Female,"NA
+
+",No,205758.60000000897,NA,null,<p></p>,null,choice,tcd,trinary,repulsion_B,1,washing machines,null,null,null,null,null,null,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,choice_trial,survey-html-form,65,127783,0.0-4.0-1.30,158,1,2025-05-04T17:38:23Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=58234,"en-US,en;q=0.9",m6ocxkk4kxhncl5,19,"[""Asian""]",No,Female,"NA
+
+",No,205758.60000000897,NA,1567,NA,"{""product_choice"":""B""}",choice,tcd,trinary,repulsion_B,1,washing machines,null,null,null,null,null,null,2,90,100,80,40,30,40,Average lifespan,Energy savings,NA,NA
+NA,NA,NA,NA,NA,choice_trial_setup,html-keyboard-response,66,128087,0.0-4.0-0.31,158,1,2025-05-04T17:38:23Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=58234,"en-US,en;q=0.9",m6ocxkk4kxhncl5,19,"[""Asian""]",No,Female,"NA
+
+",No,205758.60000000897,NA,null,<p></p>,null,choice,dct,trinary,attraction,2,televisions,null,null,null,null,null,null,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,choice_trial,survey-html-form,67,130461,0.0-4.0-1.31,158,1,2025-05-04T17:38:23Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=58234,"en-US,en;q=0.9",m6ocxkk4kxhncl5,19,"[""Asian""]",No,Female,"NA
+
+",No,205758.60000000897,NA,2370,NA,"{""product_choice"":""B""}",choice,dct,trinary,attraction,2,televisions,null,null,null,null,null,null,2,50,60,40,60,50,60,Screen size,Average lifespan,NA,NA
+NA,NA,NA,NA,NA,choice_trial_setup,html-keyboard-response,68,130765,0.0-4.0-0.32,158,1,2025-05-04T17:38:23Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=58234,"en-US,en;q=0.9",m6ocxkk4kxhncl5,19,"[""Asian""]",No,Female,"NA
+
+",No,205758.60000000897,NA,null,<p></p>,null,choice,ct,binary,attraction,NA,laptops,null,null,null,null,null,null,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,choice_trial,survey-html-form,69,132829,0.0-4.0-1.32,158,1,2025-05-04T17:38:23Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=58234,"en-US,en;q=0.9",m6ocxkk4kxhncl5,19,"[""Asian""]",No,Female,"NA
+
+",No,205758.60000000897,NA,2060,NA,"{""product_choice"":""B""}",choice,ct,binary,attraction,NA,laptops,null,null,null,null,null,null,2,60,50,null,50,60,null,Processing speed,Memory (RAM),NA,NA
+NA,NA,NA,NA,NA,choice_trial_setup,html-keyboard-response,70,133134,0.0-4.0-0.33,158,1,2025-05-04T17:38:23Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=58234,"en-US,en;q=0.9",m6ocxkk4kxhncl5,19,"[""Asian""]",No,Female,"NA
+
+",No,205758.60000000897,NA,null,<p></p>,null,choice,ct,binary,repulsion,1,laptops,null,null,null,null,null,null,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,choice_trial,survey-html-form,71,134459,0.0-4.0-1.33,158,1,2025-05-04T17:38:23Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=58234,"en-US,en;q=0.9",m6ocxkk4kxhncl5,19,"[""Asian""]",No,Female,"NA
+
+",No,205758.60000000897,NA,1320,NA,"{""product_choice"":""A""}",choice,ct,binary,repulsion,1,laptops,null,null,null,null,null,null,1,100,90,null,30,40,null,Processing speed,Memory (RAM),NA,NA
+NA,NA,NA,NA,NA,choice_trial_setup,html-keyboard-response,72,134763,0.0-4.0-0.34,158,1,2025-05-04T17:38:23Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=58234,"en-US,en;q=0.9",m6ocxkk4kxhncl5,19,"[""Asian""]",No,Female,"NA
+
+",No,205758.60000000897,NA,null,<p></p>,null,choice,tcd,trinary,attraction,1,microwave ovens,null,null,null,null,null,null,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,choice_trial,survey-html-form,73,136745,0.0-4.0-1.34,158,1,2025-05-04T17:38:23Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=58234,"en-US,en;q=0.9",m6ocxkk4kxhncl5,19,"[""Asian""]",No,Female,"NA
+
+",No,205758.60000000897,NA,1976,NA,"{""product_choice"":""B""}",choice,tcd,trinary,attraction,1,microwave ovens,null,null,null,null,null,null,1,60,50,60,50,60,40,Warranty,Cooking power,NA,NA
+NA,NA,NA,NA,NA,choice_trial_setup,html-keyboard-response,74,137048,0.0-4.0-0.35,158,1,2025-05-04T17:38:23Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=58234,"en-US,en;q=0.9",m6ocxkk4kxhncl5,19,"[""Asian""]",No,Female,"NA
+
+",No,205758.60000000897,NA,null,<p></p>,null,choice,dtc,trinary,repulsion_B,1,laptops,null,null,null,null,null,null,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,choice_trial,survey-html-form,75,139187,0.0-4.0-1.35,158,1,2025-05-04T17:38:23Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=58234,"en-US,en;q=0.9",m6ocxkk4kxhncl5,19,"[""Asian""]",No,Female,"NA
+
+",No,205758.60000000897,NA,2134,NA,"{""product_choice"":""A""}",choice,dtc,trinary,repulsion_B,1,laptops,null,null,null,null,null,null,1,90,100,80,40,30,40,Processing speed,Memory (RAM),NA,NA
+NA,NA,NA,NA,NA,choice_trial_setup,html-keyboard-response,76,139491,0.0-4.0-0.36,158,1,2025-05-04T17:38:23Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=58234,"en-US,en;q=0.9",m6ocxkk4kxhncl5,19,"[""Asian""]",No,Female,"NA
+
+",No,205758.60000000897,NA,null,<p></p>,null,choice,dct,trinary,repulsion_A,1,washing machines,null,null,null,null,null,null,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,choice_trial,survey-html-form,77,146286,0.0-4.0-1.36,158,1,2025-05-04T17:38:23Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=58234,"en-US,en;q=0.9",m6ocxkk4kxhncl5,19,"[""Asian""]",No,Female,"NA
+
+",No,205758.60000000897,NA,6789,NA,"{""product_choice"":""B""}",choice,dct,trinary,repulsion_A,1,washing machines,null,null,null,null,null,null,2,100,90,100,30,40,20,Average lifespan,Energy savings,NA,NA
+NA,NA,NA,NA,NA,choice_trial_setup,html-keyboard-response,78,146591,0.0-4.0-0.37,158,1,2025-05-04T17:38:23Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=58234,"en-US,en;q=0.9",m6ocxkk4kxhncl5,19,"[""Asian""]",No,Female,"NA
+
+",No,205758.60000000897,NA,null,<p></p>,null,choice,bw,binary,catch,null,laptops,50,85,40,35,null,null,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,choice_trial,survey-html-form,79,148043,0.0-4.0-1.37,158,1,2025-05-04T17:38:23Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=58234,"en-US,en;q=0.9",m6ocxkk4kxhncl5,19,"[""Asian""]",No,Female,"NA
+
+",No,205758.60000000897,NA,1447,NA,"{""product_choice"":""B""}",choice,bw,binary,catch,null,laptops,50,85,40,35,null,null,2,null,null,null,null,null,null,Processing speed,Memory (RAM),NA,NA
+NA,NA,NA,NA,NA,choice_trial_setup,html-keyboard-response,80,148348,0.0-4.0-0.38,158,1,2025-05-04T17:38:23Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=58234,"en-US,en;q=0.9",m6ocxkk4kxhncl5,19,"[""Asian""]",No,Female,"NA
+
+",No,205758.60000000897,NA,null,<p></p>,null,choice,cdt,trinary,attraction,2,microwave ovens,null,null,null,null,null,null,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,choice_trial,survey-html-form,81,152509,0.0-4.0-1.38,158,1,2025-05-04T17:38:23Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=58234,"en-US,en;q=0.9",m6ocxkk4kxhncl5,19,"[""Asian""]",No,Female,"NA
+
+",No,205758.60000000897,NA,4156,NA,"{""product_choice"":""A""}",choice,cdt,trinary,attraction,2,microwave ovens,null,null,null,null,null,null,1,50,60,40,60,50,60,Warranty,Cooking power,NA,NA
+NA,NA,NA,NA,NA,choice_trial_setup,html-keyboard-response,82,152815,0.0-4.0-0.39,158,1,2025-05-04T17:38:23Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=58234,"en-US,en;q=0.9",m6ocxkk4kxhncl5,19,"[""Asian""]",No,Female,"NA
+
+",No,205758.60000000897,NA,null,<p></p>,null,choice,cdt,trinary,repulsion_B,2,televisions,null,null,null,null,null,null,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,choice_trial,survey-html-form,83,158524,0.0-4.0-1.39,158,1,2025-05-04T17:38:23Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=58234,"en-US,en;q=0.9",m6ocxkk4kxhncl5,19,"[""Asian""]",No,Female,"NA
+
+",No,205758.60000000897,NA,5703,NA,"{""product_choice"":""A""}",choice,cdt,trinary,repulsion_B,2,televisions,null,null,null,null,null,null,1,40,30,40,90,100,80,Screen size,Average lifespan,NA,NA
+NA,NA,NA,NA,NA,choice_trial_setup,html-keyboard-response,84,158829,0.0-4.0-0.40,158,1,2025-05-04T17:38:23Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=58234,"en-US,en;q=0.9",m6ocxkk4kxhncl5,19,"[""Asian""]",No,Female,"NA
+
+",No,205758.60000000897,NA,null,<p></p>,null,choice,dtc,trinary,repulsion_A,2,washing machines,null,null,null,null,null,null,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,choice_trial,survey-html-form,85,162132,0.0-4.0-1.40,158,1,2025-05-04T17:38:23Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=58234,"en-US,en;q=0.9",m6ocxkk4kxhncl5,19,"[""Asian""]",No,Female,"NA
+
+",No,205758.60000000897,NA,3298,NA,"{""product_choice"":""B""}",choice,dtc,trinary,repulsion_A,2,washing machines,null,null,null,null,null,null,1,30,40,20,100,90,100,Average lifespan,Energy savings,NA,NA
+NA,NA,NA,NA,NA,choice_trial_setup,html-keyboard-response,86,162437,0.0-4.0-0.41,158,1,2025-05-04T17:38:23Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=58234,"en-US,en;q=0.9",m6ocxkk4kxhncl5,19,"[""Asian""]",No,Female,"NA
+
+",No,205758.60000000897,NA,null,<p></p>,null,choice,tc,binary,attraction,NA,televisions,null,null,null,null,null,null,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,choice_trial,survey-html-form,87,164603,0.0-4.0-1.41,158,1,2025-05-04T17:38:23Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=58234,"en-US,en;q=0.9",m6ocxkk4kxhncl5,19,"[""Asian""]",No,Female,"NA
+
+",No,205758.60000000897,NA,2160,NA,"{""product_choice"":""B""}",choice,tc,binary,attraction,NA,televisions,null,null,null,null,null,null,1,60,50,null,50,60,null,Screen size,Average lifespan,NA,NA
+NA,NA,NA,NA,NA,choice_trial_setup,html-keyboard-response,88,164909,0.0-4.0-0.42,158,1,2025-05-04T17:38:23Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=58234,"en-US,en;q=0.9",m6ocxkk4kxhncl5,19,"[""Asian""]",No,Female,"NA
+
+",No,205758.60000000897,NA,null,<p></p>,null,choice,dct,trinary,repulsion_B,2,laptops,null,null,null,null,null,null,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,choice_trial,survey-html-form,89,167202,0.0-4.0-1.42,158,1,2025-05-04T17:38:23Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=58234,"en-US,en;q=0.9",m6ocxkk4kxhncl5,19,"[""Asian""]",No,Female,"NA
+
+",No,205758.60000000897,NA,2288,NA,"{""product_choice"":""A""}",choice,dct,trinary,repulsion_B,2,laptops,null,null,null,null,null,null,1,40,30,40,90,100,80,Processing speed,Memory (RAM),NA,NA
+NA,NA,NA,NA,NA,choice_trial_setup,html-keyboard-response,90,167506,0.0-4.0-0.43,158,1,2025-05-04T17:38:23Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=58234,"en-US,en;q=0.9",m6ocxkk4kxhncl5,19,"[""Asian""]",No,Female,"NA
+
+",No,205758.60000000897,NA,null,<p></p>,null,choice,dtc,trinary,attraction,1,televisions,null,null,null,null,null,null,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,choice_trial,survey-html-form,91,169205,0.0-4.0-1.43,158,1,2025-05-04T17:38:23Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=58234,"en-US,en;q=0.9",m6ocxkk4kxhncl5,19,"[""Asian""]",No,Female,"NA
+
+",No,205758.60000000897,NA,1694,NA,"{""product_choice"":""B""}",choice,dtc,trinary,attraction,1,televisions,null,null,null,null,null,null,1,60,50,60,50,60,40,Screen size,Average lifespan,NA,NA
+NA,NA,NA,NA,NA,post_trials_message,html-button-response,92,170239,0.0-5.0,158,1,2025-05-04T17:38:23Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=58234,"en-US,en;q=0.9",m6ocxkk4kxhncl5,19,"[""Asian""]",No,Female,"NA
+
+",No,205758.60000000897,NA,1028,<p> <b>Thank you for your patience!</b></p><p>  The study will be done after completing a brief form. </p>,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,survey_message,survey-text,93,182731,0.0-6.0,158,1,2025-05-04T17:38:23Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=58234,"en-US,en;q=0.9",m6ocxkk4kxhncl5,19,"[""Asian""]",No,Female,"NA
+
+",No,205758.60000000897,NA,12486,NA,"{""Q0"":""I chose the ones that has highest lifetime.""}",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,I chose the ones that has highest lifetime.,NA
+NA,NA,NA,NA,NA,demo_age,survey-text,94,184297,0.0-7.0,158,1,2025-05-04T17:38:23Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=58234,"en-US,en;q=0.9",m6ocxkk4kxhncl5,19,"[""Asian""]",No,Female,"NA
+
+",No,205758.60000000897,NA,1563,NA,"{""Q0"":""19""}",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,demo_race,survey-multi-select,95,186038,0.0-8.0,158,1,2025-05-04T17:38:23Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=58234,"en-US,en;q=0.9",m6ocxkk4kxhncl5,19,"[""Asian""]",No,Female,"NA
+
+",No,205758.60000000897,NA,1733,NA,"{""Q0"":[""Asian""]}",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,[0]
+NA,NA,NA,NA,NA,demo_ethnicity_gender,survey-multi-choice,96,188772,0.0-9.0,158,1,2025-05-04T17:38:23Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=58234,"en-US,en;q=0.9",m6ocxkk4kxhncl5,19,"[""Asian""]",No,Female,"NA
+
+",No,205758.60000000897,NA,2729,NA,"{""Q0"":""No"",""Q1"":""Female""}",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"[0,1]"
+NA,NA,NA,NA,NA,demo_countries,survey-text,97,195787,0.0-10.0,158,1,2025-05-04T17:38:23Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=58234,"en-US,en;q=0.9",m6ocxkk4kxhncl5,19,"[""Asian""]",No,Female,"NA
+
+",No,205758.60000000897,NA,7005,NA,"{""Q0"":""NA\n\n""}",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,demo_prev_study,survey-multi-choice,98,198738,0.0-11.0,158,1,2025-05-04T17:38:23Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=58234,"en-US,en;q=0.9",m6ocxkk4kxhncl5,19,"[""Asian""]",No,Female,"NA
+
+",No,205758.60000000897,NA,2948,NA,"{""Q0"":""No""}",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,[0]
+NA,NA,NA,NA,NA,post_survey_message,html-keyboard-response,99,202189,0.0-12.0,158,1,2025-05-04T17:38:23Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=58234,"en-US,en;q=0.9",m6ocxkk4kxhncl5,19,"[""Asian""]",No,Female,"NA
+
+",No,205758.60000000897,NA,3444,NA,j,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,debrief,image-keyboard-response,100,205756,0.0-13.0,158,1,2025-05-04T17:38:23Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=58234,"en-US,en;q=0.9",m6ocxkk4kxhncl5,19,"[""Asian""]",No,Female,"NA
+
+",No,205758.60000000897,NA,3559,Judg_choice_debrief.png,p,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA

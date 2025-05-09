@@ -2,7 +2,190 @@ participant,age,race,ethnicity,gender,strategy_response,exp_duration,prev_study
 47,20,Asian,No,Female,I chose to have a balance between both,434730,I'm not sure
 48,24,Asian,No,Male,I chose daily appliances for their reliability and the devices in terms of fairly spread out performance,427331.599999964,No
 49,19,Asian,No,Male,"Whenever I was asked to pick between the higher vs lower warranty, I normally pick the lower one because the performance is better, I don't normally anticipate using the warranty at all.",474680.300000191,I'm not sure
+50,21,White,No,Male,"For the ones that were very close together like 50 and 60, I chose the option that more aligned with what I would personally want in that product. For the ones that were 90 and 40 versus 100 and 30, I went more with the 90 and 40 option because 40 is better than 30 and 90 is still great and not too far off from 100. It's more balanced.",704081.5,No
+51,19,Asian,No,Male,"Which provided the total score the best, and provided the most immediate benifts",311003.800000012,No
+52,21,White,No,Male,I was looking for online studies,198180.799999952,No
+54,20,White,No,Female,I chose the ones that seemed the most evenly distributed. Or I chose the one that had a longer warranty or would just last longer over size / fanciness.,421935.600000143,I'm not sure
+55,19,White,No,Female,SONA,650354.300000012,No
+56,20,White,No,Male,"I went for more specifically for the performance factor, things like processing speeding and cooking power were more important than things like warranty.",872348.099999905,No
+57,19,White,No,Female,"If there was an option with both being the highest I chose that, then if not I chose it based off of what option seemed the best overall.",585425.5,I'm not sure
+58,21,White,No,Female,I chose the product that had the highest rate of function and longest life span.,229031.200000003,I'm not sure
+59,19,"Asian,White",No,Male,The way I thought about it was instead of getting the absolute best in one category it is better to have second best in one category if it means another category will be slightly better.,460668.600000024,No
+60,20,White,No,Male,"I went for not all in one, but more spread out between the two options",306627,No
+61,21,White,No,Male,"I like to average things out so there is as little polarity as possible, I don't want something that has two of the extremes especially one in the positive and one in the negative.",442730,No
+63,19,White,Yes,Female,I felt that with things like cooking power or lifespan I leaned twoarss the highest number becuause that determins the preformance of the product.,822659.200000003,I'm not sure
+64,19,Asian,No,Female,i looked at the opportunity cost of each product choice,395525.899999976,No
+65,18,Asian,No,Female,"I prioritized quality over lifespan because the earlier a product dies, the more a customer will have to buy (similar to the light bulb industry). Otherwise I tried to find a good balance between the other qualities. I also prioritized warranty less because I personally don't look at a product's warranty that much while buying",2205236,No
+66,20,"Asian,White",No,Female,"I felt like lifespan was more important. I also tried to get ones with higher numbers for the most part, but wasn't willing to get a product with a super high number on one side and a super low number on the other, so I just took like highest and highest I could get if that makes sense.",441598.5,I'm not sure
+67,19,White,No,Female,I chose which number combinations seemed to the highest result,466303.300000001,No
+68,19,White,No,Female,I wanted to make sure I could get a decent amount of everything. Didnt want to have one thing to much and another not enough,428639.700000048,No
+69,19,Other,Yes,Male,"well for sum of them your looking at the long term use of these products and sometimes a warranty is nice but if you truly have the best product it shouldn't need replacing until its paid for its self and more. also for some of the other stuff its more about how consumers would look at it, sometimes people want the best and they'll take a step down in sum other variable.",1367796.5,I'm not sure
+70,21,White,No,Female,"Honestly, I️ choose it based on what had the highest numbers across the categories, even if it was not the highest overall",378776.5,Yes
+71,20,Asian,No,Female,I chose according to what I felt needed to be prioritized and kind of balanced out the two characterisitcs.,309867.600000381,No
+72,22,White,No,Female,"if there was a clear winner with both high numbers, I picked that. If the numbers were similar in the columns I typically chose ones with better lifespan, warranty, and energy savings",1126671.20000005,No
+73,20,"Asian,White",Yes,Male,"I mostly chose the product that was better in both areas, not the ones that exceeded in only certain areas.",482617.200000003,No
+74,18,Black or African-American,No,Female,I choose based on what I thought was important like the size of the screen and the speed of the computer. then I also considered how long it would last so the warranty.,1299658,No
+75,19,White,No,Male,I would use the info I was giving to balance the choices and choose which one seemed best to me.,450471,No
+76,19,White,Yes,Female,"I would choose the higher number for the trait I thought was better, and I would generally choose something that gives the best value for both traits when possible.",491073.100000143,Yes
+77,21,White,No,Female,"I usually picked the produced with the best energy consumption, I did not care much about screen size, warranty was important to me but so was the quality of the product.",555704,I'm not sure
+78,20,White,No,Female,Based on what I thought was the best product,153954,Yes
+79,19,White,No,Female,"I felt it changed, but I chose what to prioritize. For example memory over processing speed. Or I would rather make them equally both good than one much better than the other",589893.199999999,No
+82,18,White,No,Male,"I sacrificed a rating of 10 for the more important characteristic. For example, if screen size was a 30 vs 40, but that 30 had a second detail had 10 higher then the second product I'd choose the first. Screen size isn't that important compared to ram or memory of a laptop.",591517.399999999,Yes
+83,20,White,No,Female,I looked at the best options for the things I cared about and selected those and if I did not have a preference I went with the higher rating.,380448.900000095,I'm not sure
+84,20,White,No,Prefer not to say,I picked the one that seemed the most optimal among the categories.,274251,No
+85,20,White,No,Female,"I chose which category was of more importance, for example I valued life span as more important than warranty. Sometimes when both categories had similar numbers, I chose the best ratio.",455787,No
+86,19,White,No,Female,"Energy savings were most important to be higher. In general, I just tried to pick the best overall option of the choices.",NA,No
+87,19,White,No,Female,"I tried to pick the options that both had decently high numbers for each category, so that it would be the best option.",387976.099999994,No
+88,21,"Asian,White",No,Male,"Generally there were some categories I prioritized more and figured more people would desire, such as average lifespan of a product. In many of the cases, it was a choice between better lifespan or better something else at the same proportion(like screen size), in which case I went with the one with better lifespan. Additionally, for some I went with the more well rounded choice, such as with processing speed/memory, as I felt that people would rather have a well rounded device rather than a laptop with insanely high memory but almost no processing speed.",467676,No
+89,19,Asian,No,Female,I chose the ones that has highest lifetime.,205758.600000009,No
+90,20,White,No,Female,I wanted to be able to have the best warranty or power without sacrificing too much of the other factor.,346648.699999999,No
+91,22,White,No,Male,Choose options that werent too much of one thing but instead were more balanced on both aspects,498693.899999976,No
+92,20,White,No,Female,I tried to consider the best deal looking at proportions between data,856256.5,I'm not sure
+93,19,White,No,Male,There are certain aspects of each appliance that I value more and I tried to make my choice somewhat specialized in that aspect but not solely based on that one aspect.,566720.300000001,No
+94,21,Other,Yes,Male,its about balance the closest to 100 wins in both sides. also sometimes I would literally just choose whichever first box has a higher grade,478306.199999809,No
+95,20,White,No,Female,"For this task, I looked for efficiency over size in most cases. There were certain scenarios where I chose bigger size or RAM size over efficiency.",390381.199999809,I'm not sure
+96,20,Other,Yes,Male,I generally speaking emphasized quality of product (processing speed etc) over warranty.,684101,No
+97,19,White,No,Female,Comparing the ratios and considering priorities. Asking myself what would be more beneficial? and what would I look for as a customer?,607597.199999809,No
+98,19,White,No,Female,I tried to choose the ones that would last the longest.,196814.799999952,No
+99,20,White,No,Female,I just chose which part seemed more important.,286434.800000012,No
+100,20,White,No,Female,I thought about what I want most in the product.,486267.400000095,I'm not sure
+101,21,White,No,Female,"I tried to get the best of both world where I could-like picking 90 instead of 100 for one variable if it was made up for a bit through the other variable. It was easiest when one product was best for both variables. When it was split like 60/50 vs 50/60 or something of the sort where one variable had to take priority, I just tried to choose the one I deemed more valuable.",833152.399999857,I'm not sure
+102,19,Other,Yes,Female,I chose based on the categories and which ones were more important to me. There were some instances where i didn't choose the 100 automatically because I think I would rather the other option be slightly better.,532847.799999997,Yes
+103,23,Asian,No,Female,"I chose the features that matter to me, plus I don't care about the life span much because some new technology might come for me to buy by the time my product is old.",992262,I'm not sure
+104,18,"Black or African-American,White",No,Female,I chose the products that had the better warrantee/lifespan because I wouldn't want to sell products that worked a little better but didn't last.,919822,Yes
+105,20,White,No,Female,"For this task I made sure I looked at the numbers 1-100. I wanted to choose to choice that had the highest numbers t make sure they were most successful, I chose to click the ones with high lifespans because they will last the longest which is important.",725935.900000006,No
+106,21,White,No,Female,I thought of what the general public would want so focussing on warranty and life span rather than power or screen size,445575.399999999,I'm not sure
+107,21,Black or African-American,No,Male,Sometimes I chose the combination that gave me the highest total and sometimes I tried to get the highest value for the feature I valued the most.,586848,No
+109,20,White,No,Female,I think the lifetime warrenty is better for longer because 10 difference on power is not that bad compaired to like 10 more years,487412.299999952,I'm not sure
+110,19,White,No,Female,I chose mainly based on average life span or cooking.  I think I sort of switched up towards middle and end because at first I was choosing on warranty.,641584.899999976,No
+111,18,White,No,Female,"Obviously, there were some trials with a clear best option, but the ones with more similar options to choose from I would choose the happy medium that was either the best of the second best for both aspects.",756456,Yes
+112,19,Asian,No,Male,I chose the ones that were the most efficient by evening out the numbers for each item.,587141.699999999,No
+113,19,Other,Yes,Female,What seemed best,272730.399999999,Yes
+114,20,White,No,Male,"For the laptops I prioritized processing speed, for the others it depended, but I generally went for lifespan/warranty",474924,No
+115,19,White,No,Female,I chose the option that was the highest in both categories on average out of all the options.,256922,No
+116,19,White,No,Female,I choose the one that made the most sense and would OVERALL work the best such as 90/40 instead of 100/20,439908.4,No
+117,19,White,No,Female,I picked the options that was closest to being the best (100) for both descriptions. I did not want a product that had one perfect score but a lower score for the other description.,575040.200000048,No
+118,20,White,No,Female,I chose which product to buy by picking the one with the higher rating in the category I cared more about.,404022,No
+119,20,White,No,Female,Trying to find the middleground. I would pick the option that had the most positive outcome on both sides,555015.300000012,No
+120,22,White,No,Female,usually the highest average lifespan,608707,No
+121,20,Asian,No,Female,I prefer less gap between. It does not have to be the best but more equal,830333.299999952,Yes
 1,18,White,No,Male,I tried to get as close to the same number for both sides. So there wasn't one side that was suffering significantly more than the other,429157,NA
+122,20,White,No,Female,"I wanted to choose the option that maximizes both categories, so if there was a choice between 100 in one category, but its counterpart category was only 30, I thought it would be better to chose the option that lowered one category to 90, but boosted the other to 40.",706906.099999994,I'm not sure
+123,19,White,No,Female,"I chose the product that seemed like had both good qualities. If one number was very high and the other was very low, but other option had both middle ground answers, then I would choose the product with both middle ground.",783815.600000024,No
+124,20,White,No,Male,"Any time an item was listed at a 100 or a 90, I was willing to let it drop in order to increase the quality of the other factor.",895467.899999976,No
+125,21,White,No,Female,"I picked which factor i cared more about for each product, while also taking into account not letting the ratio of the factors get too uneven",807616.399999976,No
+126,19,White,No,Female,I went to the one that I thought had the most value from both sides.,1754632,No
+127,18,White,No,Female,"I was just kind of looking at the pros and cons, for example a tv with a worse screen shouldn't have a high life, because if the screen is bad it wouldn't make sense to keep it for so long, so I tried to make them kinda even",304216,I'm not sure
+128,20,White,No,Female,"I thought what category was most important should be at a higher value of the time, but if it’s unreasonable, then I will do the best ratio.",NA,I'm not sure
+129,19,Prefer not to say,No,Female,"I went about this task by looking at my options and then comparing them while deciding which component was more important, then looking at the numbers to see what was worth sacrificing to the other components.",812548.100000001,No
+130,21,White,No,Female,"I thought of getting the best life span, cooking power, and speed to get the best for what I was paying for.",413385,Yes
+131,20,White,No,Female,"I chose to pick what appliance had the highest life span, or if it had a mid-high number for both criteria",395874,No
+133,19,White,No,Female,selected the highest numbers and also the choice where the two qualities had similar numbers,327400.5,No
+134,19,White,No,Female,"I chose the numbers that had the most promising ratio. For example, I'd choose 40 and 90 over 30 and 100, because they are more even, therefore it seems like you're getting more bang for your buck.",494944.200000048,No
+135,20,White,No,Female,When it came to the higher number I chose it based off how long it will help the product last.,702585.400000095,No
+136,19,Other,No,Female,"I chose the products that I would want to be sold and I was thinking about how I would feel about each product if I was the one buying, and if I was the one selling I would pick the ratio that seems the best compared to the other products.",834795,I'm not sure
+137,20,White,No,Female,I picked whatever felt best in the moment.,373847.100000001,No
+138,22,Asian,No,Female,When it came to larger appliances I chose how long they lasted over the power/energy saving. Computers I will always go for processing speed over RAM.,382178.299999952,No
+139,20,Asian,No,Female,I am interesting with the life span of the product than how long I can use this product for.,637206.200000048,No
+140,19,Black or African-American,No,Male,I mainly try to maximize the use and efficiency I'd get. I also went for more balanced options over options with one really great aspect and one really bad aspect.,1127823.09999999,I'm not sure
+141,18,White,No,Female,"I looked at the numbers and picked the one with both numbers higher than the others, so both categories would be high",365715,No
+142,20,White,No,Female,I chose what I felt was more important between the two and geared towards that. If the number of the other choice was becoming very low then i would then raise that side a little bit and lower the side I cared about more just a little amount.,1331147.60000002,No
+143,21,Asian,No,Male,"The most balanced approach, some attributes matter more",350155,No
+144,20,White,No,Female,"I would try to pick the product whose numbers were mutually largest in total compared to the totals of the other products, however I also valued conditions such as energy savings and RAM higher than the other variables.",370819,No
+145,19,White,No,Female,I wanted the best of both options,537798,No
+146,21,Black or African-American,No,Female,"I considered how important each item is and if the functioning over aesthetic was important, or ability to be compensated or speed was important. when it comes to microwaves I felt like if the item is higher powered and better quality than its warranty matters less. For laptops I know people nowadays are really impatient so speed might be more appealing than space/memory however memory is also important because we heavily rely on technology so laptops with higher speed but moderately good memory was okay. For washing machines at first I thought about energy in terms of the energy bill it will acquire then I thought maybe the ability for the washing machine to last long is a bit more important due to usefulness.",978816,No
+147,20,Asian,No,Female,"depending on the products, i chose the factors that are most important to me in making a decision , and i correlated those numbers that seemed like the best option to me and picked them",616362.100000381,I'm not sure
+148,19,White,No,Male,I chose this cause it sounded intresting,286349.900000095,No
+149,21,White,No,Female,I thought that memory and speed were the most important and so I would chose the higher end of that option compared to screen size or warranty.,475559.899999976,Yes
+150,22,White,No,Male,What would be most convenient for me cost wise.,533037.599999905,I'm not sure
+151,19,Asian,No,Male,The use is the highest priority and then based on what had a better warranty or energy saving,317132.900000095,Yes
+152,22,White,No,Female,Lifespan is most important,268086.100000001,I'm not sure
+153,18,White,No,Female,"I went for balance, but prioritized variables that help the product last longer",654577.699999999,Yes
+154,20,White,No,Male,i liked the options where i would get the best of both worlds. for example i chose 40:90 over 30:100,633185.2,No
+155,20,White,No,Male,"i wanted the best product. if there was an option where both numbers were higher than the rest it was en easy choice. if the numbers added up to the same for both choices, i had to choose which aspect of the product i preferred. I preferred processing speed, lifespan over memory and warranty. for TV, i would go with lifespan over screen size, because I prefer smaller TVs.",486031,No
+156,22,White,No,Male,I would stay in line with my previous choices so I was picking similar interests,443034.9,No
+157,22,White,No,Male,"If the warranty was 20 and other power was 100, i rather look for a higher warranty or life and lower power",302597,No
+158,19,Asian,No,Male,"Generally, I valued if the product does what it was supposed to do the most, and next things like sustainability, unless the difference was too high to where it would be significant.",938940.399999618,Yes
+159,23,White,No,Male,"For many of the selections, I went with the options that have an even split. I also tried to value which variable I cared about the most between the two. For example, cooking power for the microwave was not as important to me so I was ok with taken the lower value at times if there was not a good enough even balance between the two variables.",424719.5,Yes
+160,19,White,No,Female,"I wanted the numbers to be closest to best as possible. If one number was super high and the other was super low, I would sacrifice a little of the high number to get a slightly better low number. Also, I didn't care much about screen size for a tv",512833,No
+161,18,Black or African-American,Yes,Female,"I felt like how long something lasts is more important so I made sure to choose something that moves at a fast speed, and is durable but when it was durability vs. screen size i easily chose longer durability over a bigger screen",1297378,I'm not sure
+162,21,White,No,Male,I tried to find a balance while maximizing the benefits.,307833.400000006,No
+163,21,White,No,Female,I chose which of the 2 qualities was most important in my opinion (for microwaves I value the power more than the warranty so I looked at the power column) and then choose the option that has the best result for that quality while also having a decent/best result for the lesser important quality. I figured most people buy a TV based on the size so screen size was more important than lifespan but lifespan was still pretty important so sometimes I lower the importance of screen size if the lifespan was extremely poor for large screens. I also thought computer processing speed was more important than RAM as its fairly easy to install more RAM so having a fast processor would make that computer stand out for sales more.,709919,No
+164,NA,"Asian,White",No,Male,I chose options with the best combination of attributes.,398427.799999714,No
+165,20,White,No,Female,I picked what I thought was the best deal,NA,Yes
+166,22,White,No,Female,the most even,774598.199999988,I'm not sure
+167,19,Asian,No,Female,"I chose the item that had the best average. I would look at two factors and consider what I felt like was more important, most of the time I favored the ability of the machine over the warranty.",481937.800000001,No
+168,19,"Asian,White",No,Male,I value lifespan and processing speed the most,501673.400000095,No
+169,20,White,No,Female,"I chose which one had the most power/biggest screen, even if the warranty wasn't as good.",581588.800000191,No
+170,19,White,No,Female,I just picked the highest combo of numbers,578737,Yes
+171,19,White,No,Female,"I liked when something that would benefit me immediately was higher ranked. When I saw the number 100 however, I was more tempted to select that one.",332624,Yes
+172,22,White,No,Female,"Most even distribution between both factors as possible, while prioritizing most useful factors like life expectancy",527957.299999997,No
+173,20,White,No,Female,"I don't care about warranties, the other products I cared about both issues so I would choose highest overall scores",442749,No
+174,21,White,No,Male,made sure to select the highest sum for each product and then it was pretty arbitrary from there.,NA,No
+175,20,White,No,Male,I care more about money for some items and quality for others,339794.399999976,No
+176,19,White,No,Female,I would decide which factor was more important to me or if they were equal and then from there I would see which products had the highest value for my preferred category. I would quickly check that the difference in the value for the less important factor wasn't too high/worth considering and then I would make my pick.,716785.200000018,I'm not sure
+177,19,White,No,Male,A balance between the two. I also car more about how much energy they use,426362,No
+179,19,White,No,Female,Higher numbers,369597.1,No
+180,21,Asian,No,Male,I tried to get a good balance of the traits.,314434.200000048,Yes
+182,18,Asian,No,Female,I chose a most important factor depending on my use of the item or need for the factor in my day to day life.,521852.800000001,No
+183,18,Asian,No,Female,i just chose whichever one had a higher total. if they both had the same total i thought about whichever one i would prefer to be better. example- id rather have a faster processing speed than a higher ram,588338.100000024,No
+184,20,Prefer not to say,No,Male,Epic,971463.399999976,No
+185,21,Asian,No,Female,"I first saw the categories given to me for each of the products. Depending on the type of product, I prioritized which feature mattered to me more. If it was the Microwave, personally I prefer the cooking power over the warranty and so on. So for each of the products",535793,Yes
+187,20,White,No,Female,I tried to look at which ones were more equal,543870.599999994,Yes
+188,18,Black or African-American,Yes,Male,which numbers had the less difference between them,663851,Yes
+189,18,White,No,Female,I chose which i thought was more important but tried to keep them somewhat equal too,665706.4,Yes
+190,20,White,No,Female,"When it came to ones where the warranty was not that great, but the memory or processing speed/function was higher I typically chose that because to me it matters how well the product works.",484267.200000048,No
+191,18,White,No,Female,"I choose the answer that made the most sense to me. I chose the higher warranty percentage than the higher quality because if the product breaks, the warranty is more important. It depended on each situation but sometimes it's better to go 90,40 than it is to go 100,30.",1018586.60000002,No
+192,20,White,No,Male,"I first looked at the product, imagined what I would do in real life if I was purchasing this product, and applied what would realistically make me choose one or the other.",497705.799999997,Yes
+193,21,White,No,Male,I saw it was online so I did it,343282.5,Yes
+194,20,Asian,No,Female,I chose it by the energy savings and the life warranty.,233664.599999994,No
+195,21,White,No,Female,"I felt compelled to choose the best option when one category had two of the same. Like if one was 100, 100, 90 paired with 20, 30, 40 I went with the middle one.",635061.600000024,I'm not sure
+196,22,White,Yes,Female,"When it came to energy savings I tried to pick the highest rating product, while also trying to maintain a high cooking power if it was a microwave for example",290181.899999991,No
+198,22,White,No,Female,"I looked at what was more important to me, and based my answer on which was higher.",914168.700000048,No
+199,19,White,Yes,Female,"for the laptops I thought processing speed mattered more Tham memory, for the washing machine energy mattered more, for microwaves the warranty mattered more, and for the most part I got the highest for each unless I felt like the middle option was better, but never really felt like the lower option was the best",548778,Yes
+200,20,White,No,Female,"If I saw an option that said 100, but the other collumn seemed to be weak, I would move on to an option that seemed more efficiant.",359104,No
+201,21,White,No,Female,I chose my answers based on which category had higher numbers that I thought had priority over others,1230948,Yes
+202,20,Asian,No,Male,I chose the options that had the best middle ground while still accurately representing what I thought was important,939275.5,No
+203,20,White,No,Male,I chose the highest number of the quality I thought to be most important.,469930.200000003,I'm not sure
+204,20,Other,Yes,Male,"I wanted to get as close to both being good, but would prioritize speed/life the most.",319211.399999857,No
+205,21,Asian,No,Female,something that is equal,258820.299999997,I'm not sure
+206,20,Asian,No,Male,"I chose what I think it desireable in an object. I want my devices to live longer, and I find processing speed very important.",430670,No
+207,19,White,No,Female,whatever is the most balanced,528129.799999952,I'm not sure
+208,22,Black or African-American,No,Female,i was thinking about quality over quantity,541023.799999997,Yes
+210,20,Asian,No,Male,Some categories I found to be more important in the product so when the score in that category was highest for a product I chose that product,562091.5,No
+211,20,Prefer not to say,Yes,Female,"The average lifespan is something important to take into account. As well as memory when it comes to laptops, since one may have a lot they want to store.",681843.200000048,No
+213,20,White,No,Male,"I liked to chose the ones that were closer together, I would chose 90 and 40 over 100 and 30 every time, besides that I really didn't mind if it was a toss up.",358528,No
+214,19,Other,Yes,Female,I payed attention to which would be more durable,592320,No
+215,22,Black or African-American,No,Female,I focused on the avg lifespan and memory would choose those with higher numbers,327601.799999952,I'm not sure
+216,19,White,No,Male,"I typically looked between the two better choices because one would be the obvious bad choice. Between those two options, I'd decide which one is more worth in based on how well it does in each task, trying to balance them and prioritize the more important category.",595702.400000095,No
+217,NA,Prefer not to say,No,Female,I went based on the best balance between how long the product last and the efficency of it,524901.599999994,No
+218,22,Other,Yes,Female,"When choosing an answer, I looked for the most balanced response. A decent amount of warranty or life span that will also work best.",806619,No
+219,22,White,No,Female,"I tried to keep both options for the product as equal as possible. however, something like warranty, average life span and energy savings are the most important to me when purchasing a product so I will choose the product with a higher option for those.",960885,I'm not sure
+221,19,White,No,Male,"I usually had some ranking of how important the qualities of the product are, and I would try to get the highest ranked ones as good as possible without compromising the others too much.",514694.799999952,Yes
+222,20,Asian,No,Male,"Opp. cost, and where if find value",248871,No
+223,21,White,No,Female,I picked what seemed like the best option,320837,No
+224,18,Black or African-American,No,Female,"When it categorized microwave ( ex. Cook time and warranty) i choice which one was more. Valuable or important for me when getting a microwave. Although both are when it was higher than 80 for the option i felt was more important when getting a miceowave for me ( cook time), I would consider getting the option where cook time is still the highest but the warranty was also high as well, if that makes since.",NA,No
+225,22,White,No,Female,best of both world but favoring the efficiency of the product,464419.400000036,No
+226,18,White,No,Female,"I chose what I thought was worth it. For example, it was a pretty average lifespan but a larger screen size or better cooking ability, I chose to sacrifice a little to get something subjectively better. I didn't want to pick choices that were wildly different though",611371.699999999,Yes
+227,21,Asian,No,Female,"I tried to choose the option with at least one category being 100 for most of the appliances because I believe that it is better to market one quality of the product as the best in the market and the other qualities being okay and still above average, rather than both qualities being okay/above average, but not the best.",1003008.7,I'm not sure
+228,19,Other,Yes,Male,Pick best,307704,No
+229,20,White,No,Female,I tried to go for the highest ratings overall and tried to value each column as much as I could,341725,I'm not sure
+230,20,White,No,Female,"I was first looking for higher ratings/scores, and products that had similar scores between the two catagories (rather than one really high score and one really low score).",483253.899999976,Yes
+231,21,Asian,No,Male,"Numbers, and what aligned with my interests for the product",274841.800000072,No
+232,18,Black or African-American,No,Male,bigger numbers the better,1759400.29999995,No
+233,21,White,No,Female,"I went about this task by choosing which category was more important to me as a consumer and which I was willing to sacrifice. For example, I was willing to have a lower cooking power for the best warranty since I could always get a new one if I found the cooking power was not suitable for me. Additionally, lifespan was super important to me for expensive appliances- but only if the other category had a suffiecient score.",766743.399999857,No
+234,19,Black or African-American,No,Male,i just chose the smartest answers,1088642,No
+235,20,White,No,Female,I just choose the one I thought was the best offer,423852.400000002,No
+236,21,White,No,Female,I looked at comparing which would be better in the long run when it came to memory vs. warranty,317462.100000024,No
+237,22,Asian,No,Female,totaling each value to see which option had the most. I stuck with the values closer to each other (ex. 50 and 50 instead of 90 and 10) for even distribution,394951.5,I'm not sure
+238,NA,Black or African-American,No,Male,I chose the products that were more effecient and those that will  last more,1080887.70000005,No
+239,20,Asian,No,Female,By choosing what is more important to me,424294.600000024,No
+240,19,White,Yes,Female,"I kind of thought about this money wise, focusing on products that would last longer, even if their functions weren't as valuable. We could sell the product for longer and it would be cheaper.",561175.5,No
+241,21,Asian,No,Male,"depend on what product, but basically i chose the higher key feature, while maintaining the balance",448319.3,No
+242,22,Asian,No,Female,"I wanted the highest how long it would last/warranty and the highest efficiency of the machine, and i think things like energy savings are more important than computer speed or cooking time because im okay with microwaving something longer or deleting things off my computer to make it faster",477008.900000095,No
+243,21,Asian,No,Female,"I went with longevity, and lifespan, with a balance in speeds with the computers. Warranty is not a big deal for me, and I would rather efficiency over a longer warranty.",576065.099999994,I'm not sure
+245,21,White,No,Female,I mostly chose the option that was highest for each category.,711215.5,No
+246,21,Black or African-American,No,Female,"I want the best for my product, I won't mind taking points from speed if the life span is better.",481409.300000012,I'm not sure
 2,19,White,No,Male,I chose the greatest total number and wouldn't pick any that were like 100-20 I'd go for 80-40,347813.699999988,No
 3,19,White,No,Female,"I chose to go with whatever category matched each other best, because when one is deficient, the other is strong, but together if they are about equal it would be best, in my mind.",999937.700000048,No
 4,19,White,No,Male,I wanted to find the right balance between the 2 things being desrcibed so I was getting the best possible product each time.,399507.900000572,No

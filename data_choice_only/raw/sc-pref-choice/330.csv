@@ -1,0 +1,708 @@
+success,timeout,failed_images,failed_audio,failed_video,screen_id,trial_type,trial_index,time_elapsed,internal_node_id,run_id,condition,recorded_at,source_code_version,user_agent,device,browser,browser_version,platform,platform_version,referer,accept_language,ppt_id,age,race,ethnicity,gender,other_countries,prev_study,exp_duration,view_history,rt,stimulus,response,phase,order,set,effect,t_high,category,d1_best,d2_best,d1_worst1,d2_worst1,d1_worst2,d2_worst2,first_dim,d1_t,d1_c,d1_d,d2_t,d2_c,d2_d,d1_name,d2_name,strategy_response,question_order
+TRUE,FALSE,[],[],[],img preload,preload,0,163,0.0-0.0,330,1,2025-05-08T19:26:54Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=55695,"en-US,en;q=0.9",5sn3b3egfl6mbnv,18,"[""White""]",No,Female,"Kyrgyzstan around 3 years
+Cyprus around 3-4 years
+America around 5-6 years
+Moldova around 3-4 years
+Trinidad around 3 years
+
+",Yes,611371.6999999993,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,computer_message,instructions,1,1970,0.0-1.0,330,1,2025-05-08T19:26:54Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=55695,"en-US,en;q=0.9",5sn3b3egfl6mbnv,18,"[""White""]",No,Female,"Kyrgyzstan around 3 years
+Cyprus around 3-4 years
+America around 5-6 years
+Moldova around 3-4 years
+Trinidad around 3 years
+
+",Yes,611371.6999999993,"[{""page_index"":0,""viewing_time"":1806}]",1806,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+TRUE,NA,NA,NA,NA,NA,fullscreen,2,7459,0.0-2.0,330,1,2025-05-08T19:26:54Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=55695,"en-US,en;q=0.9",5sn3b3egfl6mbnv,18,"[""White""]",No,Female,"Kyrgyzstan around 3 years
+Cyprus around 3-4 years
+America around 5-6 years
+Moldova around 3-4 years
+Trinidad around 3 years
+
+",Yes,611371.6999999993,NA,4487,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,choice_instructions,instructions,3,37823,0.0-3.0,330,1,2025-05-08T19:26:54Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=55695,"en-US,en;q=0.9",5sn3b3egfl6mbnv,18,"[""White""]",No,Female,"Kyrgyzstan around 3 years
+Cyprus around 3-4 years
+America around 5-6 years
+Moldova around 3-4 years
+Trinidad around 3 years
+
+",Yes,611371.6999999993,"[{""page_index"":0,""viewing_time"":1446},{""page_index"":1,""viewing_time"":3047},{""page_index"":2,""viewing_time"":3101},{""page_index"":3,""viewing_time"":2434},{""page_index"":4,""viewing_time"":2386},{""page_index"":5,""viewing_time"":12900},{""page_index"":6,""viewing_time"":5049}]",30363,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,choice_trial_setup,html-keyboard-response,4,38128,0.0-4.0-0.0,330,1,2025-05-08T19:26:54Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=55695,"en-US,en;q=0.9",5sn3b3egfl6mbnv,18,"[""White""]",No,Female,"Kyrgyzstan around 3 years
+Cyprus around 3-4 years
+America around 5-6 years
+Moldova around 3-4 years
+Trinidad around 3 years
+
+",Yes,611371.6999999993,NA,null,<p></p>,null,choice,tcd,trinary,repulsion_A,1,washing machines,null,null,null,null,null,null,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,choice_trial,survey-html-form,5,45740,0.0-4.0-1.0,330,1,2025-05-08T19:26:54Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=55695,"en-US,en;q=0.9",5sn3b3egfl6mbnv,18,"[""White""]",No,Female,"Kyrgyzstan around 3 years
+Cyprus around 3-4 years
+America around 5-6 years
+Moldova around 3-4 years
+Trinidad around 3 years
+
+",Yes,611371.6999999993,NA,7607,NA,"{""product_choice"":""C""}",choice,tcd,trinary,repulsion_A,1,washing machines,null,null,null,null,null,null,1,100,90,100,30,40,20,Average lifespan,Energy savings,NA,NA
+NA,NA,NA,NA,NA,choice_trial_setup,html-keyboard-response,6,46044,0.0-4.0-0.1,330,1,2025-05-08T19:26:54Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=55695,"en-US,en;q=0.9",5sn3b3egfl6mbnv,18,"[""White""]",No,Female,"Kyrgyzstan around 3 years
+Cyprus around 3-4 years
+America around 5-6 years
+Moldova around 3-4 years
+Trinidad around 3 years
+
+",Yes,611371.6999999993,NA,null,<p></p>,null,choice,tcd,trinary,repulsion_B,2,televisions,null,null,null,null,null,null,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,choice_trial,survey-html-form,7,54789,0.0-4.0-1.1,330,1,2025-05-08T19:26:54Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=55695,"en-US,en;q=0.9",5sn3b3egfl6mbnv,18,"[""White""]",No,Female,"Kyrgyzstan around 3 years
+Cyprus around 3-4 years
+America around 5-6 years
+Moldova around 3-4 years
+Trinidad around 3 years
+
+",Yes,611371.6999999993,NA,8742,NA,"{""product_choice"":""A""}",choice,tcd,trinary,repulsion_B,2,televisions,null,null,null,null,null,null,1,40,30,40,90,100,80,Screen size,Average lifespan,NA,NA
+NA,NA,NA,NA,NA,choice_trial_setup,html-keyboard-response,8,55092,0.0-4.0-0.2,330,1,2025-05-08T19:26:54Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=55695,"en-US,en;q=0.9",5sn3b3egfl6mbnv,18,"[""White""]",No,Female,"Kyrgyzstan around 3 years
+Cyprus around 3-4 years
+America around 5-6 years
+Moldova around 3-4 years
+Trinidad around 3 years
+
+",Yes,611371.6999999993,NA,null,<p></p>,null,choice,wbw,trinary,catch,null,microwave ovens,90,55,40,25,40,45,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,choice_trial,survey-html-form,9,65190,0.0-4.0-1.2,330,1,2025-05-08T19:26:54Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=55695,"en-US,en;q=0.9",5sn3b3egfl6mbnv,18,"[""White""]",No,Female,"Kyrgyzstan around 3 years
+Cyprus around 3-4 years
+America around 5-6 years
+Moldova around 3-4 years
+Trinidad around 3 years
+
+",Yes,611371.6999999993,NA,10095,NA,"{""product_choice"":""B""}",choice,wbw,trinary,catch,null,microwave ovens,90,55,40,25,40,45,1,null,null,null,null,null,null,Warranty,Cooking power,NA,NA
+NA,NA,NA,NA,NA,choice_trial_setup,html-keyboard-response,10,65492,0.0-4.0-0.3,330,1,2025-05-08T19:26:54Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=55695,"en-US,en;q=0.9",5sn3b3egfl6mbnv,18,"[""White""]",No,Female,"Kyrgyzstan around 3 years
+Cyprus around 3-4 years
+America around 5-6 years
+Moldova around 3-4 years
+Trinidad around 3 years
+
+",Yes,611371.6999999993,NA,null,<p></p>,null,choice,dct,trinary,attraction,1,televisions,null,null,null,null,null,null,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,choice_trial,survey-html-form,11,75989,0.0-4.0-1.3,330,1,2025-05-08T19:26:54Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=55695,"en-US,en;q=0.9",5sn3b3egfl6mbnv,18,"[""White""]",No,Female,"Kyrgyzstan around 3 years
+Cyprus around 3-4 years
+America around 5-6 years
+Moldova around 3-4 years
+Trinidad around 3 years
+
+",Yes,611371.6999999993,NA,10494,NA,"{""product_choice"":""C""}",choice,dct,trinary,attraction,1,televisions,null,null,null,null,null,null,2,60,50,60,50,60,40,Screen size,Average lifespan,NA,NA
+NA,NA,NA,NA,NA,choice_trial_setup,html-keyboard-response,12,76292,0.0-4.0-0.4,330,1,2025-05-08T19:26:54Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=55695,"en-US,en;q=0.9",5sn3b3egfl6mbnv,18,"[""White""]",No,Female,"Kyrgyzstan around 3 years
+Cyprus around 3-4 years
+America around 5-6 years
+Moldova around 3-4 years
+Trinidad around 3 years
+
+",Yes,611371.6999999993,NA,null,<p></p>,null,choice,tcd,trinary,repulsion_B,2,washing machines,null,null,null,null,null,null,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,choice_trial,survey-html-form,13,81789,0.0-4.0-1.4,330,1,2025-05-08T19:26:54Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=55695,"en-US,en;q=0.9",5sn3b3egfl6mbnv,18,"[""White""]",No,Female,"Kyrgyzstan around 3 years
+Cyprus around 3-4 years
+America around 5-6 years
+Moldova around 3-4 years
+Trinidad around 3 years
+
+",Yes,611371.6999999993,NA,5495,NA,"{""product_choice"":""A""}",choice,tcd,trinary,repulsion_B,2,washing machines,null,null,null,null,null,null,2,40,30,40,90,100,80,Average lifespan,Energy savings,NA,NA
+NA,NA,NA,NA,NA,choice_trial_setup,html-keyboard-response,14,82093,0.0-4.0-0.5,330,1,2025-05-08T19:26:54Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=55695,"en-US,en;q=0.9",5sn3b3egfl6mbnv,18,"[""White""]",No,Female,"Kyrgyzstan around 3 years
+Cyprus around 3-4 years
+America around 5-6 years
+Moldova around 3-4 years
+Trinidad around 3 years
+
+",Yes,611371.6999999993,NA,null,<p></p>,null,choice,bw,binary,catch,null,washing machines,85,60,50,25,null,null,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,choice_trial,survey-html-form,15,89623,0.0-4.0-1.5,330,1,2025-05-08T19:26:54Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=55695,"en-US,en;q=0.9",5sn3b3egfl6mbnv,18,"[""White""]",No,Female,"Kyrgyzstan around 3 years
+Cyprus around 3-4 years
+America around 5-6 years
+Moldova around 3-4 years
+Trinidad around 3 years
+
+",Yes,611371.6999999993,NA,7527,NA,"{""product_choice"":""A""}",choice,bw,binary,catch,null,washing machines,85,60,50,25,null,null,1,null,null,null,null,null,null,Average lifespan,Energy savings,NA,NA
+NA,NA,NA,NA,NA,choice_trial_setup,html-keyboard-response,16,89925,0.0-4.0-0.6,330,1,2025-05-08T19:26:54Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=55695,"en-US,en;q=0.9",5sn3b3egfl6mbnv,18,"[""White""]",No,Female,"Kyrgyzstan around 3 years
+Cyprus around 3-4 years
+America around 5-6 years
+Moldova around 3-4 years
+Trinidad around 3 years
+
+",Yes,611371.6999999993,NA,null,<p></p>,null,choice,ctd,trinary,repulsion_A,2,microwave ovens,null,null,null,null,null,null,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,choice_trial,survey-html-form,17,97990,0.0-4.0-1.6,330,1,2025-05-08T19:26:54Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=55695,"en-US,en;q=0.9",5sn3b3egfl6mbnv,18,"[""White""]",No,Female,"Kyrgyzstan around 3 years
+Cyprus around 3-4 years
+America around 5-6 years
+Moldova around 3-4 years
+Trinidad around 3 years
+
+",Yes,611371.6999999993,NA,8062,NA,"{""product_choice"":""B""}",choice,ctd,trinary,repulsion_A,2,microwave ovens,null,null,null,null,null,null,2,30,40,20,100,90,100,Warranty,Cooking power,NA,NA
+NA,NA,NA,NA,NA,choice_trial_setup,html-keyboard-response,18,98293,0.0-4.0-0.7,330,1,2025-05-08T19:26:54Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=55695,"en-US,en;q=0.9",5sn3b3egfl6mbnv,18,"[""White""]",No,Female,"Kyrgyzstan around 3 years
+Cyprus around 3-4 years
+America around 5-6 years
+Moldova around 3-4 years
+Trinidad around 3 years
+
+",Yes,611371.6999999993,NA,null,<p></p>,null,choice,tc,binary,repulsion,1,washing machines,null,null,null,null,null,null,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,choice_trial,survey-html-form,19,102790,0.0-4.0-1.7,330,1,2025-05-08T19:26:54Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=55695,"en-US,en;q=0.9",5sn3b3egfl6mbnv,18,"[""White""]",No,Female,"Kyrgyzstan around 3 years
+Cyprus around 3-4 years
+America around 5-6 years
+Moldova around 3-4 years
+Trinidad around 3 years
+
+",Yes,611371.6999999993,NA,4493,NA,"{""product_choice"":""B""}",choice,tc,binary,repulsion,1,washing machines,null,null,null,null,null,null,2,100,90,null,30,40,null,Average lifespan,Energy savings,NA,NA
+NA,NA,NA,NA,NA,choice_trial_setup,html-keyboard-response,20,103094,0.0-4.0-0.8,330,1,2025-05-08T19:26:54Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=55695,"en-US,en;q=0.9",5sn3b3egfl6mbnv,18,"[""White""]",No,Female,"Kyrgyzstan around 3 years
+Cyprus around 3-4 years
+America around 5-6 years
+Moldova around 3-4 years
+Trinidad around 3 years
+
+",Yes,611371.6999999993,NA,null,<p></p>,null,choice,ct,binary,repulsion,2,washing machines,null,null,null,null,null,null,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,choice_trial,survey-html-form,21,113523,0.0-4.0-1.8,330,1,2025-05-08T19:26:54Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=55695,"en-US,en;q=0.9",5sn3b3egfl6mbnv,18,"[""White""]",No,Female,"Kyrgyzstan around 3 years
+Cyprus around 3-4 years
+America around 5-6 years
+Moldova around 3-4 years
+Trinidad around 3 years
+
+",Yes,611371.6999999993,NA,10427,NA,"{""product_choice"":""A""}",choice,ct,binary,repulsion,2,washing machines,null,null,null,null,null,null,2,30,40,null,100,90,null,Average lifespan,Energy savings,NA,NA
+NA,NA,NA,NA,NA,choice_trial_setup,html-keyboard-response,22,113825,0.0-4.0-0.9,330,1,2025-05-08T19:26:54Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=55695,"en-US,en;q=0.9",5sn3b3egfl6mbnv,18,"[""White""]",No,Female,"Kyrgyzstan around 3 years
+Cyprus around 3-4 years
+America around 5-6 years
+Moldova around 3-4 years
+Trinidad around 3 years
+
+",Yes,611371.6999999993,NA,null,<p></p>,null,choice,dct,trinary,repulsion_B,1,microwave ovens,null,null,null,null,null,null,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,choice_trial,survey-html-form,23,120172,0.0-4.0-1.9,330,1,2025-05-08T19:26:54Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=55695,"en-US,en;q=0.9",5sn3b3egfl6mbnv,18,"[""White""]",No,Female,"Kyrgyzstan around 3 years
+Cyprus around 3-4 years
+America around 5-6 years
+Moldova around 3-4 years
+Trinidad around 3 years
+
+",Yes,611371.6999999993,NA,6344,NA,"{""product_choice"":""A""}",choice,dct,trinary,repulsion_B,1,microwave ovens,null,null,null,null,null,null,2,90,100,80,40,30,40,Warranty,Cooking power,NA,NA
+NA,NA,NA,NA,NA,choice_trial_setup,html-keyboard-response,24,120475,0.0-4.0-0.10,330,1,2025-05-08T19:26:54Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=55695,"en-US,en;q=0.9",5sn3b3egfl6mbnv,18,"[""White""]",No,Female,"Kyrgyzstan around 3 years
+Cyprus around 3-4 years
+America around 5-6 years
+Moldova around 3-4 years
+Trinidad around 3 years
+
+",Yes,611371.6999999993,NA,null,<p></p>,null,choice,bww,trinary,catch,null,televisions,65,90,15,25,45,5,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,choice_trial,survey-html-form,25,124424,0.0-4.0-1.10,330,1,2025-05-08T19:26:54Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=55695,"en-US,en;q=0.9",5sn3b3egfl6mbnv,18,"[""White""]",No,Female,"Kyrgyzstan around 3 years
+Cyprus around 3-4 years
+America around 5-6 years
+Moldova around 3-4 years
+Trinidad around 3 years
+
+",Yes,611371.6999999993,NA,3945,NA,"{""product_choice"":""A""}",choice,bww,trinary,catch,null,televisions,65,90,15,25,45,5,2,null,null,null,null,null,null,Screen size,Average lifespan,NA,NA
+NA,NA,NA,NA,NA,choice_trial_setup,html-keyboard-response,26,124727,0.0-4.0-0.11,330,1,2025-05-08T19:26:54Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=55695,"en-US,en;q=0.9",5sn3b3egfl6mbnv,18,"[""White""]",No,Female,"Kyrgyzstan around 3 years
+Cyprus around 3-4 years
+America around 5-6 years
+Moldova around 3-4 years
+Trinidad around 3 years
+
+",Yes,611371.6999999993,NA,null,<p></p>,null,choice,wb,binary,catch,null,laptops,65,90,40,35,null,null,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,choice_trial,survey-html-form,27,131557,0.0-4.0-1.11,330,1,2025-05-08T19:26:54Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=55695,"en-US,en;q=0.9",5sn3b3egfl6mbnv,18,"[""White""]",No,Female,"Kyrgyzstan around 3 years
+Cyprus around 3-4 years
+America around 5-6 years
+Moldova around 3-4 years
+Trinidad around 3 years
+
+",Yes,611371.6999999993,NA,6826,NA,"{""product_choice"":""B""}",choice,wb,binary,catch,null,laptops,65,90,40,35,null,null,2,null,null,null,null,null,null,Processing speed,Memory (RAM),NA,NA
+NA,NA,NA,NA,NA,choice_trial_setup,html-keyboard-response,28,131860,0.0-4.0-0.12,330,1,2025-05-08T19:26:54Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=55695,"en-US,en;q=0.9",5sn3b3egfl6mbnv,18,"[""White""]",No,Female,"Kyrgyzstan around 3 years
+Cyprus around 3-4 years
+America around 5-6 years
+Moldova around 3-4 years
+Trinidad around 3 years
+
+",Yes,611371.6999999993,NA,null,<p></p>,null,choice,dtc,trinary,repulsion_B,1,washing machines,null,null,null,null,null,null,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,choice_trial,survey-html-form,29,137190,0.0-4.0-1.12,330,1,2025-05-08T19:26:54Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=55695,"en-US,en;q=0.9",5sn3b3egfl6mbnv,18,"[""White""]",No,Female,"Kyrgyzstan around 3 years
+Cyprus around 3-4 years
+America around 5-6 years
+Moldova around 3-4 years
+Trinidad around 3 years
+
+",Yes,611371.6999999993,NA,5325,NA,"{""product_choice"":""C""}",choice,dtc,trinary,repulsion_B,1,washing machines,null,null,null,null,null,null,1,90,100,80,40,30,40,Average lifespan,Energy savings,NA,NA
+NA,NA,NA,NA,NA,choice_trial_setup,html-keyboard-response,30,137493,0.0-4.0-0.13,330,1,2025-05-08T19:26:54Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=55695,"en-US,en;q=0.9",5sn3b3egfl6mbnv,18,"[""White""]",No,Female,"Kyrgyzstan around 3 years
+Cyprus around 3-4 years
+America around 5-6 years
+Moldova around 3-4 years
+Trinidad around 3 years
+
+",Yes,611371.6999999993,NA,null,<p></p>,null,choice,tc,binary,attraction,NA,washing machines,null,null,null,null,null,null,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,choice_trial,survey-html-form,31,143307,0.0-4.0-1.13,330,1,2025-05-08T19:26:54Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=55695,"en-US,en;q=0.9",5sn3b3egfl6mbnv,18,"[""White""]",No,Female,"Kyrgyzstan around 3 years
+Cyprus around 3-4 years
+America around 5-6 years
+Moldova around 3-4 years
+Trinidad around 3 years
+
+",Yes,611371.6999999993,NA,5810,NA,"{""product_choice"":""A""}",choice,tc,binary,attraction,NA,washing machines,null,null,null,null,null,null,1,60,50,null,50,60,null,Average lifespan,Energy savings,NA,NA
+NA,NA,NA,NA,NA,choice_trial_setup,html-keyboard-response,32,143610,0.0-4.0-0.14,330,1,2025-05-08T19:26:54Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=55695,"en-US,en;q=0.9",5sn3b3egfl6mbnv,18,"[""White""]",No,Female,"Kyrgyzstan around 3 years
+Cyprus around 3-4 years
+America around 5-6 years
+Moldova around 3-4 years
+Trinidad around 3 years
+
+",Yes,611371.6999999993,NA,null,<p></p>,null,choice,ct,binary,repulsion,1,laptops,null,null,null,null,null,null,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,choice_trial,survey-html-form,33,152690,0.0-4.0-1.14,330,1,2025-05-08T19:26:54Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=55695,"en-US,en;q=0.9",5sn3b3egfl6mbnv,18,"[""White""]",No,Female,"Kyrgyzstan around 3 years
+Cyprus around 3-4 years
+America around 5-6 years
+Moldova around 3-4 years
+Trinidad around 3 years
+
+",Yes,611371.6999999993,NA,9077,NA,"{""product_choice"":""A""}",choice,ct,binary,repulsion,1,laptops,null,null,null,null,null,null,2,100,90,null,30,40,null,Processing speed,Memory (RAM),NA,NA
+NA,NA,NA,NA,NA,choice_trial_setup,html-keyboard-response,34,152993,0.0-4.0-0.15,330,1,2025-05-08T19:26:54Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=55695,"en-US,en;q=0.9",5sn3b3egfl6mbnv,18,"[""White""]",No,Female,"Kyrgyzstan around 3 years
+Cyprus around 3-4 years
+America around 5-6 years
+Moldova around 3-4 years
+Trinidad around 3 years
+
+",Yes,611371.6999999993,NA,null,<p></p>,null,choice,ct,binary,attraction,NA,laptops,null,null,null,null,null,null,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,choice_trial,survey-html-form,35,157108,0.0-4.0-1.15,330,1,2025-05-08T19:26:54Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=55695,"en-US,en;q=0.9",5sn3b3egfl6mbnv,18,"[""White""]",No,Female,"Kyrgyzstan around 3 years
+Cyprus around 3-4 years
+America around 5-6 years
+Moldova around 3-4 years
+Trinidad around 3 years
+
+",Yes,611371.6999999993,NA,4110,NA,"{""product_choice"":""A""}",choice,ct,binary,attraction,NA,laptops,null,null,null,null,null,null,1,60,50,null,50,60,null,Processing speed,Memory (RAM),NA,NA
+NA,NA,NA,NA,NA,choice_trial_setup,html-keyboard-response,36,157411,0.0-4.0-0.16,330,1,2025-05-08T19:26:54Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=55695,"en-US,en;q=0.9",5sn3b3egfl6mbnv,18,"[""White""]",No,Female,"Kyrgyzstan around 3 years
+Cyprus around 3-4 years
+America around 5-6 years
+Moldova around 3-4 years
+Trinidad around 3 years
+
+",Yes,611371.6999999993,NA,null,<p></p>,null,choice,tcd,trinary,attraction,1,washing machines,null,null,null,null,null,null,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,choice_trial,survey-html-form,37,185491,0.0-4.0-1.16,330,1,2025-05-08T19:26:54Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=55695,"en-US,en;q=0.9",5sn3b3egfl6mbnv,18,"[""White""]",No,Female,"Kyrgyzstan around 3 years
+Cyprus around 3-4 years
+America around 5-6 years
+Moldova around 3-4 years
+Trinidad around 3 years
+
+",Yes,611371.6999999993,NA,28076,NA,"{""product_choice"":""A""}",choice,tcd,trinary,attraction,1,washing machines,null,null,null,null,null,null,2,60,50,60,50,60,40,Average lifespan,Energy savings,NA,NA
+NA,NA,NA,NA,NA,choice_trial_setup,html-keyboard-response,38,185796,0.0-4.0-0.17,330,1,2025-05-08T19:26:54Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=55695,"en-US,en;q=0.9",5sn3b3egfl6mbnv,18,"[""White""]",No,Female,"Kyrgyzstan around 3 years
+Cyprus around 3-4 years
+America around 5-6 years
+Moldova around 3-4 years
+Trinidad around 3 years
+
+",Yes,611371.6999999993,NA,null,<p></p>,null,choice,cdt,trinary,repulsion_A,2,washing machines,null,null,null,null,null,null,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,choice_trial,survey-html-form,39,192191,0.0-4.0-1.17,330,1,2025-05-08T19:26:54Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=55695,"en-US,en;q=0.9",5sn3b3egfl6mbnv,18,"[""White""]",No,Female,"Kyrgyzstan around 3 years
+Cyprus around 3-4 years
+America around 5-6 years
+Moldova around 3-4 years
+Trinidad around 3 years
+
+",Yes,611371.6999999993,NA,6391,NA,"{""product_choice"":""A""}",choice,cdt,trinary,repulsion_A,2,washing machines,null,null,null,null,null,null,1,30,40,20,100,90,100,Average lifespan,Energy savings,NA,NA
+NA,NA,NA,NA,NA,choice_trial_setup,html-keyboard-response,40,192496,0.0-4.0-0.18,330,1,2025-05-08T19:26:54Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=55695,"en-US,en;q=0.9",5sn3b3egfl6mbnv,18,"[""White""]",No,Female,"Kyrgyzstan around 3 years
+Cyprus around 3-4 years
+America around 5-6 years
+Moldova around 3-4 years
+Trinidad around 3 years
+
+",Yes,611371.6999999993,NA,null,<p></p>,null,choice,wb,binary,catch,null,televisions,50,95,45,10,null,null,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,choice_trial,survey-html-form,41,196725,0.0-4.0-1.18,330,1,2025-05-08T19:26:54Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=55695,"en-US,en;q=0.9",5sn3b3egfl6mbnv,18,"[""White""]",No,Female,"Kyrgyzstan around 3 years
+Cyprus around 3-4 years
+America around 5-6 years
+Moldova around 3-4 years
+Trinidad around 3 years
+
+",Yes,611371.6999999993,NA,4224,NA,"{""product_choice"":""B""}",choice,wb,binary,catch,null,televisions,50,95,45,10,null,null,2,null,null,null,null,null,null,Screen size,Average lifespan,NA,NA
+NA,NA,NA,NA,NA,choice_trial_setup,html-keyboard-response,42,197029,0.0-4.0-0.19,330,1,2025-05-08T19:26:54Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=55695,"en-US,en;q=0.9",5sn3b3egfl6mbnv,18,"[""White""]",No,Female,"Kyrgyzstan around 3 years
+Cyprus around 3-4 years
+America around 5-6 years
+Moldova around 3-4 years
+Trinidad around 3 years
+
+",Yes,611371.6999999993,NA,null,<p></p>,null,choice,wb,binary,catch,null,microwave ovens,90,85,35,10,null,null,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,choice_trial,survey-html-form,43,202541,0.0-4.0-1.19,330,1,2025-05-08T19:26:54Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=55695,"en-US,en;q=0.9",5sn3b3egfl6mbnv,18,"[""White""]",No,Female,"Kyrgyzstan around 3 years
+Cyprus around 3-4 years
+America around 5-6 years
+Moldova around 3-4 years
+Trinidad around 3 years
+
+",Yes,611371.6999999993,NA,5507,NA,"{""product_choice"":""B""}",choice,wb,binary,catch,null,microwave ovens,90,85,35,10,null,null,2,null,null,null,null,null,null,Warranty,Cooking power,NA,NA
+NA,NA,NA,NA,NA,choice_trial_setup,html-keyboard-response,44,202846,0.0-4.0-0.20,330,1,2025-05-08T19:26:54Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=55695,"en-US,en;q=0.9",5sn3b3egfl6mbnv,18,"[""White""]",No,Female,"Kyrgyzstan around 3 years
+Cyprus around 3-4 years
+America around 5-6 years
+Moldova around 3-4 years
+Trinidad around 3 years
+
+",Yes,611371.6999999993,NA,null,<p></p>,null,choice,tcd,trinary,repulsion_A,1,televisions,null,null,null,null,null,null,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,choice_trial,survey-html-form,45,206992,0.0-4.0-1.20,330,1,2025-05-08T19:26:54Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=55695,"en-US,en;q=0.9",5sn3b3egfl6mbnv,18,"[""White""]",No,Female,"Kyrgyzstan around 3 years
+Cyprus around 3-4 years
+America around 5-6 years
+Moldova around 3-4 years
+Trinidad around 3 years
+
+",Yes,611371.6999999993,NA,4142,NA,"{""product_choice"":""B""}",choice,tcd,trinary,repulsion_A,1,televisions,null,null,null,null,null,null,2,100,90,100,30,40,20,Screen size,Average lifespan,NA,NA
+NA,NA,NA,NA,NA,choice_trial_setup,html-keyboard-response,46,207297,0.0-4.0-0.21,330,1,2025-05-08T19:26:54Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=55695,"en-US,en;q=0.9",5sn3b3egfl6mbnv,18,"[""White""]",No,Female,"Kyrgyzstan around 3 years
+Cyprus around 3-4 years
+America around 5-6 years
+Moldova around 3-4 years
+Trinidad around 3 years
+
+",Yes,611371.6999999993,NA,null,<p></p>,null,choice,ct,binary,repulsion,1,televisions,null,null,null,null,null,null,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,choice_trial,survey-html-form,47,212008,0.0-4.0-1.21,330,1,2025-05-08T19:26:54Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=55695,"en-US,en;q=0.9",5sn3b3egfl6mbnv,18,"[""White""]",No,Female,"Kyrgyzstan around 3 years
+Cyprus around 3-4 years
+America around 5-6 years
+Moldova around 3-4 years
+Trinidad around 3 years
+
+",Yes,611371.6999999993,NA,4706,NA,"{""product_choice"":""B""}",choice,ct,binary,repulsion,1,televisions,null,null,null,null,null,null,2,100,90,null,30,40,null,Screen size,Average lifespan,NA,NA
+NA,NA,NA,NA,NA,choice_trial_setup,html-keyboard-response,48,212313,0.0-4.0-0.22,330,1,2025-05-08T19:26:54Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=55695,"en-US,en;q=0.9",5sn3b3egfl6mbnv,18,"[""White""]",No,Female,"Kyrgyzstan around 3 years
+Cyprus around 3-4 years
+America around 5-6 years
+Moldova around 3-4 years
+Trinidad around 3 years
+
+",Yes,611371.6999999993,NA,null,<p></p>,null,choice,ctd,trinary,repulsion_A,1,microwave ovens,null,null,null,null,null,null,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,choice_trial,survey-html-form,49,216508,0.0-4.0-1.22,330,1,2025-05-08T19:26:54Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=55695,"en-US,en;q=0.9",5sn3b3egfl6mbnv,18,"[""White""]",No,Female,"Kyrgyzstan around 3 years
+Cyprus around 3-4 years
+America around 5-6 years
+Moldova around 3-4 years
+Trinidad around 3 years
+
+",Yes,611371.6999999993,NA,4191,NA,"{""product_choice"":""A""}",choice,ctd,trinary,repulsion_A,1,microwave ovens,null,null,null,null,null,null,1,100,90,100,30,40,20,Warranty,Cooking power,NA,NA
+NA,NA,NA,NA,NA,choice_trial_setup,html-keyboard-response,50,216813,0.0-4.0-0.23,330,1,2025-05-08T19:26:54Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=55695,"en-US,en;q=0.9",5sn3b3egfl6mbnv,18,"[""White""]",No,Female,"Kyrgyzstan around 3 years
+Cyprus around 3-4 years
+America around 5-6 years
+Moldova around 3-4 years
+Trinidad around 3 years
+
+",Yes,611371.6999999993,NA,null,<p></p>,null,choice,ctd,trinary,repulsion_B,2,laptops,null,null,null,null,null,null,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,choice_trial,survey-html-form,51,221025,0.0-4.0-1.23,330,1,2025-05-08T19:26:54Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=55695,"en-US,en;q=0.9",5sn3b3egfl6mbnv,18,"[""White""]",No,Female,"Kyrgyzstan around 3 years
+Cyprus around 3-4 years
+America around 5-6 years
+Moldova around 3-4 years
+Trinidad around 3 years
+
+",Yes,611371.6999999993,NA,4207,NA,"{""product_choice"":""B""}",choice,ctd,trinary,repulsion_B,2,laptops,null,null,null,null,null,null,2,40,30,40,90,100,80,Processing speed,Memory (RAM),NA,NA
+NA,NA,NA,NA,NA,choice_trial_setup,html-keyboard-response,52,221329,0.0-4.0-0.24,330,1,2025-05-08T19:26:54Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=55695,"en-US,en;q=0.9",5sn3b3egfl6mbnv,18,"[""White""]",No,Female,"Kyrgyzstan around 3 years
+Cyprus around 3-4 years
+America around 5-6 years
+Moldova around 3-4 years
+Trinidad around 3 years
+
+",Yes,611371.6999999993,NA,null,<p></p>,null,choice,ct,binary,attraction,NA,televisions,null,null,null,null,null,null,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,choice_trial,survey-html-form,53,230991,0.0-4.0-1.24,330,1,2025-05-08T19:26:54Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=55695,"en-US,en;q=0.9",5sn3b3egfl6mbnv,18,"[""White""]",No,Female,"Kyrgyzstan around 3 years
+Cyprus around 3-4 years
+America around 5-6 years
+Moldova around 3-4 years
+Trinidad around 3 years
+
+",Yes,611371.6999999993,NA,9658,NA,"{""product_choice"":""B""}",choice,ct,binary,attraction,NA,televisions,null,null,null,null,null,null,1,60,50,null,50,60,null,Screen size,Average lifespan,NA,NA
+NA,NA,NA,NA,NA,choice_trial_setup,html-keyboard-response,54,231296,0.0-4.0-0.25,330,1,2025-05-08T19:26:54Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=55695,"en-US,en;q=0.9",5sn3b3egfl6mbnv,18,"[""White""]",No,Female,"Kyrgyzstan around 3 years
+Cyprus around 3-4 years
+America around 5-6 years
+Moldova around 3-4 years
+Trinidad around 3 years
+
+",Yes,611371.6999999993,NA,null,<p></p>,null,choice,dtc,trinary,attraction,2,laptops,null,null,null,null,null,null,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,choice_trial,survey-html-form,55,240708,0.0-4.0-1.25,330,1,2025-05-08T19:26:54Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=55695,"en-US,en;q=0.9",5sn3b3egfl6mbnv,18,"[""White""]",No,Female,"Kyrgyzstan around 3 years
+Cyprus around 3-4 years
+America around 5-6 years
+Moldova around 3-4 years
+Trinidad around 3 years
+
+",Yes,611371.6999999993,NA,9406,NA,"{""product_choice"":""C""}",choice,dtc,trinary,attraction,2,laptops,null,null,null,null,null,null,2,50,60,40,60,50,60,Processing speed,Memory (RAM),NA,NA
+NA,NA,NA,NA,NA,choice_trial_setup,html-keyboard-response,56,241013,0.0-4.0-0.26,330,1,2025-05-08T19:26:54Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=55695,"en-US,en;q=0.9",5sn3b3egfl6mbnv,18,"[""White""]",No,Female,"Kyrgyzstan around 3 years
+Cyprus around 3-4 years
+America around 5-6 years
+Moldova around 3-4 years
+Trinidad around 3 years
+
+",Yes,611371.6999999993,NA,null,<p></p>,null,choice,dct,trinary,repulsion_A,1,laptops,null,null,null,null,null,null,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,choice_trial,survey-html-form,57,247275,0.0-4.0-1.26,330,1,2025-05-08T19:26:54Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=55695,"en-US,en;q=0.9",5sn3b3egfl6mbnv,18,"[""White""]",No,Female,"Kyrgyzstan around 3 years
+Cyprus around 3-4 years
+America around 5-6 years
+Moldova around 3-4 years
+Trinidad around 3 years
+
+",Yes,611371.6999999993,NA,6256,NA,"{""product_choice"":""B""}",choice,dct,trinary,repulsion_A,1,laptops,null,null,null,null,null,null,2,100,90,100,30,40,20,Processing speed,Memory (RAM),NA,NA
+NA,NA,NA,NA,NA,choice_trial_setup,html-keyboard-response,58,247579,0.0-4.0-0.27,330,1,2025-05-08T19:26:54Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=55695,"en-US,en;q=0.9",5sn3b3egfl6mbnv,18,"[""White""]",No,Female,"Kyrgyzstan around 3 years
+Cyprus around 3-4 years
+America around 5-6 years
+Moldova around 3-4 years
+Trinidad around 3 years
+
+",Yes,611371.6999999993,NA,null,<p></p>,null,choice,cdt,trinary,attraction,1,laptops,null,null,null,null,null,null,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,choice_trial,survey-html-form,59,252509,0.0-4.0-1.27,330,1,2025-05-08T19:26:54Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=55695,"en-US,en;q=0.9",5sn3b3egfl6mbnv,18,"[""White""]",No,Female,"Kyrgyzstan around 3 years
+Cyprus around 3-4 years
+America around 5-6 years
+Moldova around 3-4 years
+Trinidad around 3 years
+
+",Yes,611371.6999999993,NA,4925,NA,"{""product_choice"":""C""}",choice,cdt,trinary,attraction,1,laptops,null,null,null,null,null,null,2,60,50,60,50,60,40,Processing speed,Memory (RAM),NA,NA
+NA,NA,NA,NA,NA,choice_trial_setup,html-keyboard-response,60,252814,0.0-4.0-0.28,330,1,2025-05-08T19:26:54Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=55695,"en-US,en;q=0.9",5sn3b3egfl6mbnv,18,"[""White""]",No,Female,"Kyrgyzstan around 3 years
+Cyprus around 3-4 years
+America around 5-6 years
+Moldova around 3-4 years
+Trinidad around 3 years
+
+",Yes,611371.6999999993,NA,null,<p></p>,null,choice,ct,binary,repulsion,2,televisions,null,null,null,null,null,null,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,choice_trial,survey-html-form,61,256542,0.0-4.0-1.28,330,1,2025-05-08T19:26:54Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=55695,"en-US,en;q=0.9",5sn3b3egfl6mbnv,18,"[""White""]",No,Female,"Kyrgyzstan around 3 years
+Cyprus around 3-4 years
+America around 5-6 years
+Moldova around 3-4 years
+Trinidad around 3 years
+
+",Yes,611371.6999999993,NA,3724,NA,"{""product_choice"":""A""}",choice,ct,binary,repulsion,2,televisions,null,null,null,null,null,null,2,30,40,null,100,90,null,Screen size,Average lifespan,NA,NA
+NA,NA,NA,NA,NA,choice_trial_setup,html-keyboard-response,62,256848,0.0-4.0-0.29,330,1,2025-05-08T19:26:54Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=55695,"en-US,en;q=0.9",5sn3b3egfl6mbnv,18,"[""White""]",No,Female,"Kyrgyzstan around 3 years
+Cyprus around 3-4 years
+America around 5-6 years
+Moldova around 3-4 years
+Trinidad around 3 years
+
+",Yes,611371.6999999993,NA,null,<p></p>,null,choice,ctd,trinary,repulsion_B,2,microwave ovens,null,null,null,null,null,null,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,choice_trial,survey-html-form,63,260875,0.0-4.0-1.29,330,1,2025-05-08T19:26:54Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=55695,"en-US,en;q=0.9",5sn3b3egfl6mbnv,18,"[""White""]",No,Female,"Kyrgyzstan around 3 years
+Cyprus around 3-4 years
+America around 5-6 years
+Moldova around 3-4 years
+Trinidad around 3 years
+
+",Yes,611371.6999999993,NA,4023,NA,"{""product_choice"":""A""}",choice,ctd,trinary,repulsion_B,2,microwave ovens,null,null,null,null,null,null,2,40,30,40,90,100,80,Warranty,Cooking power,NA,NA
+NA,NA,NA,NA,NA,choice_trial_setup,html-keyboard-response,64,261180,0.0-4.0-0.30,330,1,2025-05-08T19:26:54Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=55695,"en-US,en;q=0.9",5sn3b3egfl6mbnv,18,"[""White""]",No,Female,"Kyrgyzstan around 3 years
+Cyprus around 3-4 years
+America around 5-6 years
+Moldova around 3-4 years
+Trinidad around 3 years
+
+",Yes,611371.6999999993,NA,null,<p></p>,null,choice,wbw,trinary,catch,null,washing machines,55,50,45,40,10,40,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,choice_trial,survey-html-form,65,266759,0.0-4.0-1.30,330,1,2025-05-08T19:26:54Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=55695,"en-US,en;q=0.9",5sn3b3egfl6mbnv,18,"[""White""]",No,Female,"Kyrgyzstan around 3 years
+Cyprus around 3-4 years
+America around 5-6 years
+Moldova around 3-4 years
+Trinidad around 3 years
+
+",Yes,611371.6999999993,NA,5573,NA,"{""product_choice"":""B""}",choice,wbw,trinary,catch,null,washing machines,55,50,45,40,10,40,2,null,null,null,null,null,null,Average lifespan,Energy savings,NA,NA
+NA,NA,NA,NA,NA,choice_trial_setup,html-keyboard-response,66,267064,0.0-4.0-0.31,330,1,2025-05-08T19:26:54Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=55695,"en-US,en;q=0.9",5sn3b3egfl6mbnv,18,"[""White""]",No,Female,"Kyrgyzstan around 3 years
+Cyprus around 3-4 years
+America around 5-6 years
+Moldova around 3-4 years
+Trinidad around 3 years
+
+",Yes,611371.6999999993,NA,null,<p></p>,null,choice,dct,trinary,repulsion_A,2,laptops,null,null,null,null,null,null,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,choice_trial,survey-html-form,67,271459,0.0-4.0-1.31,330,1,2025-05-08T19:26:54Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=55695,"en-US,en;q=0.9",5sn3b3egfl6mbnv,18,"[""White""]",No,Female,"Kyrgyzstan around 3 years
+Cyprus around 3-4 years
+America around 5-6 years
+Moldova around 3-4 years
+Trinidad around 3 years
+
+",Yes,611371.6999999993,NA,4390,NA,"{""product_choice"":""B""}",choice,dct,trinary,repulsion_A,2,laptops,null,null,null,null,null,null,2,30,40,20,100,90,100,Processing speed,Memory (RAM),NA,NA
+NA,NA,NA,NA,NA,choice_trial_setup,html-keyboard-response,68,271765,0.0-4.0-0.32,330,1,2025-05-08T19:26:54Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=55695,"en-US,en;q=0.9",5sn3b3egfl6mbnv,18,"[""White""]",No,Female,"Kyrgyzstan around 3 years
+Cyprus around 3-4 years
+America around 5-6 years
+Moldova around 3-4 years
+Trinidad around 3 years
+
+",Yes,611371.6999999993,NA,null,<p></p>,null,choice,wwb,trinary,catch,null,laptops,50,65,15,50,40,40,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,choice_trial,survey-html-form,69,277725,0.0-4.0-1.32,330,1,2025-05-08T19:26:54Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=55695,"en-US,en;q=0.9",5sn3b3egfl6mbnv,18,"[""White""]",No,Female,"Kyrgyzstan around 3 years
+Cyprus around 3-4 years
+America around 5-6 years
+Moldova around 3-4 years
+Trinidad around 3 years
+
+",Yes,611371.6999999993,NA,5954,NA,"{""product_choice"":""C""}",choice,wwb,trinary,catch,null,laptops,50,65,15,50,40,40,2,null,null,null,null,null,null,Processing speed,Memory (RAM),NA,NA
+NA,NA,NA,NA,NA,choice_trial_setup,html-keyboard-response,70,278031,0.0-4.0-0.33,330,1,2025-05-08T19:26:54Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=55695,"en-US,en;q=0.9",5sn3b3egfl6mbnv,18,"[""White""]",No,Female,"Kyrgyzstan around 3 years
+Cyprus around 3-4 years
+America around 5-6 years
+Moldova around 3-4 years
+Trinidad around 3 years
+
+",Yes,611371.6999999993,NA,null,<p></p>,null,choice,dtc,trinary,repulsion_B,1,televisions,null,null,null,null,null,null,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,choice_trial,survey-html-form,71,291375,0.0-4.0-1.33,330,1,2025-05-08T19:26:54Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=55695,"en-US,en;q=0.9",5sn3b3egfl6mbnv,18,"[""White""]",No,Female,"Kyrgyzstan around 3 years
+Cyprus around 3-4 years
+America around 5-6 years
+Moldova around 3-4 years
+Trinidad around 3 years
+
+",Yes,611371.6999999993,NA,13338,NA,"{""product_choice"":""B""}",choice,dtc,trinary,repulsion_B,1,televisions,null,null,null,null,null,null,1,90,100,80,40,30,40,Screen size,Average lifespan,NA,NA
+NA,NA,NA,NA,NA,choice_trial_setup,html-keyboard-response,72,291681,0.0-4.0-0.34,330,1,2025-05-08T19:26:54Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=55695,"en-US,en;q=0.9",5sn3b3egfl6mbnv,18,"[""White""]",No,Female,"Kyrgyzstan around 3 years
+Cyprus around 3-4 years
+America around 5-6 years
+Moldova around 3-4 years
+Trinidad around 3 years
+
+",Yes,611371.6999999993,NA,null,<p></p>,null,choice,dtc,trinary,attraction,2,washing machines,null,null,null,null,null,null,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,choice_trial,survey-html-form,73,298258,0.0-4.0-1.34,330,1,2025-05-08T19:26:54Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=55695,"en-US,en;q=0.9",5sn3b3egfl6mbnv,18,"[""White""]",No,Female,"Kyrgyzstan around 3 years
+Cyprus around 3-4 years
+America around 5-6 years
+Moldova around 3-4 years
+Trinidad around 3 years
+
+",Yes,611371.6999999993,NA,6571,NA,"{""product_choice"":""B""}",choice,dtc,trinary,attraction,2,washing machines,null,null,null,null,null,null,1,50,60,40,60,50,60,Average lifespan,Energy savings,NA,NA
+NA,NA,NA,NA,NA,choice_trial_setup,html-keyboard-response,74,298564,0.0-4.0-0.35,330,1,2025-05-08T19:26:54Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=55695,"en-US,en;q=0.9",5sn3b3egfl6mbnv,18,"[""White""]",No,Female,"Kyrgyzstan around 3 years
+Cyprus around 3-4 years
+America around 5-6 years
+Moldova around 3-4 years
+Trinidad around 3 years
+
+",Yes,611371.6999999993,NA,null,<p></p>,null,choice,tcd,trinary,repulsion_B,1,laptops,null,null,null,null,null,null,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,choice_trial,survey-html-form,75,304376,0.0-4.0-1.35,330,1,2025-05-08T19:26:54Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=55695,"en-US,en;q=0.9",5sn3b3egfl6mbnv,18,"[""White""]",No,Female,"Kyrgyzstan around 3 years
+Cyprus around 3-4 years
+America around 5-6 years
+Moldova around 3-4 years
+Trinidad around 3 years
+
+",Yes,611371.6999999993,NA,5805,NA,"{""product_choice"":""A""}",choice,tcd,trinary,repulsion_B,1,laptops,null,null,null,null,null,null,2,90,100,80,40,30,40,Processing speed,Memory (RAM),NA,NA
+NA,NA,NA,NA,NA,choice_trial_setup,html-keyboard-response,76,304681,0.0-4.0-0.36,330,1,2025-05-08T19:26:54Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=55695,"en-US,en;q=0.9",5sn3b3egfl6mbnv,18,"[""White""]",No,Female,"Kyrgyzstan around 3 years
+Cyprus around 3-4 years
+America around 5-6 years
+Moldova around 3-4 years
+Trinidad around 3 years
+
+",Yes,611371.6999999993,NA,null,<p></p>,null,choice,dct,trinary,attraction,2,televisions,null,null,null,null,null,null,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,choice_trial,survey-html-form,77,313708,0.0-4.0-1.36,330,1,2025-05-08T19:26:54Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=55695,"en-US,en;q=0.9",5sn3b3egfl6mbnv,18,"[""White""]",No,Female,"Kyrgyzstan around 3 years
+Cyprus around 3-4 years
+America around 5-6 years
+Moldova around 3-4 years
+Trinidad around 3 years
+
+",Yes,611371.6999999993,NA,9022,NA,"{""product_choice"":""C""}",choice,dct,trinary,attraction,2,televisions,null,null,null,null,null,null,2,50,60,40,60,50,60,Screen size,Average lifespan,NA,NA
+NA,NA,NA,NA,NA,choice_trial_setup,html-keyboard-response,78,314013,0.0-4.0-0.37,330,1,2025-05-08T19:26:54Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=55695,"en-US,en;q=0.9",5sn3b3egfl6mbnv,18,"[""White""]",No,Female,"Kyrgyzstan around 3 years
+Cyprus around 3-4 years
+America around 5-6 years
+Moldova around 3-4 years
+Trinidad around 3 years
+
+",Yes,611371.6999999993,NA,null,<p></p>,null,choice,ct,binary,repulsion,1,microwave ovens,null,null,null,null,null,null,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,choice_trial,survey-html-form,79,316709,0.0-4.0-1.37,330,1,2025-05-08T19:26:54Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=55695,"en-US,en;q=0.9",5sn3b3egfl6mbnv,18,"[""White""]",No,Female,"Kyrgyzstan around 3 years
+Cyprus around 3-4 years
+America around 5-6 years
+Moldova around 3-4 years
+Trinidad around 3 years
+
+",Yes,611371.6999999993,NA,2692,NA,"{""product_choice"":""A""}",choice,ct,binary,repulsion,1,microwave ovens,null,null,null,null,null,null,2,100,90,null,30,40,null,Warranty,Cooking power,NA,NA
+NA,NA,NA,NA,NA,choice_trial_setup,html-keyboard-response,80,317014,0.0-4.0-0.38,330,1,2025-05-08T19:26:54Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=55695,"en-US,en;q=0.9",5sn3b3egfl6mbnv,18,"[""White""]",No,Female,"Kyrgyzstan around 3 years
+Cyprus around 3-4 years
+America around 5-6 years
+Moldova around 3-4 years
+Trinidad around 3 years
+
+",Yes,611371.6999999993,NA,null,<p></p>,null,choice,ct,binary,repulsion,2,microwave ovens,null,null,null,null,null,null,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,choice_trial,survey-html-form,81,319925,0.0-4.0-1.38,330,1,2025-05-08T19:26:54Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=55695,"en-US,en;q=0.9",5sn3b3egfl6mbnv,18,"[""White""]",No,Female,"Kyrgyzstan around 3 years
+Cyprus around 3-4 years
+America around 5-6 years
+Moldova around 3-4 years
+Trinidad around 3 years
+
+",Yes,611371.6999999993,NA,2905,NA,"{""product_choice"":""B""}",choice,ct,binary,repulsion,2,microwave ovens,null,null,null,null,null,null,2,30,40,null,100,90,null,Warranty,Cooking power,NA,NA
+NA,NA,NA,NA,NA,choice_trial_setup,html-keyboard-response,82,320230,0.0-4.0-0.39,330,1,2025-05-08T19:26:54Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=55695,"en-US,en;q=0.9",5sn3b3egfl6mbnv,18,"[""White""]",No,Female,"Kyrgyzstan around 3 years
+Cyprus around 3-4 years
+America around 5-6 years
+Moldova around 3-4 years
+Trinidad around 3 years
+
+",Yes,611371.6999999993,NA,null,<p></p>,null,choice,cdt,trinary,attraction,2,microwave ovens,null,null,null,null,null,null,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,choice_trial,survey-html-form,83,323409,0.0-4.0-1.39,330,1,2025-05-08T19:26:54Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=55695,"en-US,en;q=0.9",5sn3b3egfl6mbnv,18,"[""White""]",No,Female,"Kyrgyzstan around 3 years
+Cyprus around 3-4 years
+America around 5-6 years
+Moldova around 3-4 years
+Trinidad around 3 years
+
+",Yes,611371.6999999993,NA,3172,NA,"{""product_choice"":""A""}",choice,cdt,trinary,attraction,2,microwave ovens,null,null,null,null,null,null,1,50,60,40,60,50,60,Warranty,Cooking power,NA,NA
+NA,NA,NA,NA,NA,choice_trial_setup,html-keyboard-response,84,323713,0.0-4.0-0.40,330,1,2025-05-08T19:26:54Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=55695,"en-US,en;q=0.9",5sn3b3egfl6mbnv,18,"[""White""]",No,Female,"Kyrgyzstan around 3 years
+Cyprus around 3-4 years
+America around 5-6 years
+Moldova around 3-4 years
+Trinidad around 3 years
+
+",Yes,611371.6999999993,NA,null,<p></p>,null,choice,dct,trinary,repulsion_A,2,televisions,null,null,null,null,null,null,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,choice_trial,survey-html-form,85,328626,0.0-4.0-1.40,330,1,2025-05-08T19:26:54Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=55695,"en-US,en;q=0.9",5sn3b3egfl6mbnv,18,"[""White""]",No,Female,"Kyrgyzstan around 3 years
+Cyprus around 3-4 years
+America around 5-6 years
+Moldova around 3-4 years
+Trinidad around 3 years
+
+",Yes,611371.6999999993,NA,4906,NA,"{""product_choice"":""B""}",choice,dct,trinary,repulsion_A,2,televisions,null,null,null,null,null,null,2,30,40,20,100,90,100,Screen size,Average lifespan,NA,NA
+NA,NA,NA,NA,NA,choice_trial_setup,html-keyboard-response,86,328931,0.0-4.0-0.41,330,1,2025-05-08T19:26:54Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=55695,"en-US,en;q=0.9",5sn3b3egfl6mbnv,18,"[""White""]",No,Female,"Kyrgyzstan around 3 years
+Cyprus around 3-4 years
+America around 5-6 years
+Moldova around 3-4 years
+Trinidad around 3 years
+
+",Yes,611371.6999999993,NA,null,<p></p>,null,choice,tc,binary,repulsion,2,laptops,null,null,null,null,null,null,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,choice_trial,survey-html-form,87,331193,0.0-4.0-1.41,330,1,2025-05-08T19:26:54Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=55695,"en-US,en;q=0.9",5sn3b3egfl6mbnv,18,"[""White""]",No,Female,"Kyrgyzstan around 3 years
+Cyprus around 3-4 years
+America around 5-6 years
+Moldova around 3-4 years
+Trinidad around 3 years
+
+",Yes,611371.6999999993,NA,2255,NA,"{""product_choice"":""B""}",choice,tc,binary,repulsion,2,laptops,null,null,null,null,null,null,2,30,40,null,100,90,null,Processing speed,Memory (RAM),NA,NA
+NA,NA,NA,NA,NA,choice_trial_setup,html-keyboard-response,88,331497,0.0-4.0-0.42,330,1,2025-05-08T19:26:54Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=55695,"en-US,en;q=0.9",5sn3b3egfl6mbnv,18,"[""White""]",No,Female,"Kyrgyzstan around 3 years
+Cyprus around 3-4 years
+America around 5-6 years
+Moldova around 3-4 years
+Trinidad around 3 years
+
+",Yes,611371.6999999993,NA,null,<p></p>,null,choice,tdc,trinary,attraction,1,microwave ovens,null,null,null,null,null,null,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,choice_trial,survey-html-form,89,335425,0.0-4.0-1.42,330,1,2025-05-08T19:26:54Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=55695,"en-US,en;q=0.9",5sn3b3egfl6mbnv,18,"[""White""]",No,Female,"Kyrgyzstan around 3 years
+Cyprus around 3-4 years
+America around 5-6 years
+Moldova around 3-4 years
+Trinidad around 3 years
+
+",Yes,611371.6999999993,NA,3922,NA,"{""product_choice"":""C""}",choice,tdc,trinary,attraction,1,microwave ovens,null,null,null,null,null,null,2,60,50,60,50,60,40,Warranty,Cooking power,NA,NA
+NA,NA,NA,NA,NA,choice_trial_setup,html-keyboard-response,90,335731,0.0-4.0-0.43,330,1,2025-05-08T19:26:54Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=55695,"en-US,en;q=0.9",5sn3b3egfl6mbnv,18,"[""White""]",No,Female,"Kyrgyzstan around 3 years
+Cyprus around 3-4 years
+America around 5-6 years
+Moldova around 3-4 years
+Trinidad around 3 years
+
+",Yes,611371.6999999993,NA,null,<p></p>,null,choice,ct,binary,attraction,NA,microwave ovens,null,null,null,null,null,null,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,choice_trial,survey-html-form,91,339376,0.0-4.0-1.43,330,1,2025-05-08T19:26:54Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=55695,"en-US,en;q=0.9",5sn3b3egfl6mbnv,18,"[""White""]",No,Female,"Kyrgyzstan around 3 years
+Cyprus around 3-4 years
+America around 5-6 years
+Moldova around 3-4 years
+Trinidad around 3 years
+
+",Yes,611371.6999999993,NA,3638,NA,"{""product_choice"":""A""}",choice,ct,binary,attraction,NA,microwave ovens,null,null,null,null,null,null,1,60,50,null,50,60,null,Warranty,Cooking power,NA,NA
+NA,NA,NA,NA,NA,post_trials_message,html-button-response,92,340493,0.0-5.0,330,1,2025-05-08T19:26:54Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=55695,"en-US,en;q=0.9",5sn3b3egfl6mbnv,18,"[""White""]",No,Female,"Kyrgyzstan around 3 years
+Cyprus around 3-4 years
+America around 5-6 years
+Moldova around 3-4 years
+Trinidad around 3 years
+
+",Yes,611371.6999999993,NA,1111,<p> <b>Thank you for your patience!</b></p><p>  The study will be done after completing a brief form. </p>,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,survey_message,survey-text,93,428043,0.0-6.0,330,1,2025-05-08T19:26:54Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=55695,"en-US,en;q=0.9",5sn3b3egfl6mbnv,18,"[""White""]",No,Female,"Kyrgyzstan around 3 years
+Cyprus around 3-4 years
+America around 5-6 years
+Moldova around 3-4 years
+Trinidad around 3 years
+
+",Yes,611371.6999999993,NA,87547,NA,"{""Q0"":""I chose what I thought was worth it. For example, it was a pretty average lifespan but a larger screen size or better cooking ability, I chose to sacrifice a little to get something subjectively better. I didn't want to pick choices that were wildly different though ""}",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"I chose what I thought was worth it. For example, it was a pretty average lifespan but a larger screen size or better cooking ability, I chose to sacrifice a little to get something subjectively better. I didn't want to pick choices that were wildly different though",NA
+NA,NA,NA,NA,NA,demo_age,survey-text,94,433976,0.0-7.0,330,1,2025-05-08T19:26:54Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=55695,"en-US,en;q=0.9",5sn3b3egfl6mbnv,18,"[""White""]",No,Female,"Kyrgyzstan around 3 years
+Cyprus around 3-4 years
+America around 5-6 years
+Moldova around 3-4 years
+Trinidad around 3 years
+
+",Yes,611371.6999999993,NA,5930,NA,"{""Q0"":""18""}",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,demo_race,survey-multi-select,95,436411,0.0-8.0,330,1,2025-05-08T19:26:54Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=55695,"en-US,en;q=0.9",5sn3b3egfl6mbnv,18,"[""White""]",No,Female,"Kyrgyzstan around 3 years
+Cyprus around 3-4 years
+America around 5-6 years
+Moldova around 3-4 years
+Trinidad around 3 years
+
+",Yes,611371.6999999993,NA,2430,NA,"{""Q0"":[""White""]}",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,[0]
+NA,NA,NA,NA,NA,demo_ethnicity_gender,survey-multi-choice,96,439842,0.0-9.0,330,1,2025-05-08T19:26:54Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=55695,"en-US,en;q=0.9",5sn3b3egfl6mbnv,18,"[""White""]",No,Female,"Kyrgyzstan around 3 years
+Cyprus around 3-4 years
+America around 5-6 years
+Moldova around 3-4 years
+Trinidad around 3 years
+
+",Yes,611371.6999999993,NA,3427,NA,"{""Q0"":""No"",""Q1"":""Female""}",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"[0,1]"
+NA,NA,NA,NA,NA,demo_countries,survey-text,97,522809,0.0-10.0,330,1,2025-05-08T19:26:54Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=55695,"en-US,en;q=0.9",5sn3b3egfl6mbnv,18,"[""White""]",No,Female,"Kyrgyzstan around 3 years
+Cyprus around 3-4 years
+America around 5-6 years
+Moldova around 3-4 years
+Trinidad around 3 years
+
+",Yes,611371.6999999993,NA,82962,NA,"{""Q0"":""Kyrgyzstan around 3 years\nCyprus around 3-4 years\nAmerica around 5-6 years\nMoldova around 3-4 years\nTrinidad around 3 years\n\n""}",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,demo_prev_study,survey-multi-choice,98,555330,0.0-11.0,330,1,2025-05-08T19:26:54Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=55695,"en-US,en;q=0.9",5sn3b3egfl6mbnv,18,"[""White""]",No,Female,"Kyrgyzstan around 3 years
+Cyprus around 3-4 years
+America around 5-6 years
+Moldova around 3-4 years
+Trinidad around 3 years
+
+",Yes,611371.6999999993,NA,32517,NA,"{""Q0"":""Yes""}",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,[0]
+NA,NA,NA,NA,NA,post_survey_message,html-keyboard-response,99,560348,0.0-12.0,330,1,2025-05-08T19:26:54Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=55695,"en-US,en;q=0.9",5sn3b3egfl6mbnv,18,"[""White""]",No,Female,"Kyrgyzstan around 3 years
+Cyprus around 3-4 years
+America around 5-6 years
+Moldova around 3-4 years
+Trinidad around 3 years
+
+",Yes,611371.6999999993,NA,5013,NA,j,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,debrief,image-keyboard-response,100,611360,0.0-13.0,330,1,2025-05-08T19:26:54Z,b60275e29fe2361ab97ac0ac217840d7,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",Macintosh,Chrome,135.0.0.0,OS X,10_15_7,https://5puzkbbxv1.cognition.run/?sona_id=55695,"en-US,en;q=0.9",5sn3b3egfl6mbnv,18,"[""White""]",No,Female,"Kyrgyzstan around 3 years
+Cyprus around 3-4 years
+America around 5-6 years
+Moldova around 3-4 years
+Trinidad around 3 years
+
+",Yes,611371.6999999993,NA,51006,Judg_choice_debrief.png,p,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
