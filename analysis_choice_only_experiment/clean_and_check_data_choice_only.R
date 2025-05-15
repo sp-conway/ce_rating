@@ -100,7 +100,10 @@ ppt_keep <- catch_correct %>%
   pull(participant)
 
 # filter !!!! ALSO CHANGE RT TO SECS =======================================================
-filter_data <- function(data,keep) data %>% filter(participant %in% ppt_keep) 
+filter_data <- function(data,keep){
+  data %>% 
+    filter(participant %in% ppt_keep) 
+}
 choice_filtered <- filter_data(choice,ppt_keep) %>%
   mutate(rt=as.numeric(rt)/1000)
 demo_filtered <- filter_data(demo,ppt_keep)
