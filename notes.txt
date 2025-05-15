@@ -26,3 +26,6 @@ There are now 44 total trials. 8 catch, 36 critical
     - 1 each per product category, t_high value, A/B label
   - 8 attraction trinary
     - 1 each per product category, t_high value
+
+5/14/25
+bayes_price_2: just updated priors on covariance matrices so eta = .5 (i.e., less density around identity)

@@ -9,7 +9,7 @@ library(latex2exp)
 
 # settings
 set_cmdstan_path(here("cmdstan-2.36.0"))
-which_model <- "bayes_price_1"
+which_model <- "bayes_price_2"
 model_file <- here("analysis","bayes_price","stan",glue("{which_model}.stan"))
 results_dir <- here("analysis","bayes_price",which_model)
 dir_create(results_dir)
