@@ -81,8 +81,8 @@ clean_choice <- function(dat){
 
 clean_demo <- function(dat){
   dat1 <- dat %>%
-    distinct(participant,age,race,ethnicity,gender,strategy_response,exp_duration) %>%
-    filter(!is.na(strategy_response)) %>%
+    distinct(participant, age, race, ethnicity, gender, strategy_response) %>% 
+    filter(str_length(strategy_response)>0 | is.na(strategy_response)) %>% # dealing w/ extra rows of blanks (data logging thing from jspsych) while accounting for people who actually left the q blank (the NAs)
     mutate(across(everything(),~str_remove_all(.x,paste(c('\\[','\\]','"'),collapse="|"))))
   return(dat1)
 }
