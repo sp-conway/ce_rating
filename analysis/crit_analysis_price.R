@@ -63,7 +63,8 @@ price_long_m_by_effect_category <- price_long %>%
             se_upper=m+se) %>%
   ungroup()
 price_long_m_by_effect_category %>%
-  mutate(category=str_replace(category," ","\n")) %>%
+  mutate(category=str_replace(category," ","\n"),
+         effect=str_replace_all(effect,c("_1"=" \ndecoy near","_2"=" \ndecoy far"))) %>%
   ggplot(aes(category,m,fill=option))+
   geom_col(position = "dodge",width=.6)+
   geom_hline(yintercept=0,alpha=.6)+
@@ -73,7 +74,7 @@ price_long_m_by_effect_category %>%
   ggsci::scale_fill_startrek()+
   ggthemes::theme_few()+
   theme(text=element_text(size = 10))
-ggsave(filename=here("analysis","plots","price_m_by_effect_category.jpeg"),width=5,height=6)
+ggsave(filename=here("analysis","plots","price_m_by_effect_category.jpeg"),width=4,height=5)
 
 price_long_m_by_effect <- price_long %>%
   group_by(effect,option) %>%
@@ -163,39 +164,26 @@ compute_cors <- function(dat,cond){
 }
 walk(c("repulsion","attraction"),compute_cors,dat=price_wide_z_FILTERED)
 
-td <- ggplot(price_wide_z_FILTERED,aes(t,d))+
-  geom_point(shape=".")+
-  geom_abline(slope=1,intercept=0,linetype="dashed",alpha=.5,col="red")+
-  coord_fixed(xlim=c(-3,3),ylim=c(-3,3))+
-  scale_x_continuous(breaks = c(-3,0,3))+
-  scale_y_continuous(breaks = c(-3,0,3))+
-  facet_grid(effect1~.)+
-  ggthemes::theme_few()
-tc <- ggplot(price_wide_z_FILTERED,aes(t,c))+
-  geom_point(shape=".")+
-  geom_abline(slope=1,intercept=0,linetype="dashed",alpha=.5,col="red")+
-  coord_fixed(xlim=c(-3,3),ylim=c(-3,3))+
-  scale_x_continuous(breaks = c(-3,0,3))+
-  scale_y_continuous(breaks = c(-3,0,3))+
-  facet_grid(effect1~.)+
-  ggthemes::theme_few()
-cd <- ggplot(price_wide_z_FILTERED,aes(c,d))+
-  geom_point(shape=".")+
-  geom_abline(slope=1,intercept=0,linetype="dashed",alpha=.5,col="red")+
-  coord_fixed(xlim=c(-3,3),ylim=c(-3,3))+
-  scale_x_continuous(breaks = c(-3,0,3))+
-  scale_y_continuous(breaks = c(-3,0,3))+
-  facet_grid(effect1~.)+
-  ggthemes::theme_few()
-tc|td|cd
-ggsave(filename=here("analysis","plots","price_z_corplot.jpeg"),width=6,height=4)
 
-price_wide_z_FILTERED$d_best <- price_wide_z_FILTERED$d>price_wide_z_FILTERED$t & price_wide_z_FILTERED$d>price_wide_z_FILTERED$c
-price_wide_z_FILTERED %>%
-  group_by(effect1) %>%
-  summarise(pdbest=mean(d_best))
+# scatterplot for thesis
+upper_fcn=function(x,y,...) {
+  points(x,y,...)
+  abline(a=0,b=1,col='gray',lty=2)
+}  
 
-price_wide_z_FILTERED$d_bestt <- price_wide_z_FILTERED$d>price_wide_z_FILTERED$t
-price_wide_z_FILTERED %>%
-  group_by(effect1) %>%
-  summarise(pdbestt=mean(d_bestt))
+lower_fcn=function(x,y,...) {
+  r <- cor(x,y)
+  txt <- paste0('r=',format(c(r, 0.123456789), digits = 2)[1])
+  text(0,0,txt,cex=1.5)
+}
+
+for(eff in c("attraction","repulsion")){
+  tmp <- filter(price_wide_z_FILTERED, str_detect(effect,eff)) %>%
+    select(t,c,d)
+  jpeg(filename = here(glue("analysis/plots/price_z_corplot_{eff}.jpeg")),width=6,height=5,units="in",res=500)
+  par(pty="s") 
+  pairs(tmp, lower.panel = lower_fcn, upper.panel=upper_fcn, pch=".",
+        gap=0, row1attop=FALSE, main=eff)
+  dev.off()
+}
+

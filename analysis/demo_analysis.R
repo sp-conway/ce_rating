@@ -11,3 +11,4 @@ d %>%
   summarise(m=mean(age,na.rm=T),
             s=sd(age,na.rm=T))
 table(d$gender)
+table(d$race)

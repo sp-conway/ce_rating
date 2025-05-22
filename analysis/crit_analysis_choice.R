@@ -91,6 +91,7 @@ d %>%
 ggsave(filename=here("analysis","plots","crit_choice_meanprops.jpeg"),width=6,height=4)
 
 d %>%
+  mutate(effect=str_replace_all(effect,c("_1"=" \ndecoy near","_2"=" \ndecoy far"))) %>%
   group_by(effect,choice) %>%
   summarise(N=n()) %>%
   group_by(effect) %>%
