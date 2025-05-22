@@ -132,6 +132,6 @@ data_to_model %>%
   ggsci::scale_color_startrek()+
   scale_shape_manual(values=c(1,4))+
   scale_y_continuous(limits=c(0,.8,breaks=seq(0,.8,.2)))+
-  labs(x="trial type",y="mean choice proportion")+
+  labs(x="trial type",y="aggregate choice proportion")+
   ggthemes::theme_few()
-ggsave(filename=glue("{results_dir}/model_data_plot.jpeg"),width=5,height=4)
+ggsave(filename=glue("{results_dir}/bayes_choice_model_data_plot.jpeg"),width=5,height=4)
