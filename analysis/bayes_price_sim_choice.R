@@ -8,7 +8,7 @@ library(mvtnorm)
 
 # settings
 N <- 1e6 # n samples
-which_model <- "bayes_price_1"
+which_model <- "bayes_price_2"
 results_dir <- here("analysis","bayes_price",which_model)
 
 # load data first ============================================================
@@ -25,12 +25,6 @@ data_props <- d %>%
   select(-N) %>%
   mutate(source="data")
 
-# load banerjee data
-banerjee <- here("analysis/banerjee_2024_data/e1_props.csv") %>%
-  read_csv()
-banerjee_corr <- here("analysis/banerjee_2024_data/e1_props_corrected.csv") %>%
-  read_csv()
-data_props$p[4] - banerjee$prop[1]
 # load modeling results ============================================================
 load(path(results_dir,"fit_summary.RData"))
 load(path(results_dir,"mu_data_model.RData"))
@@ -65,6 +59,7 @@ a <- ( s %*% t(s) )
 cv_attraction <- cor_attraction*a
 cv_repulsion <- cor_repulsion*a
 
+# run simulations ===============================================================
 sim_model <- function(N, mu, sigma, effect){
   print(effect)
   X <- rmvnorm(N, mu, sigma)
@@ -89,7 +84,12 @@ model_props <- pmap(
   sim_model) %>%
   list_rbind()
 
-all_props <- bind_rows(data_props,model_props)
+all_props <- bind_rows(data_props,model_props) %>%
+  mutate(choice=case_when(
+    choice=="c"~"competitor",
+    choice=="t"~"target",
+    choice=="d"~"decoy",
+  ))
 all_props %>%
   ggplot(aes(choice,p,col=choice,shape=source))+
   geom_point()+
@@ -101,21 +101,8 @@ ggplot()+
   geom_point(data=all_props,aes(choice,p,shape=source),alpha=.9,size=3,col="red")+
   labs(y="choice proportion")+
   scale_shape_manual(values=c(1,4),name="")+
-  facet_grid(.~effect)+
+  facet_grid(effect~.)+
   ggthemes::theme_few()+
-  theme(text=element_text(size=14))
-ggsave(filename=path(results_dir,"choice_sim_preds.jpeg"),width=5,height=4)
+  theme(text=element_text(size=8))
+ggsave(filename=path(results_dir,"choice_sim_preds.jpeg"),width=3.5,height=3)
 
-all_props_banerjee_corr <- model_props %>%
-  filter(effect=="repulsion") %>%
-  bind_rows(
-    filter(banerjee_corr,source=="corrected") %>% mutate(choice=tolower(Choice), source="banerjee (adjusted)") %>% rename(p=prop),
-    filter(data_props,effect=="repulsion") %>% mutate(source="current data")
-  )
-ggplot()+
-  geom_point(data=all_props_banerjee_corr,aes(choice,p,shape=source),alpha=.9,size=3,col="red")+
-  labs(y="choice proportion")+
-  scale_shape_manual(values=c(1,16,4),name="")+
-  ggthemes::theme_few()+
-  theme(text=element_text(size=14))
-ggsave(filename=path(results_dir,"choice_sim_preds2.jpeg"),width=5,height=4)
