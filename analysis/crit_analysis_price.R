@@ -72,9 +72,8 @@ price_long_m_by_effect_category %>%
   labs(x="product category",y="mean price")+
   facet_grid(effect~.)+
   ggsci::scale_fill_startrek()+
-  ggthemes::theme_few()+
-  theme(text=element_text(size = 10))
-ggsave(filename=here("analysis","plots","price_m_by_effect_category.jpeg"),width=4,height=5)
+  ggthemes::theme_few()
+ggsave(filename=here("analysis","plots","price_m_by_effect_category.jpeg"),width=5,height=5)
 
 price_long_m_by_effect <- price_long %>%
   group_by(effect,option) %>%
@@ -187,3 +186,9 @@ for(eff in c("attraction","repulsion")){
   dev.off()
 }
 
+# histograms of z-transformed prices ========================================================================
+price_long_z %>%
+  ggplot(aes(price))+
+  geom_histogram(fill="lightblue")+
+  facet_grid(category~effect+option)+
+  ggthemes::theme_few()

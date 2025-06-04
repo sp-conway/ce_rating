@@ -21,7 +21,7 @@ model {
         for(l in 1:H){
           alpha[i,j,k,l] ~ lognormal(1,1);
           theta[i,j,k,l] ~ dirichlet(alpha[i,j,k,l]);
-          counts[i,j,k,l,]~multinomial(theta[i,j,k,l]);
+          counts[i,j,k,l,] ~ multinomial(theta[i,j,k,l]);
         }
       }
     }
