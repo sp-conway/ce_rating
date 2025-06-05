@@ -106,6 +106,7 @@ theta_m_summary <- f$summary(variables = "theta_m",
   rename(lower=`2.5%`,
          upper=`97.5%`) %>%
   mutate(source="model")
+save(theta_m_summary, file=path(results_dir,"theta_m_summary.RData"))
 
 data_to_model <- d_counts %>%
   mutate(distance=str_replace_all(distance,c("1"="near","2"="far"))) %>%
