@@ -5,14 +5,11 @@ library(tidyverse)
 library(here)
 library(fs)
 library(glue)
-library(cmdstanr)
+library(rstan)
 library(bayesplot)
 
-# cmdstan path
-set_cmdstan_path(here("cmdstan-2.36.0/"))
-
 # WHICH MODEL
-which_model <- "bayes_choice_dm_no_hier_1" 
+which_model <- "bayes_choice_dm_hier_1" 
 
 # file directory stuff
 stan_file <- here("analysis","bayes_choice","stan",glue("{which_model}.stan"))
@@ -93,7 +90,7 @@ stan_data <- list(P=P,
                   counts=counts)
 
 # LOAD AND COMPILE MODEL ======================================================================
-m <- cmdstan_model(stan_file)
+m <- stan_model(stan_file)
 f <- m$sample(data=stan_data,
               parallel_chains=n_core,
               iter_sampling=n_iter,

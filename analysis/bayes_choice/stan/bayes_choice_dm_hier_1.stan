@@ -6,18 +6,28 @@ data {
   int<lower=0> C; // N categories
   int<lower=0> H; // N t high
   int<lower=0> O; // N options
-  array[S,E,D,C,H,K] int counts;
+  array[P,E,D,C,H,O] int counts;
 }
 
 parameters {
   array[P,E,D,C,H] simplex[O] theta;
-  array[E,D,C,H] vector<lower=0> simplex[O] alpha_prob;
-  array[E,D,C,H] vector<lower=0> [1] multiplier; 
+  array[E,D,C,H] simplex[O] alpha_prob;
+  array[E,D,C,H] real<lower=0> multiplier;
 }
 
 transformed parameters{
   array[E,D,C,H] vector<lower=0> [O] alpha;
-  
+  // group level effects
+  for(ee in 1:E){ // e is reserved keyword in stan
+    for(d in 1:D){
+      for(c in 1:C){
+        for(h in 1:H){
+           // move to transformed params
+          alpha[ee,d,c,h] = alpha_prob[ee,d,c,h]*multiplier[ee,d,c,h];
+        }
+      }
+    }
+  }
 }
 
 
@@ -27,11 +37,8 @@ model {
     for(d in 1:D){
       for(c in 1:C){
         for(h in 1:H){
-          alpha_prob[ee,d,c,h] ~ dirichlet(1,1,1);
+          alpha_prob[ee,d,c,h] ~ dirichlet(rep_vector(1.0, O));
           multiplier[ee,d,c,h] ~ uniform(.5,500);
-          
-           // move to transformed params
-          alpha[ee,d,c,h] = alpha_prob[ee,d,c,h]*multiplier[ee,d,c,h];
         }
       }
     }
@@ -49,7 +56,7 @@ model {
         for(c in 1:C){
           for(h in 1:H){
             theta[p,ee,d,c,h] ~ dirichlet(alpha[ee,d,c,h]);
-            counts[p,ee,d,c,h] ~ multinomial(theta[ee,d,c,h]);
+            counts[p,ee,d,c,h] ~ multinomial(theta[p,ee,d,c,h]);
           }
         }
       }
